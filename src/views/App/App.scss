@@ -1,0 +1,157 @@
+@import url("../../../node_modules/material-design-lite/material.css");
+@import url("../../../node_modules/material-design-icons/iconfont/material-icons.css");
+
+@font-face {
+  font-family: "DIN Pro Black";
+  src: url("../../fonts/FontFont - DINPro-Black.otf");
+}
+@font-face {
+  font-family: "DIN Pro Bold";
+  src: url("../../fonts/FontFont - DINPro-Bold.otf");
+}
+@font-face {
+  font-family: "DIN Pro Extlight";
+  src: url("../../fonts/FontFont - DINPro-Extlight.otf");
+}
+@font-face {
+  font-family: "DIN Pro Light";
+  src: url("../../fonts/FontFont - DINPro-Light.otf");
+}
+@font-face {
+  font-family: "DIN Pro Light Italic";
+  src: url("../../fonts/FontFont - DINPro-LightItalic.otf");
+}
+@font-face {
+  font-family: "DIN Pro Medium";
+  src: url("../../fonts/FontFont - DINPro-Medium.otf");
+}
+@font-face {
+  font-family: "DIN Pro";
+  src: url("../../fonts/FontFont - DINPro.otf");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-container {
+  margin: auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.pac-container {
+  background-color: white;;
+  border-radius: 0px;
+  border-top: 0px solid white;
+  font-family: "DIN Pro";
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pac-logo:after {
+  content: "";
+  padding: none;
+  height: 16px;
+  text-align: right;
+  display: block;
+  background-image: none;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 120px 14px
+}
+
+.hdpi.pac-logo:after {
+  background-image: none;
+}
+
+.pac-item {
+  border-top: none;
+  font-size: 14px;
+  color: black;
+  margin-left: 10px;
+}
+
+.pac-icon {
+  background-image: none;
+  display: none;
+}
+
+.hdpi .pac-icon {
+  background-image: none;
+}
+
+.pac-logo:after {
+  height: 0;
+  background-image: none;
+}
+
+.pac-item:hover {
+  background-color: #F8F8F8;
+  color: blue;
+}
+
+.pac-item-selected:hover {
+  background-color:  red;
+  color: black;
+}
+
+.pac-item-query {
+  font-size: 14px;
+  padding-right: 5px;
+  color: black;
+}
+
+
+.pac-item-query:hover {
+  font-size: 14px;
+  padding-right: 5px;
+  color: blue;
+}
+
+
+.App-header {
+  background-color: #1262e2;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Btn-log {
+  background-color: #1262e2;
+  font-size: medium;
+  margin: 50px 600px;
+  padding: 10px;
+  text-align: center;
+  font-family: "DIN Pro";
+}
+.Login-header {
+  background-color: #0461f7;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}

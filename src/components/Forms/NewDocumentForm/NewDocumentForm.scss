@@ -1,0 +1,76 @@
+.add-file {
+	height: 20px;
+  width: 55px;
+  color: #4F4F4F;
+  font-family: "DIN Pro";
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+form fieldset:last-child .submit-area {
+  width: 100%;
+}
+
+.document-input {
+  box-sizing: border-box;
+  width: 100%;
+
+  &__input-container{
+    height: 61px;
+    border: 1px dashed #D4D4D4;
+    border-radius: 2px;
+    background-color: #F8F8F8;
+    font-weight: 300;
+    display: flex;
+
+    &__prompts {
+      display: inline-flex;
+      margin-left: 15.5px;
+      cursor: pointer;
+
+      input[type=file] {
+        display: none;
+      }
+
+      &__img{
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+
+      &__text{
+        width: max-content;
+        display: flex;
+
+        p {
+          margin: auto;
+          font-family: "DIN Pro";
+          font-size: 14px;
+          line-height: 18px;
+          color: #999999;
+        }
+      }
+    }
+  }
+
+  .file-errors {
+    color: #999999;
+    font-size: 12px;
+    display:flex;
+    justify-content: space-between;
+    margin: 5px 0 10px 0;
+  }
+}
+
+.loading-icon {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #385BD3;
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  animation: spin .5s linear infinite;
+}
+
+@import 'responsiveness';

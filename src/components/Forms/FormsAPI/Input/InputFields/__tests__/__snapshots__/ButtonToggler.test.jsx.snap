@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonToggler /> renders as expected 1`] = `
+<div
+  className="input "
+>
+  <button
+    className="bg-btn bg-btn--inactive"
+    data-value="male"
+    key="male"
+    onClick={[Function]}
+    type="button"
+  >
+    male
+  </button>
+  <button
+    className="bg-btn bg-btn--inactive"
+    data-value="female"
+    key="female"
+    onClick={[Function]}
+    type="button"
+  >
+    female
+  </button>
+</div>
+`;

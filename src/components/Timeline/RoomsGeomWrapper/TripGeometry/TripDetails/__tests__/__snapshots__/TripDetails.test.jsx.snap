@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimelineDetails /> renders properly without a checkInDate or checkOutDate 1`] = `
+<div
+  className="trip-booking-details details- "
+  onClick={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "left": "0pxpx",
+      "position": "absolute",
+    }
+  }
+>
+  <div
+    className="trip-booking-details__header"
+  >
+    <span>
+      Alice Doe
+    </span>
+    <div
+      className="close-button"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      role="presentation"
+      tabIndex="-1"
+    >
+      <div>
+        ×
+      </div>
+    </div>
+  </div>
+  <div
+    className="trip-booking-details__body"
+  >
+    <div>
+      <span>
+        Status
+      </span>
+      <span>
+        Booked
+      </span>
+    </div>
+    <div>
+      <span>
+        Check-in
+      </span>
+      <span>
+        n/a
+      </span>
+    </div>
+    <div>
+      <span>
+        Check-out
+      </span>
+      <span>
+        n/a
+      </span>
+    </div>
+    <div>
+      <span>
+        Duration
+      </span>
+      <span>
+        n/a
+      </span>
+    </div>
+    <div>
+      <span>
+        Origin
+      </span>
+      <span />
+    </div>
+    <div>
+      <span>
+        <button
+          className="trip-booking-details__button"
+          onClick={[Function]}
+          type="button"
+        >
+          Change Room
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TimelineDetails /> renders prorperly 1`] = `
+<div
+  className="trip-booking-details details- "
+  onClick={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "left": "0pxpx",
+      "position": "absolute",
+    }
+  }
+>
+  <div
+    className="trip-booking-details__header"
+  >
+    <span>
+      Alice Doe
+    </span>
+    <div
+      className="close-button"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      role="presentation"
+      tabIndex="-1"
+    >
+      <div>
+        ×
+      </div>
+    </div>
+  </div>
+  <div
+    className="trip-booking-details__body"
+  >
+    <div>
+      <span>
+        Status
+      </span>
+      <span>
+        Booked
+      </span>
+    </div>
+    <div>
+      <span>
+        Check-in
+      </span>
+      <span>
+        01 Jan 2018
+      </span>
+    </div>
+    <div>
+      <span>
+        Check-out
+      </span>
+      <span>
+        10 Jan 2018
+      </span>
+    </div>
+    <div>
+      <span>
+        Duration
+      </span>
+      <span>
+          1 Week 3 Days
+      </span>
+    </div>
+    <div>
+      <span>
+        Origin
+      </span>
+      <span />
+    </div>
+    <div>
+      <span>
+        <button
+          className="trip-booking-details__button"
+          onClick={[Function]}
+          type="button"
+        >
+          Change Room
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;

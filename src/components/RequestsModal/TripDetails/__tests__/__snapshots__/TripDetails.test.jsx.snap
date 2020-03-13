@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TripDetails /> should render correctly 1`] = `
+<div
+  className="modal__modal-trip-details undefined"
+>
+  <div>
+    <div
+      className="modal__trip-detail"
+    >
+      <div
+        className="modal__trip-detail-label"
+      >
+        From
+      </div>
+      <div
+        className="modal__trip-detail-text"
+      >
+        Lagos
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="modal__trip-detail"
+    >
+      <div
+        className="modal__trip-detail-label"
+      >
+        Travel to
+      </div>
+      <div
+        className="modal__trip-detail-text"
+      >
+        Nairobi
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="modal__trip-detail"
+    >
+      <div
+        className="modal__trip-detail-label"
+      >
+        Departure date
+      </div>
+      <div
+        className="modal__trip-detail-text"
+      >
+        09 Dec 2018
+      </div>
+    </div>
+  </div>
+  <div
+    id="return-date"
+  >
+    <div
+      className="modal__trip-detail"
+    >
+      <div
+        className="modal__trip-detail-label"
+      >
+        Return date
+      </div>
+      <div
+        className="modal__trip-detail-text"
+      >
+        21 Dec 2018
+      </div>
+    </div>
+  </div>
+  <div
+    id="trip-detail"
+  >
+    <div
+      className="modal__trip-detail"
+    >
+      <div
+        className="modal__trip-detail-label"
+      >
+        Accommodation
+      </div>
+      <div
+        className="modal__trip-detail-text"
+      >
+        Guest House C, Ndovu, Bed 1
+      </div>
+    </div>
+  </div>
+</div>
+`;

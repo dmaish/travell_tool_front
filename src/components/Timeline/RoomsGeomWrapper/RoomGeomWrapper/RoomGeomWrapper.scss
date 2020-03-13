@@ -1,0 +1,23 @@
+.room-geometry-wrapper {
+  display: flex;
+  flex-flow: column;
+
+  .room-status-bar {
+    width: 100%;
+    .maintainance-bar.inner {
+      padding-left: 20px;
+      color: #ffffff;
+    }
+  }
+
+  &:not(:first-child) {
+    border-top: 1px solid transparent;
+  }
+
+  .bed-geometry-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+  }
+}

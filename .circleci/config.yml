@@ -1,0 +1,148 @@
+# CircleCI 2.0 configuration file
+
+# Check https://circleci.com/docs/1.0/language-nodejs/ for more details
+version: 2
+defaults: &defaults
+  docker:
+    - image: circleci/node:carbon
+  working_directory: ~/travela-frontend
+  environment:
+    TERM: xterm-256color
+
+install_npm_packages: &install_npm_packages
+  run:
+    name: Install NPM packages
+    command: sudo npm install -g yarn@1.12.x && rm -rf package-lock.json && yarn install
+
+attach_workspace: &attach_workspace
+  attach_workspace:
+    at: ~/travela-frontend
+
+send_failure_notification: &send_failure_notification
+  run:
+    name: Notify Slack of failed job
+    command: .circleci/build_deploy.sh sendSlackDeployNotification fail
+    when: on_fail
+
+filters: &filters
+  filters:
+    branches:
+      only:
+        - master
+        - develop
+        - /(release|hotfix)\/v[0-9].[0-9].[0-9]/
+
+persist_to_workspace: &persist_to_workspace
+  persist_to_workspace:
+    root: .
+    paths: .
+
+jobs:
+  checkout_code:
+    <<: *defaults
+    steps:
+      - checkout
+      - *attach_workspace
+      - restore_cache:
+          keys:
+            - yarn-cache-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-cache-{{ .Branch }}
+            - yarn-cache-
+      - *install_npm_packages
+      - save_cache:
+          key: yarn-cache-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths: node_modules
+      - *persist_to_workspace
+      - *send_failure_notification
+
+  check_vulnerabilities:
+    <<: *defaults
+    steps:
+      - *attach_workspace
+      - *install_npm_packages
+      - run:
+          name: Verify and Check Npm packages for vulnerabilities
+          command: |
+            yarn check --integrity
+      - *send_failure_notification
+
+  test_and_report:
+    <<: *defaults
+    steps:
+      - *attach_workspace
+      - run:
+          name: Generate .env file
+          command: |
+            chmod +x .circleci/load_env_variables.sh
+            .circleci/load_env_variables.sh test
+      - run:
+          name: Install code climate test reporter
+          command: |
+            curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            chmod +x ./cc-test-reporter
+      - *install_npm_packages
+      - run:
+          name: Run travela Test Suites
+          command: |
+            ./cc-test-reporter before-build
+            yarn test --coverage
+            ./cc-test-reporter after-build --exit-code $?
+      - *send_failure_notification
+  build:
+    <<: *defaults
+    steps:
+      - setup_remote_docker
+      - *attach_workspace
+      - *install_npm_packages
+      - run:
+          name: Generate .env file
+          command: |
+            chmod +x .circleci/load_env_variables.sh
+            .circleci/load_env_variables.sh
+      - run:
+          name: Build Application artifacts
+          command: yarn run build
+      - *persist_to_workspace
+      - *send_failure_notification
+  deployment:
+    <<: *defaults
+    steps:
+      - setup_remote_docker
+      - *attach_workspace
+      - run:
+          name: Install K8s Deployment Scripts
+          command: sudo npm install -g rok8s-scripts
+      - run:
+          name: Make deploy script Executable
+          command: |
+            chmod +x .circleci/build_deploy.sh
+            chmod +x .circleci/setup_k8s.sh
+      - run:
+          name: Prepare Kubectl Installation
+          command: .circleci/setup_k8s.sh main
+      - run:
+          name: Build and Deploy Application
+          command: .circleci/build_deploy.sh main
+      - *send_failure_notification
+workflows:
+  version: 2
+  test-build-deploy:
+    jobs:
+      - checkout_code
+      - check_vulnerabilities:
+          requires:
+            - checkout_code
+      - test_and_report:
+          requires:
+            - checkout_code
+      - build:
+          requires:
+            - checkout_code
+          <<: *filters
+      - deployment:
+          requires:
+            - checkout_code
+            - check_vulnerabilities
+            - test_and_report
+            - build
+          <<: *filters

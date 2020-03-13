@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChangeBedForm /> should render correctly 1`] = `
+<FormContext
+  errors={Object {}}
+  targetForm={
+    ChangeBedForm {
+      "context": Object {},
+      "handleChangeReason": [Function],
+      "props": Object {
+        "bedChoices": Array [],
+        "handleRoomSubmit": [Function],
+        "loading": false,
+        "loadingBeds": false,
+        "requesterName": "",
+        "toggleChangeRoomModal": [Function],
+      },
+      "refs": Object {},
+      "setState": [Function],
+      "state": Object {
+        "errors": Object {},
+        "hasBlankFields": true,
+        "values": Object {
+          "changeReason": "",
+          "newBed": "",
+        },
+      },
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": ReactShallowRenderer {
+          "_context": Object {},
+          "_element": <ChangeBedForm
+            bedChoices={Array []}
+            handleRoomSubmit={[Function]}
+            loading={false}
+            loadingBeds={false}
+            requesterName=""
+            toggleChangeRoomModal={[Function]}
+    />,
+          "_forcedUpdate": false,
+          "_instance": [Circular],
+          "_newState": null,
+          "_rendered": <FormContext
+            errors={Object {}}
+            targetForm={[Circular]}
+            validatorName="validate"
+            values={
+                    Object {
+                            "changeReason": "",
+                            "newBed": "",
+                          }
+            }
+    >
+            <form
+                    className="change-room-modal__form"
+            >
+                    <p
+                            className="change-room-modal__other-available-room"
+                    >
+                            <div
+                                    className="change-room-modal__text-center"
+                            >
+                                    No beds are available
+                            </div>
+                    </p>
+                    <p
+                            className="change-room-modal__reason"
+                    >
+                            Reason
+                            <span
+                                    className="change-room-modal__important-text"
+                            >
+                                    *
+                            </span>
+                    </p>
+                    <textarea
+                            className="change-room-modal__input"
+                            name="changeReason"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                    />
+                    <div
+                            className="change-room-modal__disclaimer"
+                    >
+                            <img
+                                    alt="caution icon"
+                                    src="error_24px.svg"
+                            />
+                            <span>
+                                    <strong>
+                                            Requester
+                                    </strong>
+                                     will be automatically notified of the room change.
+                            </span>
+                    </div>
+                    <div
+                            className="change-room-modal__hr"
+                    />
+                    <div
+                            className="change-room-modal__footer"
+                    >
+                            <div>
+                                    <button
+                                            className="change-room-modal__footer--cancel"
+                                            onClick={[Function]}
+                                            type="button"
+                                    >
+                                            Cancel
+                                    </button>
+                                    <button
+                                            className="change-room-modal__footer--save-disabled"
+                                            disabled={true}
+                                            onClick={[Function]}
+                                            type="button"
+                                    >
+                                            Save Changes
+                                    </button>
+                            </div>
+                    </div>
+            </form>
+    </FormContext>,
+          "_rendering": false,
+          "_updater": [Circular],
+        },
+      },
+      "validate": [Function],
+      Symbol(enzyme.__setState__): [Function],
+    }
+  }
+  validatorName="validate"
+  values={
+    Object {
+      "changeReason": "",
+      "newBed": "",
+    }
+  }
+>
+  <form
+    className="change-room-modal__form"
+  >
+    <p
+      className="change-room-modal__other-available-room"
+    >
+      <div
+        className="change-room-modal__text-center"
+      >
+        No beds are available
+      </div>
+    </p>
+    <p
+      className="change-room-modal__reason"
+    >
+      Reason
+      <span
+        className="change-room-modal__important-text"
+      >
+        *
+      </span>
+    </p>
+    <textarea
+      className="change-room-modal__input"
+      name="changeReason"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      className="change-room-modal__disclaimer"
+    >
+      <img
+        alt="caution icon"
+        src="error_24px.svg"
+      />
+      <span>
+        <strong>
+          Requester
+        </strong>
+         will be automatically notified of the room change.
+      </span>
+    </div>
+    <div
+      className="change-room-modal__hr"
+    />
+    <div
+      className="change-room-modal__footer"
+    >
+      <div>
+        <button
+          className="change-room-modal__footer--cancel"
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          className="change-room-modal__footer--save-disabled"
+          disabled={true}
+          onClick={[Function]}
+          type="button"
+        >
+          Save Changes
+        </button>
+      </div>
+    </div>
+  </form>
+</FormContext>
+`;
+
+exports[`<ChangeBedForm /> should render correctly and display loader 1`] = `
+<FormContext
+  errors={Object {}}
+  targetForm={
+    ChangeBedForm {
+      "context": Object {},
+      "handleChangeReason": [Function],
+      "props": Object {
+        "bedChoices": Array [],
+        "handleRoomSubmit": [Function],
+        "loading": true,
+        "loadingBeds": false,
+        "requesterName": "",
+        "toggleChangeRoomModal": [Function],
+      },
+      "refs": Object {},
+      "setState": [Function],
+      "state": Object {
+        "errors": Object {},
+        "hasBlankFields": true,
+        "values": Object {
+          "changeReason": "",
+          "newBed": "",
+        },
+      },
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": ReactShallowRenderer {
+          "_context": Object {},
+          "_element": <ChangeBedForm
+            bedChoices={Array []}
+            handleRoomSubmit={[Function]}
+            loading={true}
+            loadingBeds={false}
+            requesterName=""
+            toggleChangeRoomModal={[Function]}
+    />,
+          "_forcedUpdate": false,
+          "_instance": [Circular],
+          "_newState": null,
+          "_rendered": <FormContext
+            errors={Object {}}
+            targetForm={[Circular]}
+            validatorName="validate"
+            values={
+                    Object {
+                            "changeReason": "",
+                            "newBed": "",
+                          }
+            }
+    >
+            <form
+                    className="change-room-modal__form"
+            >
+                    <p
+                            className="change-room-modal__other-available-room"
+                    >
+                            <div
+                                    className="change-room-modal__text-center"
+                            >
+                                    No beds are available
+                            </div>
+                    </p>
+                    <p
+                            className="change-room-modal__reason"
+                    >
+                            Reason
+                            <span
+                                    className="change-room-modal__important-text"
+                            >
+                                    *
+                            </span>
+                    </p>
+                    <textarea
+                            className="change-room-modal__input"
+                            name="changeReason"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                    />
+                    <div
+                            className="change-room-modal__disclaimer"
+                    >
+                            <img
+                                    alt="caution icon"
+                                    src="error_24px.svg"
+                            />
+                            <span>
+                                    <strong>
+                                            Requester
+                                    </strong>
+                                     will be automatically notified of the room change.
+                            </span>
+                    </div>
+                    <div
+                            className="change-room-modal__hr"
+                    />
+                    <div
+                            className="change-room-modal__footer"
+                    >
+                            <div
+                                    className="change-room-modal__updating"
+                            >
+                                    <div
+                                            className="change-room-modal__ddl-spinner"
+                                    />
+                                    <p>
+                                            Updating trip...
+                                    </p>
+                            </div>
+                    </div>
+            </form>
+    </FormContext>,
+          "_rendering": false,
+          "_updater": [Circular],
+        },
+      },
+      "validate": [Function],
+      Symbol(enzyme.__setState__): [Function],
+    }
+  }
+  validatorName="validate"
+  values={
+    Object {
+      "changeReason": "",
+      "newBed": "",
+    }
+  }
+>
+  <form
+    className="change-room-modal__form"
+  >
+    <p
+      className="change-room-modal__other-available-room"
+    >
+      <div
+        className="change-room-modal__text-center"
+      >
+        No beds are available
+      </div>
+    </p>
+    <p
+      className="change-room-modal__reason"
+    >
+      Reason
+      <span
+        className="change-room-modal__important-text"
+      >
+        *
+      </span>
+    </p>
+    <textarea
+      className="change-room-modal__input"
+      name="changeReason"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <div
+      className="change-room-modal__disclaimer"
+    >
+      <img
+        alt="caution icon"
+        src="error_24px.svg"
+      />
+      <span>
+        <strong>
+          Requester
+        </strong>
+         will be automatically notified of the room change.
+      </span>
+    </div>
+    <div
+      className="change-room-modal__hr"
+    />
+    <div
+      className="change-room-modal__footer"
+    >
+      <div
+        className="change-room-modal__updating"
+      >
+        <div
+          className="change-room-modal__ddl-spinner"
+        />
+        <p>
+          Updating trip...
+        </p>
+      </div>
+    </div>
+  </form>
+</FormContext>
+`;

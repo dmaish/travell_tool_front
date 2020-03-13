@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DocumentTable /> should render correctly with documents 1`] = `
+<table
+  className="mdl-data-table mdl-js-data-table table__requests"
+>
+  <thead>
+    <tr>
+      <th
+        className="mdl-data-table__cell--non-numeric bb-md-0 table__head freeze freeze-head "
+      >
+        Name
+      </th>
+      <th
+        className="mdl-data-table__cell--non-numeric table__head pl-sm-100d description-left"
+      >
+        Date Added
+      </th>
+      <th
+        className="mdl-data-table__cell--non-numeric table__head pl-sm-100d description-left"
+      >
+        Last Modified
+      </th>
+      <th
+        className="mdl-data-table__cell--non-numeric table__head table__head--last"
+      />
+    </tr>
+  </thead>
+  <tbody
+    className="table__body"
+  >
+    <DocumentItem
+      document={
+        Object {
+          "cloudinary_public_id": "e93h236FvT",
+          "cloudinary_url": "https://image.jpg",
+          "createdAt": "2018-08-16 012:11:52.181+01",
+          "id": "1",
+          "name": "Passport",
+          "updatedAt": "2018-08-16 012:11:52.181+01",
+          "userId": "-LMgZQKq6MXAj_41iRWi",
+        }
+      }
+      key="1"
+      menuOpen={
+        Object {
+          "open": true,
+        }
+      }
+      openModal={[Function]}
+      setItemToDelete={[Function]}
+      toggleMenu={[Function]}
+    />
+    <DocumentItem
+      document={
+        Object {
+          "cloudinary_public_id": "e93h236FvT",
+          "cloudinary_url": "https://image.url",
+          "createdAt": "2018-08-16 012:11:52.181+01",
+          "id": "2",
+          "name": "Visa",
+          "updatedAt": "2018-08-16 012:11:52.181+01",
+          "userId": "-LMgZQKq6MXAj_41iRWi",
+        }
+      }
+      key="2"
+      menuOpen={
+        Object {
+          "open": true,
+        }
+      }
+      openModal={[Function]}
+      setItemToDelete={[Function]}
+      toggleMenu={[Function]}
+    />
+  </tbody>
+</table>
+`;

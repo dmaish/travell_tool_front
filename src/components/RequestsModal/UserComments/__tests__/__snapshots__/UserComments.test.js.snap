@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserComments component should match snapshot 1`] = `
+<CommentItem
+  activeCommentId=""
+  comment={
+    Object {
+      "comment": "Can you clarify why",
+      "createdAt": "",
+      "id": 1,
+      "isEdited": true,
+      "picture": "/path/to/image",
+      "userEmail": "ik@gmail.com",
+      "userName": "Smith Allen",
+    }
+  }
+  commentToEdit=""
+  deleteComment={[Function]}
+  editComment={[Function]}
+  editReady={false}
+  editedLabel="<span>(edited)</span>"
+  email=""
+  formatDate={[Function]}
+  handleNoEdit={[Function]}
+  key="1"
+  renderCancelButton={[Function]}
+  resetEditing={[Function]}
+/>
+`;
+
+exports[`UserComments component should match snapshot 2`] = `
+<CommentItem
+  activeCommentId=""
+  comment={
+    Object {
+      "comment": "Can you clarify why",
+      "createdAt": "",
+      "id": 1,
+      "isEdited": false,
+      "picture": "/path/to/image",
+      "userEmail": "ik@gmail.com",
+      "userName": "Smith Allen",
+    }
+  }
+  commentToEdit=""
+  deleteComment={[Function]}
+  editComment={[Function]}
+  editReady={false}
+  editedLabel=""
+  email=""
+  formatDate={[Function]}
+  handleNoEdit={[Function]}
+  key="1"
+  renderCancelButton={[Function]}
+  resetEditing={[Function]}
+/>
+`;

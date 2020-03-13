@@ -1,0 +1,62 @@
+.PageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  height: 36px;
+  margin-bottom: 46px;
+
+  @import 'responsiveness';
+
+  .title {
+    height: 23px;
+    width: 89px;
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+  }
+
+  .location {
+    border: 1px solid #d4d4d4;
+    border-radius: 12px;
+		background-color: #ffffff;
+		line-height: 18px;
+		font-size: 15px;
+		font-family: "DIN Pro";
+		color: #4F4F4F;
+		margin-left: 10px;
+		padding: 2px 16px 3px 16px;
+  }
+    .title {
+      font-family: 'Din Pro Medium';
+      color: #4F4F4F;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 23px;
+      text-transform: uppercase;
+    }
+
+  .action-btn {
+    height: 36px;
+    width: 124px;
+    border: 1px solid #3359db;
+    border-radius: 1px;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none !important;
+    // Text styles
+    color: #3359db;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .header__link {
+    margin-right: 15px;
+  }
+}

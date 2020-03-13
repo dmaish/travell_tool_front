@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownSelect /> renders fine 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    choices={
+      Array [
+        "manager",
+        "associate",
+      ]
+    }
+    className="input select  "
+    error=""
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="value"
+      style={
+        Object {
+          "width": undefined,
+        }
+      }
+    >
+       
+      <div
+        className="select-dropdown inactive"
+      >
+        <img
+          alt="icn"
+          src="form_select_dropdown.svg"
+        />
+      </div>
+    </div>
+    <DropdownOptions
+      getDropdownStatus={[Function]}
+      handleClick={[Function]}
+      items={
+        Array [
+          "manager",
+          "associate",
+        ]
+      }
+    />
+  </div>
+</div>
+`;

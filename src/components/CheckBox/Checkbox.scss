@@ -1,0 +1,60 @@
+@mixin checkboxStyle(){
+  height: 18px !important;
+  width: 18px !important;
+  border:1px solid #999999 ;
+  border-radius: 2px !important;
+  outline:none !important;
+  margin-right: 6px !important;
+}
+
+.container{
+  display: -ms-flexbox;
+  display: flex !important;
+  height: auto !important;
+  width: auto !important;
+  color: #4F4F4F;
+  font-family: "DIN Pro";
+  font-size: 18px;
+  letter-spacing: -0.23px;
+  line-height: 23px;
+  min-height: 40px;
+  margin-left: -35px;
+  &:last-child{
+    margin-bottom: 0px;
+  }
+}
+
+.checkbox{
+  @include checkboxStyle();
+  &.default {
+    background-color: #FFFFFF;
+  }
+  &:hover {
+    border: 1px solid #3359DB;
+    cursor: pointer;
+  }
+  &.clicked {
+    background-color: #3359DB;
+  }
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.ticksvg{
+  height: 14px;
+  width: 13px;
+  padding: 0 0 9px 2.5px;
+}
+
+#remember-my-details {
+  height: 20px;	
+  width: 203px;	
+  color: #4F4F4F !important;	
+  font-family: "DIN Pro";	
+  font-size: 15px;	
+  letter-spacing: -0.19px;	
+  line-height: 20px;
+}

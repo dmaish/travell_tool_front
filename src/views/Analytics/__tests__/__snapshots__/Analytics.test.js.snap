@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Analytics /> should render the connected component without crashing 1`] = `
+<div
+  className="analytics"
+>
+  <div
+    className="analytics-card"
+  >
+    <h3
+      className="analytics-card__title"
+    >
+      Total No. of Travel Requests
+    </h3>
+    <div
+      className="analytics-card__stats "
+    >
+      <div
+        className="analytics-card__icon"
+      >
+        <img
+          alt=""
+          src="flight.svg"
+        />
+      </div>
+      <div
+        className="analytics-card__stat"
+      >
+        <h4>
+          0
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div
+    className="analytics-card"
+  >
+    <h3
+      className="analytics-card__title"
+    >
+      Total Number of Pending Requests
+    </h3>
+    <a
+      href="/requests/my-verifications"
+      onClick={[Function]}
+    >
+      <div
+        className="analytics-card__stats "
+      >
+        <div
+          className="analytics-card__icon"
+        >
+          <img
+            alt=""
+            src="pending_icon.svg"
+          />
+        </div>
+        <div
+          className="analytics-card__stat"
+        >
+          <h4>
+            0
+          </h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    className="analytics-card"
+  >
+    <h3
+      className="analytics-card__title"
+    >
+      Average Travel Duration
+    </h3>
+    <div
+      className="chart-data"
+    >
+      <p
+        className="no-chart"
+      >
+        No data to display
+      </p>
+    </div>
+  </div>
+  <div
+    className="analytics-card"
+  >
+    <h3
+      className="analytics-card__title"
+    >
+      No. of People visiting Nairobi Center
+    </h3>
+    <div
+      className="analytics-card__stats green"
+    >
+      <div
+        className="analytics-card__icon"
+      >
+        <img
+          alt=""
+          src="flight_land.svg"
+        />
+      </div>
+      <div
+        className="analytics-card__stat"
+      >
+        <h4>
+          0
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div
+    className="analytics-card"
+  >
+    <h3
+      className="analytics-card__title"
+    >
+      No. of People leaving Nairobi Center
+    </h3>
+    <div
+      className="analytics-card__stats brown-orange"
+    >
+      <div
+        className="analytics-card__icon"
+      >
+        <img
+          alt=""
+          src="flight_takeoff.svg"
+        />
+      </div>
+      <div
+        className="analytics-card__stat"
+      >
+        <h4>
+          0
+        </h4>
+      </div>
+    </div>
+  </div>
+  <div
+    className="analytics-card"
+  >
+    <h3
+      className="analytics-card__title"
+    >
+      Average Travel Request Lead Time
+    </h3>
+    <div
+      className="chart-data"
+    >
+      <p
+        className="no-chart"
+      >
+        No data to display
+      </p>
+    </div>
+  </div>
+</div>
+`;

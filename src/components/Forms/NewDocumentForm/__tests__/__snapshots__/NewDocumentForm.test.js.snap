@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewDocumentForm /> renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="add-file"
+  >
+    Add File
+  </div>
+  <div
+    className="document-input"
+  >
+    <div
+      className="document-input__input-container"
+    >
+      <label
+        className="document-input__input-container__prompts"
+        htmlFor="select-file"
+      >
+        <img
+          alt="Document Upload"
+          className="document-input__input-container__prompts__img"
+          src="document-upload.svg"
+        />
+        <div
+          className="document-input__input-container__prompts__text"
+        >
+          <p>
+            Upload File
+          </p>
+        </div>
+        <input
+          id="select-file"
+          onChange={[Function]}
+          type="file"
+        />
+      </label>
+    </div>
+    <div
+      className="file-errors"
+    >
+      <span>
+        Allowed files: *jpeg, *pdf, *png
+      </span>
+      <span
+        id="size"
+      >
+        Max size: 10mb
+      </span>
+    </div>
+  </div>
+  <div
+    className="form-input  "
+  >
+    <label
+      htmlFor="name"
+    >
+      Name
+      <span
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        *
+      </span>
+    </label>
+    <input
+      className=" "
+      label="Name"
+      name="name"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <span
+      className="error"
+    />
+  </div>
+  <fieldset>
+    <div
+      className="submit-area"
+    >
+      <button
+        className="bg-btn bg-btn--inactive"
+        id="cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="bg-btn bg-btn--active"
+        disabled={true}
+        id="submit"
+        type="submit"
+      >
+        <undefined />
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;

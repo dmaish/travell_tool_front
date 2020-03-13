@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="7px" viewBox="0 0 11 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>93C1C055-54AA-4445-9495-C007B64292D0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M9.05208333,0.916660069 L5.49541667,4.47332674 L1.93875,0.916660069 C1.76748777,0.745011785 1.53497451,0.648548264 1.2925,0.648548264 C1.05002549,0.648548264 0.817512232,0.745011785 0.64625,0.916660069 C0.28875,1.27416007 0.28875,1.85166007 0.64625,2.20916007 L4.85375,6.41666007 C5.21125,6.77416007 5.78875,6.77416007 6.14625,6.41666007 L10.35375,2.20916007 C10.71125,1.85166007 10.71125,1.27416007 10.35375,0.916660069 C9.99625,0.568326736 9.40958333,0.559160069 9.05208333,0.916660069 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Request-&gt;-Return-Trip" transform="translate(-1178.000000, -186.000000)">
+            <g id="Modal" transform="translate(240.000000, 80.000000)">
+                <g id="Personal-Details" transform="translate(30.000000, 95.000000)">
+                    <g id="icon/navigation" transform="translate(908.000000, 11.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="icon/navigation/expand_more_24px" fill="#4F4F4F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

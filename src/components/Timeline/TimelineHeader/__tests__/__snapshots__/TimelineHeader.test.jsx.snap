@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimelineHeader /> renders properly 1`] = `
+<div
+  className="timeline__body__header"
+>
+  <div
+    className="timeline-period-selector selector"
+  >
+    <span
+      className="timeline-period value"
+    >
+      January 2018
+    </span>
+    <div
+      className="timeline-navigator"
+    >
+      <ArrowIcon
+        iconClass="timeline-navigator--previous"
+        iconSrc="dropdown_active.svg"
+        onClickIcon={[Function]}
+      />
+      <ArrowIcon
+        iconClass="timeline-navigator--next"
+        iconSrc="dropdown_active.svg"
+        onClickIcon={[Function]}
+      />
+    </div>
+    <div
+      className="go-to-today"
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyUp={[Function]}
+      role="button"
+      tabIndex="-1"
+    >
+      Today
+    </div>
+  </div>
+  <div
+    className="timeline-view-type-selector selector"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyUp={[Function]}
+    role="menu"
+    tabIndex="0"
+  >
+    <span
+      className="timeline-view-type value"
+    >
+      month
+    </span>
+    <ArrowIcon
+      iconClass="view-type-selector dropdown-icon"
+      iconSrc="dropdown_inactive.svg"
+      onClickIcon={[Function]}
+    />
+    <div
+      className="timeline-view-choices choices-inactive"
+    >
+      <div
+        className="timeline-view-choice week"
+        key="week"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Week
+      </div>
+      <div
+        className="timeline-view-choice month"
+        key="month"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Month
+      </div>
+      <div
+        className="timeline-view-choice year"
+        key="year"
+        onClick={[Function]}
+        role="presentation"
+      >
+        Year
+      </div>
+    </div>
+  </div>
+</div>
+`;

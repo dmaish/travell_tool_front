@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ROleDetails /> renders correctly 1`] = `
+<Fragment>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="modal--add-user"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Add User"
+    visibility="invisible"
+    width="480px"
+  >
+    <NewUserRoleForm
+      centers={
+        Array [
+          Object {},
+        ]
+      }
+      closeModal={[Function]}
+      errors=""
+      fetchCenters={[Function]}
+      getRoleData={[Function]}
+      handleUpdateRole={[Function]}
+      myTitle="Add User"
+      role="Travel team member"
+      roleId={335498}
+      updateUserCenter={[Function]}
+      updatingRole={false}
+      userDetail=""
+    />
+  </Modal>
+  <div
+    className="rp-role__header"
+  >
+    <div
+      className="role-panel-header"
+    >
+      <div
+        className="role-details__header"
+      >
+        <PageHeader
+          actionBtn="Add User"
+          addLink={false}
+          hideDeleteRoleModal={[Function]}
+          icon="back-icon.svg"
+          iconLink="/settings/roles"
+          location=""
+          openModal={[Function]}
+          title="Travel team members"
+          titleClassName="title"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="rp-table"
+  >
+    <WithLoading
+      deleteModalRoleId={1}
+      deleteModalState="invisible"
+      error=""
+      handleDeleteUserRole={[Function]}
+      handleEditCenter={[Function]}
+      hideDeleteRoleModal={[Function]}
+      isLoading={false}
+      roleName="Travel team member"
+      roleUsers={
+        Array [
+          Object {
+            "centers": Array [
+              Object {
+                "id": 12345,
+                "location": "Lagos, Nigeria",
+              },
+            ],
+            "fullName": "A user",
+          },
+        ]
+      }
+      showDeleteRoleModal={[Function]}
+    />
+  </div>
+</Fragment>
+`;

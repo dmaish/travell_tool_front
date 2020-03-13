@@ -1,0 +1,186 @@
+$white-color: #fff;
+$primary-color: #3359db;
+$checkout-color: #FF5359;
+$checkedout-color: #E4E4E4;
+$border-color: #e4e4e4;
+$table-font-color: #4f4f4f !important;
+$font-medium: 'DIN Pro Medium';
+$font-normal: 'DIN Pro';
+@mixin fontStyle($fontSize, $fontWeight) {
+  font-size: $fontSize !important;
+  font-weight: $fontWeight !important;
+}
+
+.checkInTable {
+  &__body:before {
+    content: '';
+    display: block;
+    height: 3px;
+  }
+  &__container {
+    background-color: #f8f8f8;
+    width: 96.3%;
+    position: relative;
+    @media (max-width: 479px) {
+      overflow: scroll;
+      width: 100%;
+      position: initial;
+    }
+    @media (max-width: 839px) {
+      width: 100%;
+      overflow: scroll;
+      position: initial;
+    }
+  }
+  &__data__roomName {
+    border-color: #e4e4e4 !important;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 20px;
+    color: $table-font-color;
+    border-left: 1px solid rgba(0, 0, 0, 0.12);
+    @media (max-width: 479px) {
+      padding-left: 14px !important;
+      border-color: #e4e4e4 !important;
+    }
+  }
+  &__data {
+    border-color: #e4e4e4 !important;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: $table-font-color;
+    @media (max-width: 479px) {
+      padding-left: 14px !important;
+      border-color: #e4e4e4 !important;
+    }
+  }
+  &__data__column {
+    padding-right: 50px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-color: #e4e4e4 !important;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: $table-font-color;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    @media (max-width: 479px) {
+      padding-left: 14px !important;
+      border-color: #e4e4e4 !important;
+    }
+  }
+  &__row {
+    border-radius: 2px;
+    background-color: $white-color;
+    text-align: center;
+    height: 60px !important;
+    &:hover {
+      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+      background-color: $white-color !important;
+    }
+  }
+  &__head {
+    @include fontStyle(14px, 500);
+    font-family: $font-medium;
+    color: $table-font-color;
+    border-bottom: 1px solid #ebebeb;
+    padding: 13px 30px !important;
+    @media (max-width: 479px) {
+      padding: 11px 14px !important;
+      background-color: #f8f8f8;
+    }
+  }
+  &__trips {
+    font-family: $font-normal;
+    width: 100%;
+    text-align: center;
+    color: $table-font-color;
+    border-style: none;
+    border-collapse: separate;
+    border-spacing: 0 6px;
+    background-color: #f8f8f8;
+    &--empty {
+      display: flex;
+      justify-content: center;
+      font-family: $font-normal;
+      margin-left: -62px;
+      color: #999;
+      font-size: 18px;
+      @media (max-width: 839px) {
+        margin-left: 0;
+      }
+    }
+    &--error {
+      @extend .checkInTable__trips--empty;
+      color: #ff5359;
+    }
+  }
+  &__button-checkin {
+    height: 36px;
+    width: 120px;
+    border-radius: 1px;
+    background-color: $primary-color;
+    color: #FFFFFF;
+    font-family: "DIN Pro";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    border-style: none;
+    float: right;
+    &:hover {
+      cursor: pointer;
+    }
+    &:disabled{
+      background-color: rgba(51, 89, 219, 0.3);
+      border: none;
+      color: #FFFFFF;
+      cursor: not-allowed;
+    }
+  }
+  &__button-checkout {
+    height: 36px;
+    width: 120px;
+    border-radius: 1px;
+    background-color: $checkout-color;
+    color: #FFFFFF;
+    font-family: "DIN Pro";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    border-style: none;
+    float: right;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__button-checkedout {
+    height: 36px;
+    width: 120px;
+    border-radius: 1px;
+    background-color: $checkedout-color;
+    color: #FFFFFF;
+    font-family: "DIN Pro";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    border-style: none;
+    float: right;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__button-column {
+    text-align: right !important;
+  }
+}
+
+.padding-top {
+  padding-top: 25px;
+}
+
+.residence__text {
+  font-family: "DIN Pro medium";
+}

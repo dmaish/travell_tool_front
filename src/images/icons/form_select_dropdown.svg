@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>0D0AD3BD-6671-482A-BB1D-4362673F73EB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M10.6979167,1.1249919 L6.49458333,5.4899919 L2.29125,1.1249919 C2.08884918,0.914332645 1.81406078,0.795945597 1.5275,0.795945597 C1.24093922,0.795945597 0.96615082,0.914332645 0.76375,1.1249919 C0.34125,1.5637419 0.34125,2.2724919 0.76375,2.7112419 L5.73625,7.8749919 C6.15875,8.3137419 6.84125,8.3137419 7.26375,7.8749919 L12.23625,2.7112419 C12.65875,2.2724919 12.65875,1.5637419 12.23625,1.1249919 C11.81375,0.697491903 11.1204167,0.686241903 10.6979167,1.1249919 Z" id="path-1"></path>
+    </defs>
+    <g id="Travela-Style-guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Forms" transform="translate(-369.000000, -534.000000)">
+            <g id="icon/navigation" transform="translate(369.000000, 534.000000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="icon/navigation/expand_more_24px" fill-rule="nonzero"></g>
+                    <g id="↳-Color/Form-Grey-Light" mask="url(#mask-2)">
+                        <g transform="translate(-6.500000, -9.000000)" id="↳-Color">
+                            <g>
+                                <rect id="Rectangle" fill="#BCBCBC" x="0" y="0" width="26" height="27"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

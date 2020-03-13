@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="14px" viewBox="0 0 22 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>F85B0BC5-3D86-4C53-8AF2-D48B77CBA98B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6,7.96875 C7.66,7.96875 9,6.7125 9,5.15625 C9,3.6 7.66,2.34375 6,2.34375 C4.34,2.34375 3,3.6 3,5.15625 C3,6.7125 4.34,7.96875 6,7.96875 Z M18,2.34375 L12,2.34375 C10.9,2.34375 10,3.1875 10,4.21875 L10,8.90625 L2,8.90625 L2,1.40625 C2,0.890625 1.55,0.46875 1,0.46875 C0.45,0.46875 0,0.890625 0,1.40625 L0,13.59375 C0,14.109375 0.45,14.53125 1,14.53125 C1.55,14.53125 2,14.109375 2,13.59375 L2,11.71875 L20,11.71875 L20,13.59375 C20,14.109375 20.45,14.53125 21,14.53125 C21.55,14.53125 22,14.109375 22,13.59375 L22,6.09375 C22,4.021875 20.21,2.34375 18,2.34375 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accomodation-&gt;-Rooms-Schedule" transform="translate(-51.000000, -196.000000)">
+            <g id="Group-4-Copy-2" transform="translate(51.000000, 193.000000)">
+                <g id="icon/action/settings_24px" transform="translate(0.000000, 2.000000)">
+                    <g id="accommodation-blue" transform="translate(0.000000, 0.500000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="icon/maps/hotel_24px" fill="#999999" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<filterDropdownSelect/> shows receives error class name 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <div
+    className="value"
+    style={
+      Object {
+        "width": "medium",
+      }
+    }
+  >
+    <input
+      autoComplete="off"
+      choices={Array []}
+      className="occupationInput"
+      name="role"
+      onChange={[Function]}
+      size="medium"
+      type="text"
+      value="manager"
+    />
+    <div
+      className="hide"
+    >
+      <DropdownOptions
+        getDropdownStatus={[Function]}
+        handleClick={[Function]}
+        items={Array []}
+      />
+    </div>
+  </div>
+</div>
+`;

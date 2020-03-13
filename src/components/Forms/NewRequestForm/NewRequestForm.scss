@@ -1,0 +1,250 @@
+form.new-request {
+  fieldset {
+    display: flex;
+    div {
+      div.disable-details {
+        pointer-events: none;
+        opacity: 0.4;
+      }
+    }
+    .input-group {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      @media (max-width: 1405px) {
+        width: 1000px;
+      }
+      @media (max-width: 1320px) {
+        width: 1000px;
+      }
+      @media (max-width: 1270px) {
+        width: 950px;
+      }
+      @media (max-width: 1220px) {
+        width: 900px;
+      }
+      @media (max-width: 1150px) {
+        width: 850px;
+      }
+      @media (max-width: 1120px) {
+        width: 800px;
+      }
+      @media (max-width: 1024px) {
+        width: 700px;
+      }
+      @media (max-width: 916px) {
+        width: 600px;
+      }
+      @media (max-width: 788px) {
+        width: 500px;
+      }
+      @media (max-width: 668px) {
+        width: 400px;
+      }
+      @media (max-width: 540px) {
+        width: 300px;
+      }
+      @media (max-width: 420px) {
+        width: 200px;
+      }
+    }
+    .spaces {
+      margin-right: 30px;
+      @media (max-width: 450px) {
+        margin-right: 0;
+        width: 100%;
+      }
+    }
+
+    .line {
+      width: 100%;
+      padding-bottom: 11px;
+    }
+    .style-h5 {
+      display: flex;
+      justify-content: 'center';
+      font-family: 'DIN Pro';
+    }
+
+    .hide-details {
+      height: 18px;
+      width: 103px;
+      color: #4f4f4f;
+      font-family: 'DIN Pro';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+      float: right;
+      cursor: pointer;
+    }
+    .expand {
+      float: right;
+      margin: 7px 0px 0px 6px;
+    }
+
+    .rectangle {
+      box-shadow: 0 0 0 1px #e4e4e4;
+      border: 1px solid #e4e4e4;
+      border-radius: 2px;
+      background-color: #f8f8f8;
+      margin: 7px 0px 20px 0px;
+      color: gray;
+      width: 100%;
+      &.multi {
+        border-left: 10px solid #FFAF30;
+        width: 98.5%;
+        margin-right: 15px;
+      }
+    }
+    .style-details {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 5px;
+      margin-left: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .travel-to {
+      margin-right: 20px;
+      position: relative;
+      width: 198px;
+      @media (max-width: 450px) {
+        width: 100%;
+      }
+    }
+
+    .location-icon {
+      position: absolute;
+      right: 15px;
+      top: 39px;
+    }
+
+    .others-width {
+      margin-right: 20px;
+      @media (max-width: 450px) {
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+h1 {
+  height: 23px;
+  width: 72px;
+  color: #4f4f4f;
+  font-family: 'DIN Pro';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  margin: 60px 0px 0px 0px;
+}
+.main {
+  height: 400px;
+  width: 1080px;
+  border: 1px solid #e4e4e4;
+  border-radius: 2px;
+  background-color: #ffffff;
+  margin: 10px 60px 0px 0px;
+}
+.main--user_profile {
+  width: 550px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.add-multi-trip-area{
+  height: 50px;
+  width: 98.5%;
+  border: 1px solid  #D4D4D4;
+  border-style: dashed;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  outline: none;
+  @media (max-width: 1405px) {
+    width: 1000px;
+  }
+  @media (max-width: 1320px) {
+    width: 1000px;
+  }
+  @media (max-width: 1270px) {
+    width: 950px;
+  }
+  @media (max-width: 1220px) {
+    width: 900px;
+  }
+  @media (max-width: 1150px) {
+    width: 850px;
+  }
+  @media (max-width: 1120px) {
+    width: 800px;
+  }
+  @media (max-width: 1024px) {
+    width: 700px;
+  }
+  @media (max-width: 916px) {
+    width: 600px;
+  }
+  @media (max-width: 788px) {
+    width: 500px;
+  }
+  @media (max-width: 668px) {
+    width: 400px;
+  }
+  @media (max-width: 540px) {
+    width: 300px;
+  }
+  @media (max-width: 420px) {
+    width: 200px;
+  }
+}
+.another-trip{
+  height: 21px;
+  color: #4F4F4F;
+  font-family: "DIN Pro";
+  font-size: 16px;
+  line-height: 21px;
+  padding: 0;
+  border: none;
+  background: none;
+  margin-top: 9px;
+}
+.addsvg {
+  margin: 10px 10px 10px 10px;
+}
+.delete-icon {
+  padding: 0;
+  border: none;
+  background: none;
+  position: absolute;
+  right: -25px !important;
+  top: 37.5px;
+}
+.travel-input-area {
+  display: flex;
+  &__spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #385BD3;
+    border-radius: 50%;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    animation: spin 2s linear infinite;
+    z-index: 2;
+    top: 40px;
+    left: 10px;
+  }
+}
+.rec-div {
+  height: 100px;
+  width: 10px;
+  border-radius: 2px 0 0 2px;
+  background-color: #ffaf30;
+  margin-top: 5px;
+}
+form .form-input .room-dropdown .select-menu {
+  top: 25px;
+}

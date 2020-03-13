@@ -1,0 +1,71 @@
+.quill-contents {
+  margin: 0 -5px 40px -5px;
+  height: 120px;
+}
+
+p {
+  color: #130202;
+  font-family: 'DIN Pro';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.editor {
+  &__editor-form {
+    margin: 0 5px 0px 5px;
+  }
+  &__btn-wrap {
+    margin: 5px 0 10px 0;
+  }
+  &__btn-size {
+    margin: 0 10px 20px -5px;
+  }
+  &__post-btn {
+    box-sizing: border-box;
+    height: 29px;
+    width: 70px;
+    border: 1px solid #d4d4d4;
+    border-radius: 1px;
+    background-color: #ffffff;
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+
+    &--active {
+      border: none;
+      background-color: #3359db;
+      color: white;
+    }
+  }
+}
+
+.edit-buttons {
+  margin-right: 25px;
+}
+.button-color {
+  background-color: #d8d4d4;
+  color: white;
+}
+
+@media (max-width: 640px) {
+  #mceu_4 {
+    margin-right: 0;
+  }
+  #mceu_0 {
+    margin-left: 14px !important;
+  }
+}
+
+@media (max-width: 568px) {
+  #mceu_4 {
+    margin-right: -5px;
+  }
+  #mceu_0 {
+    margin-left: 0 !important;
+  }
+}

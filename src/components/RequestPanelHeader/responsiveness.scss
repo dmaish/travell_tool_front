@@ -1,0 +1,12 @@
+.request-panel-header {
+  @media (max-width: 839px) {
+    height: 150.9px;
+    width: 100%;
+  }
+
+  .open-requests {
+    @media (max-width: 479px){
+      top:70px
+    }
+  }
+}

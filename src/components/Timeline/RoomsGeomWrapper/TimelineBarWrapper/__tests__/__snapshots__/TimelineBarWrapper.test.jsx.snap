@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineBarWrappper renders properly 1`] = `
+<div
+  className="timeline-trip-geometry"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onKeyUp={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "left": "undefinedpx",
+    }
+  }
+  tabIndex="-1"
+>
+  <Component />
+</div>
+`;

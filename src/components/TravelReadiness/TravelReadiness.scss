@@ -1,0 +1,17 @@
+.travel-readiness-toggle-button-0, .travel-readiness-toggle-button-1 {
+    border: solid;
+    box-sizing: border-box;
+    height: 27px;
+    width: 87px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #E4E4E4;
+    background-color: #FFFFFF;
+    outline: none;
+    align-items: center;
+    color: #4F4F4F !important;
+}
+#active-travel-flow-button {
+    background-color: #3359DB;
+    color: white !important;
+}

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component Layout Shallow should render layout component correctly 1`] = `
+<div>
+  <div
+    className="mdl-layout mdl-js-layout request-page mdl-layout--no-desktop-drawer-button"
+  >
+    <div
+      className="side_overlay"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex="0"
+    />
+    <Connect(SideDrawer)
+      handleShowDrawer={[Function]}
+      location={Object {}}
+      showDrawer="none"
+    />
+    <withRouter(Connect(NavBar))
+      avatar="upic.svg"
+      className=""
+      handleHideSearchBar={[Function]}
+      handleShowDrawer={[Function]}
+      onNotificationToggle={[Function]}
+      openSearch={false}
+    />
+    <div
+      className="mdl-layout__content full-height"
+    >
+      <div
+        className="mdl-grid mdl-grid--no-spacing full-height"
+      >
+        <div
+          className="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone request-page__left-side-bar "
+        >
+          <div
+            className="sidebar "
+          >
+            <Connect(LeftSideBar)
+              location={Object {}}
+            />
+          </div>
+        </div>
+        <div
+          className="mdl-cell mdl-cell--9-col-desktop request-page__table-view mdl-cell--8-col-tablet mdl-cell--4-col-phone"
+        >
+          <div
+            className="rp-requests "
+          />
+        </div>
+      </div>
+      <div
+        className="mdl-cell mdl-cell--3-col-desktop hide mdl-cell--hide-desktop request-page__right-side-bar mdl-cell--3-col-tablet mdl-cell--4-col-phone"
+      >
+        <div
+          className="notification hide"
+        >
+          <Connect(NotificationPane)
+            onCloseNotificationPane={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="6px" viewBox="0 0 11 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>FD2BDCAD-550F-429F-B53A-0386A0EB7106</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M1058.67396,30.2681118 L1055.11729,33.8247785 L1051.56063,30.2681118 C1051.38936,30.0964635 1051.15685,30 1050.91438,30 C1050.6719,30 1050.43939,30.0964635 1050.26813,30.2681118 C1049.91062,30.6256118 1049.91062,31.2031118 1050.26813,31.5606118 L1054.47563,35.7681118 C1054.83313,36.1256118 1055.41062,36.1256118 1055.76813,35.7681118 L1059.97563,31.5606118 C1060.33313,31.2031118 1060.33313,30.6256118 1059.97563,30.2681118 C1059.61812,29.9197785 1059.03146,29.9106118 1058.67396,30.2681118 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Analytics" transform="translate(-1350.000000, -1531.000000)">
+            <g id="Group-6" transform="translate(300.000000, 1501.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon/navigation/expand_more_24px-copy" fill="#4F4F4F" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

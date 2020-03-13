@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentTableMenu Component should render the component 1`] = `
+<div
+  className="menu__container"
+>
+  <div>
+    <i
+      className="fa fa-ellipsis-v"
+      id="toggleIcon"
+      onClick={[Function]}
+      role="presentation"
+    />
+    <div
+      className="table__menu-container open"
+    >
+      <ul
+        className="table__menu-list doc"
+      >
+        <li
+          className="table__menu-list-item"
+          id="deleteBtn"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <img
+            alt="rename-icon"
+            className="menu-icon"
+            src="document-delete.svg"
+          />
+          Delete
+        </li>
+        <li
+          className="table__menu-list-item"
+          id="docDownloadBtn"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <img
+            alt="rename-icon"
+            className="menu-icon"
+            src="save_alt_24px.svg"
+          />
+          Download
+        </li>
+        <li
+          className="table__menu-list-item rename"
+          id="docRenameBtn"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <img
+            alt="rename-icon"
+            className="menu-icon"
+            src="edit.svg"
+          />
+          Rename
+        </li>
+        <li
+          className="table__menu-list-item cancel"
+          id="toggleButton"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <img
+            alt="cancel-icon"
+            className="menu-icon"
+            src="cancel.svg"
+          />
+          Cancel
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

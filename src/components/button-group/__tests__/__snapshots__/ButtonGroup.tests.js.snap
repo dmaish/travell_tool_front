@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonGroup /> should render successfully 1`] = `
+<div
+  className="button-group"
+>
+  <Button
+    altText=""
+    badge={null}
+    badgeClass=""
+    buttonClass="bg-btn bg-btn--active"
+    buttonId="all-button"
+    disabled={false}
+    imageClass="mdl-Icon"
+    imageSrc=""
+    onClick={[Function]}
+    responsiveText=""
+    reverseText={false}
+    showBadge={false}
+    text="All"
+    textClass=""
+  />
+  <Button
+    altText=""
+    badge={1}
+    badgeClass="bg-btn--with-badge--inactive"
+    buttonClass="bg-btn bg-btn--with-badge "
+    buttonId="open-button"
+    disabled={false}
+    imageClass="mdl-Icon"
+    imageSrc=""
+    onClick={[Function]}
+    responsiveText="Open"
+    reverseText={false}
+    showBadge={true}
+    text="Open Requests"
+    textClass=""
+  />
+  <Button
+    altText=""
+    badge={null}
+    badgeClass=""
+    buttonClass="bg-btn "
+    buttonId="past-button"
+    disabled={false}
+    imageClass="mdl-Icon"
+    imageSrc=""
+    onClick={[Function]}
+    responsiveText="Past"
+    reverseText={false}
+    showBadge={false}
+    text="Past Requests"
+    textClass=""
+  />
+</div>
+`;

@@ -1,0 +1,78 @@
+.MainWrapper {
+    padding: 0;
+}
+
+.mdl-layout__drawer-button {
+  padding-top: 4px;
+  @media (min-width: 840px) {
+    display: none;
+  }
+}
+
+.side_overlay {
+    display: none;
+    @media (max-width: 1024px) {
+        display: block;
+        z-index: 50;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.request-page__table-view {
+    @media (max-width: 839px) {
+        padding: 0px 15px;
+    }
+}
+
+.request-page {
+  height: 100%;
+  overflow-x: auto;
+  .full-height {
+    height: 100%;
+    overflow-x: auto;
+    .full-height {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+    &__left-side-bar {
+        height: 100%;
+    }
+    &__table-view {
+        height: 100%;
+        @media (max-width: 839px) {
+            padding: 0 22px;
+        }
+        @media (max-width: 479px) {
+            padding: 0 12px;
+        }
+    }
+    &__right-side-bar {
+        height: 100%;
+        @media (max-width: 839px) and (min-width: 480px) {
+            margin-left: -500px !important;
+            z-index: 200;
+        }
+    }
+  }
+}
+
+.side-drawer {
+    &__user-details {
+        margin: 42px 0px -21px 22px;
+    }
+    &__user-name {
+        margin-top: 14px;
+        font-family: 'DIN Pro';
+        color: #4f4f4f;
+    }
+    &__divider {
+        margin-top: 41px;
+        margin-bottom: -57px;
+        border-top: 1px solid lightgrey;
+    }
+}

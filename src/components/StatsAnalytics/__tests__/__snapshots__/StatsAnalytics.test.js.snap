@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> renders correctly 1`] = `
+<Fragment>
+  <div
+    className="analytics-card__stats #000"
+  >
+    <div
+      className="analytics-card__icon"
+    >
+      <img
+        alt=""
+        src="sfdhd.d"
+      />
+    </div>
+    <div
+      className="analytics-card__stat"
+    >
+      <h4>
+        40
+      </h4>
+    </div>
+  </div>
+</Fragment>
+`;

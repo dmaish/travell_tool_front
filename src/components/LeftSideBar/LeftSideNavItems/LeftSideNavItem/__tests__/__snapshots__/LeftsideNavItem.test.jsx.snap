@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LeftSideNavItem /> <LeftSideNavItem /> with dropdown renders as dropdown 1`] = `
+Array [
+  <li
+    className="left-side-nav-item  active"
+>
+    <div
+        className="nav-link"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="presentation"
+        tabIndex="0"
+        to="/test-link"
+    >
+        <div
+            className="left-side-nav-item__left-icon"
+        >
+            <img
+                alt="icon"
+                src="test.svg"
+            />
+        </div>
+        <div
+            className="left-side-nav-item__nav-text"
+        >
+            Test link
+        </div>
+        <div
+            className="dropdown-icon active"
+        >
+            <img
+                alt="dropdown"
+                src="dropdown_active.svg"
+            />
+        </div>
+    </div>
+</li>,
+  <div
+    className="left-side-nav-item__dropdown-content active"
+>
+    <a
+        aria-current={null}
+        className="dropdown-item"
+        href="/home"
+        onClick={[Function]}
+    >
+        us
+    </a>
+    <a
+        aria-current={null}
+        className="dropdown-item"
+        href="/home"
+        onClick={[Function]}
+    >
+        us
+    </a>
+</div>,
+]
+`;
+
+exports[`<LeftSideNavItem /> renders the LeftSideNavItem 1`] = `
+Array [
+  <li
+    className="left-side-nav-item  active"
+>
+    <div
+        className="nav-link"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="presentation"
+        tabIndex="0"
+        to="/test-link"
+    >
+        <div
+            className="left-side-nav-item__left-icon"
+        >
+            <img
+                alt="icon"
+                src="test.svg"
+            />
+        </div>
+        <div
+            className="left-side-nav-item__nav-text"
+        >
+            Test link
+        </div>
+        <div
+            className="dropdown-icon active"
+        >
+            <img
+                alt="dropdown"
+                src="dropdown_active.svg"
+            />
+        </div>
+    </div>
+</li>,
+  <div
+    className="left-side-nav-item__dropdown-content active"
+>
+    <a
+        aria-current={null}
+        className="dropdown-item"
+        href="/home"
+        onClick={[Function]}
+    >
+        us
+    </a>
+    <a
+        aria-current={null}
+        className="dropdown-item"
+        href="/home"
+        onClick={[Function]}
+    >
+        us
+    </a>
+</div>,
+]
+`;

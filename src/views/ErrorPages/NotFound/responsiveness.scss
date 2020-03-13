@@ -1,0 +1,32 @@
+.pageOverlay {
+  @media (max-width: 1024px) {
+    margin-top: 55px;
+  }
+  @media (max-width:425px){
+    .notFoundBody {
+      margin: 0 auto;
+      padding:0 10px;
+
+      .bg_404{
+        margin-top: 64px;
+        height: 180px;
+      }
+    }
+    @media (max-width:375px) {
+      .notFoundBody {
+        .bg_404 {
+          height:150px
+        }
+      }
+    }
+  }
+  @media (max-width:360px){
+    .notFoundBody {
+      .bg_404 {
+        margin-top: 32px;
+        width: 100%;
+        height: 130px;
+      }
+    }
+  }
+}

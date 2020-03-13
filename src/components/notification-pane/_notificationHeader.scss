@@ -1,0 +1,25 @@
+.notifications-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px 0 41px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    width: 103px;
+    color: #4F4F4F;
+    font-family: "DIN Pro Medium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    padding: 31px 0 15px 0;
+  }
+
+  &__close-btn{
+    padding: 31px 6px 15px 0;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+  }
+}

@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewUserRoleForm /> <PersonalDetails /> renders correctly 1`] = `
+<fieldset
+  className="personal-details"
+>
+  <div>
+    <div
+      style={
+        Object {
+          "paddingTop": "14px",
+        }
+      }
+    >
+      <Input
+        autoComplete="off"
+        className=""
+        disabled={true}
+        label="Andela Email Address"
+        labelNote=""
+        name="email"
+        onChange={null}
+        type="text"
+      />
+    </div>
+    <div>
+      <Input
+        autoComplete="off"
+        choices={
+          Array [
+            Array [],
+          ]
+        }
+        className="request_dropdown"
+        label="Center"
+        labelNote=""
+        name="center"
+        onChange={null}
+        required={true}
+        type="dropdown-select"
+      />
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`<NewUserRoleForm /> renders correctly 1`] = `
+<form
+  className="new-request"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="personal-details"
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "paddingTop": "14px",
+          }
+        }
+      >
+        <div
+          className="form-input  "
+        >
+          <label
+            htmlFor="email"
+          >
+            Andela Email Address
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              *
+            </span>
+          </label>
+          <input
+            autoComplete="off"
+            className=" "
+            disabled={false}
+            label="Andela Email Address"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value="tomato@andela.com"
+          />
+          <span
+            className="error"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          className="form-input request_dropdown "
+        >
+          <label
+            htmlFor="center"
+          >
+            Center
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              *
+            </span>
+          </label>
+          <div
+            style={
+              Object {
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              autoComplete="off"
+              choices={
+                Array [
+                  "Kigali, Rwanda",
+                ]
+              }
+              className="input select  request_dropdown"
+              error=""
+              label="Center"
+              name="center"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              required={true}
+              role="button"
+              tabIndex="0"
+              type="dropdown-select"
+              value="New York, USA"
+            >
+              <div
+                className="value"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              >
+                 
+                <div
+                  className="select-dropdown inactive"
+                >
+                  <img
+                    alt="icn"
+                    src="form_select_dropdown.svg"
+                  />
+                </div>
+              </div>
+              <ul
+                className="select-menu select-menu--inactive"
+              >
+                <li
+                  id="choice"
+                  key="Kigali, Rwanda"
+                >
+                  <div
+                    id="choice"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    role="button"
+                    tabIndex="0"
+                  >
+                    Kigali, Rwanda
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span
+            className="error"
+          />
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <hr />
+  <fieldset>
+    <div
+      className="submit-area"
+    >
+      <button
+        className="bg-btn bg-btn--inactive"
+        id="cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="bg-btn bg-btn--active"
+        disabled={true}
+        id="submit"
+        type="submit"
+      >
+        <undefined />
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;

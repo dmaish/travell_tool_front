@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `undefined`;
+
+exports[`<LeftSideNavItems /> renders correctly 1`] = `
+<ul>
+  <undefined />
+  <undefined />
+  <li
+    className="left-side-nav-item  inactive"
+  >
+    <a
+      aria-current={null}
+      className="nav-link"
+      href="/documents"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        className="left-side-nav-item__left-icon"
+      >
+        <img
+          alt="icon"
+          src="documents-grey.svg"
+        />
+      </div>
+      <div
+        className="left-side-nav-item__nav-text"
+      >
+        Documents
+      </div>
+    </a>
+  </li>
+  <undefined />
+  <li
+    className="left-side-nav-item logout-button inactive"
+  >
+    <a
+      aria-current={null}
+      className="nav-link"
+      href="/logout"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <div
+        className="left-side-nav-item__left-icon"
+      >
+        <img
+          alt="icon"
+          src="logout_inactive.svg"
+        />
+      </div>
+      <div
+        className="left-side-nav-item__nav-text"
+      >
+        Logout
+      </div>
+    </a>
+  </li>
+</ul>
+`;

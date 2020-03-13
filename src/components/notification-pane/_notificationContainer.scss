@@ -1,0 +1,51 @@
+@mixin notificationHeader($marginTop) {
+  display: flex;
+  justify-content: space-between;
+  margin: $marginTop 30px 20px 41px
+}
+
+@mixin numOfNotifications($background) {
+  display: inline-block;
+  text-align: center;
+  height: 15px;
+  width: 15px;
+  background-color: $background;
+  color: white;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  &__header {
+    &--pending {
+      @include notificationHeader(30px);
+    }
+    &--general {
+      @include notificationHeader(40px);
+    }
+    &__title {
+      font-family: "DIN Pro";
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px;
+      &__number--pending {
+        @include numOfNotifications(#49AAAF)
+      }
+      &__number--general {
+        @include numOfNotifications(#3359DB)
+      }
+    }
+    &__action {
+      color: #FFAF30;
+      font-family: "DIN Pro";
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 12px;
+      text-transform: uppercase;
+      cursor: pointer;
+      outline: none
+    }
+  }
+}

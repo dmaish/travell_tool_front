@@ -1,0 +1,16 @@
+.login-page {
+    &__text {
+        height: 21px;
+        width: 139px;
+        color: #3359DB;
+        font-family: "DIN Pro";
+        font-size: 16px;
+        line-height: 21px;
+        margin-left: 12.12px;
+      }
+
+      &__text-link {
+        padding: 215px 80px 0px 80px;
+        margin-bottom: 10px;
+      }
+}

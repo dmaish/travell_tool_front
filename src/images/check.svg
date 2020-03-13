@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>13DA0975-4774-46F4-B78A-1FF18484FC31</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,16 C12.418278,16 16,12.418278 16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,12.418278 3.581722,16 8,16 Z M7.69717128,11.3565834 C7.44437951,11.6093751 7.03602358,11.6093751 6.78323181,11.3565834 L4.45625116,9.02960272 C4.33487697,8.90850151 4.26666667,8.7440891 4.26666667,8.57263299 C4.26666667,8.40117688 4.33487697,8.23676446 4.45625116,8.11566325 C4.70904293,7.86287148 5.11739887,7.86287148 5.37019064,8.11566325 L7.23696062,9.98243324 L11.6964667,5.52292716 C11.9492585,5.27013539 12.3576144,5.27013539 12.6104062,5.52292716 C12.8631979,5.77571893 12.8631979,6.18407486 12.6104062,6.43686663 L7.69717128,11.3565834 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Trip-Planner-&gt;-Complete-Checklist" transform="translate(-900.000000, -209.000000)">
+            <g id="Modal" transform="translate(420.000000, 27.000000)">
+                <g id="Rectangle-9">
+                    <g id="Group-17" transform="translate(30.000000, 139.000000)">
+                        <g id="check" transform="translate(450.000000, 43.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="icon/toggle/check_box_24px" fill="#FFAF30" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

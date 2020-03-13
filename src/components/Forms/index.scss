@@ -1,0 +1,64 @@
+form {
+  fieldset {
+    display: flex;
+    flex-flow: row;
+    margin: 15px 0px 2px 0px;
+
+    legend {
+      padding: 0;
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 18px;
+      color: #4F4F4F;
+      font-family: "DIN Pro";
+    }
+
+    &:last-child {
+      margin: 0;
+
+      .submit-area {
+        position: relative;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 71px;
+
+      button {
+        margin: 0;
+
+        &:disabled {
+          background-color: rgba(51,89,219,0.3);
+          border: none;
+          color: #FFFFFF;
+          cursor: not-allowed;
+        }
+      }
+
+      button:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    }
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 260px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border: 1px solid #D4D4D4;
+  }
+
+  hr {
+    margin: 0;
+    width: calc(100% + 60px);
+    transform: translateX(-30px);
+    height: 3px;
+    border: 1px solid #F8F8F8;
+    border-bottom: none;
+    box-sizing: border-box;
+  }
+
+}

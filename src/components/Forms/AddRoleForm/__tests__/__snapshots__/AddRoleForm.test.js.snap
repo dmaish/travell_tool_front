@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddRoleForm /> renders correctly 1`] = `
+<form
+  className="new-request"
+  id="add-role-form"
+  onSubmit={[Function]}
+>
+  <fieldset
+    className="personal-details"
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "paddingTop": "14px",
+          }
+        }
+      >
+        <div
+          className="form-input  "
+        >
+          <label
+            htmlFor="roleName"
+          >
+            Role Name
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              *
+            </span>
+          </label>
+          <input
+            autoComplete="off"
+            className=" "
+            id="add-role-name"
+            label="Role Name"
+            name="roleName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="error"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          className="form-input  "
+        >
+          <label
+            htmlFor="description"
+          >
+            Description
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              *
+            </span>
+          </label>
+          <textarea
+            autoComplete="off"
+            className=" textarea-box "
+            id="add-role-description"
+            label="Description"
+            name="description"
+            onBlur={[Function]}
+            onChange={[Function]}
+            rows="10"
+            type="textarea"
+            value=""
+          />
+          <span
+            className="error"
+          />
+        </div>
+      </div>
+      <span
+        className="role-description--margin"
+      />
+    </div>
+  </fieldset>
+  <hr />
+  <fieldset>
+    <div
+      className="submit-area"
+    >
+      <button
+        className="bg-btn bg-btn--inactive"
+        id="cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="bg-btn bg-btn--active"
+        disabled={true}
+        id="submit"
+        type="submit"
+      >
+        <undefined />
+      </button>
+    </div>
+  </fieldset>
+</form>
+`;

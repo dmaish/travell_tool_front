@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Requests> renders as expected 1`] = `
+<Fragment>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles=""
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="New Travel Request"
+    visibility="invisible"
+    width="81.95%"
+  >
+    <NewRequestForm
+      availableRooms={
+        Object {
+          "beds": Array [
+            Object {
+              "bedName": "bed 1",
+              "booked": false,
+              "createdAt": "2018-08-16T11:11:52.181Z",
+              "id": 1,
+              "roomId": "room-id-1",
+              "rooms": Object {
+                "bedCount": 2,
+                "createdAt": "2018-08-16T11:11:52.181Z",
+                "faulty": false,
+                "guestHouseId": "guest-house-1",
+                "guestHouses": Object {
+                  "bathRooms": 1,
+                  "createdAt": "2018-08-16T11:11:52.181Z",
+                  "houseName": "Mini flat-B",
+                  "id": "guest-house-1",
+                  "imageUrl": "https://www.dropbox.com/s/c2n63x2jamh3ndv/guesthouse2.jpg?raw=1",
+                  "location": "Lagos,Nigeria",
+                  "updatedAt": "2018-08-16T11:11:52.181Z",
+                  "userId": "-LJV4b1QTCYewOtk5F63",
+                },
+                "id": "room-id-1",
+                "roomName": "Kwetu",
+                "roomType": "ensuited",
+                "updatedAt": "2018-08-16T11:11:52.181Z",
+              },
+              "updatedAt": "2018-08-16T11:11:52.181Z",
+            },
+            Object {
+              "bedName": "bed 2",
+              "booked": false,
+              "createdAt": "2018-08-16T11:11:52.181Z",
+              "id": 2,
+              "roomId": "room-id-1",
+              "rooms": Object {
+                "bedCount": 2,
+                "createdAt": "2018-08-16T11:11:52.181Z",
+                "faulty": false,
+                "guestHouseId": "guest-house-1",
+                "guestHouses": Object {
+                  "bathRooms": 1,
+                  "createdAt": "2018-08-16T11:11:52.181Z",
+                  "houseName": "Mini flat-B",
+                  "id": "guest-house-1",
+                  "imageUrl": "https://www.dropbox.com/s/c2n63x2jamh3ndv/guesthouse2.jpg?raw=1",
+                  "location": "Lagos,Nigeria",
+                  "updatedAt": "2018-08-16T11:11:52.181Z",
+                  "userId": "-LJV4b1QTCYewOtk5F63",
+                },
+                "id": "room-id-1",
+                "roomName": "Kwetu",
+                "roomType": "ensuited",
+                "updatedAt": "2018-08-16T11:11:52.181Z",
+              },
+              "updatedAt": "2018-08-16T11:11:52.181Z",
+            },
+            Object {
+              "bedName": "bed 1",
+              "booked": false,
+              "createdAt": "2018-08-16T11:11:52.181Z",
+              "id": 3,
+              "roomId": "room-id-2",
+              "rooms": Object {
+                "bedCount": 3,
+                "createdAt": "2018-08-16T11:11:52.181Z",
+                "faulty": false,
+                "guestHouseId": "guest-house-1",
+                "guestHouses": Object {
+                  "bathRooms": 1,
+                  "createdAt": "2018-08-16T11:11:52.181Z",
+                  "houseName": "Mini flat-B",
+                  "id": "guest-house-1",
+                  "imageUrl": "https://www.dropbox.com/s/c2n63x2jamh3ndv/guesthouse2.jpg?raw=1",
+                  "location": "Lagos,Nigeria",
+                  "updatedAt": "2018-08-16T11:11:52.181Z",
+                  "userId": "-LJV4b1QTCYewOtk5F63",
+                },
+                "id": "room-id-2",
+                "roomName": "Menengai",
+                "roomType": "ensuited",
+                "updatedAt": "2018-08-16T11:11:52.181Z",
+              },
+              "updatedAt": "2018-08-16T11:11:52.181Z",
+            },
+            Object {
+              "bedName": "bed 2",
+              "booked": false,
+              "createdAt": "2018-08-16T11:11:52.181Z",
+              "id": 4,
+              "roomId": "room-id-2",
+              "rooms": Object {
+                "bedCount": 3,
+                "createdAt": "2018-08-16T11:11:52.181Z",
+                "faulty": false,
+                "guestHouseId": "guest-house-1",
+                "guestHouses": Object {
+                  "bathRooms": 1,
+                  "createdAt": "2018-08-16T11:11:52.181Z",
+                  "houseName": "Mini flat-B",
+                  "id": "guest-house-1",
+                  "imageUrl": "https://www.dropbox.com/s/c2n63x2jamh3ndv/guesthouse2.jpg?raw=1",
+                  "location": "Lagos,Nigeria",
+                  "updatedAt": "2018-08-16T11:11:52.181Z",
+                  "userId": "-LJV4b1QTCYewOtk5F63",
+                },
+                "id": "room-id-2",
+                "roomName": "Menengai",
+                "roomType": "ensuited",
+                "updatedAt": "2018-08-16T11:11:52.181Z",
+              },
+              "updatedAt": "2018-08-16T11:11:52.181Z",
+            },
+            Object {
+              "bedName": "bed 3",
+              "booked": false,
+              "createdAt": "2018-08-16T11:11:52.181Z",
+              "id": 5,
+              "roomId": "room-id-2",
+              "rooms": Object {
+                "bedCount": 3,
+                "createdAt": "2018-08-16T11:11:52.181Z",
+                "faulty": false,
+                "guestHouseId": "guest-house-1",
+                "guestHouses": Object {
+                  "bathRooms": 1,
+                  "createdAt": "2018-08-16T11:11:52.181Z",
+                  "houseName": "Mini flat-B",
+                  "id": "guest-house-1",
+                  "imageUrl": "https://www.dropbox.com/s/c2n63x2jamh3ndv/guesthouse2.jpg?raw=1",
+                  "location": "Lagos,Nigeria",
+                  "updatedAt": "2018-08-16T11:11:52.181Z",
+                  "userId": "-LJV4b1QTCYewOtk5F63",
+                },
+                "id": "room-id-2",
+                "roomName": "Menengai",
+                "roomType": "ensuited",
+                "updatedAt": "2018-08-16T11:11:52.181Z",
+              },
+              "updatedAt": "2018-08-16T11:11:52.181Z",
+            },
+          ],
+        }
+      }
+      closeModal={[Function]}
+      creatingRequest={false}
+      errors={Array []}
+      fetchAvailableRooms={[Function]}
+      fetchUserRequests={[Function]}
+      handleCreateRequest={[Function]}
+      handleEditRequest={[Function]}
+      loading={false}
+      managers={Array []}
+      modalType={null}
+      requestOnEdit={
+        Object {
+          "createdAt": "2018-09-26T15:15:49.808Z",
+          "department": "Talent & Development",
+          "gender": "Male",
+          "id": "1",
+          "manager": "Faluyi Seun",
+          "name": "Seun Undefined",
+          "role": "Software Developer",
+          "status": "Open",
+          "tripType": "multi",
+          "trips": Array [
+            Object {
+              "bedId": 1,
+              "createdAt": "2018-09-27T18:49:03.626Z",
+              "departureDate": "2018-09-30",
+              "destination": "Lagos Nigeria",
+              "id": "1",
+              "origin": "Abuja Nigeria",
+              "requestId": "NfR-9KoCP",
+              "returnDate": "2018-09-30",
+              "updatedAt": "2018-09-27T18:49:43.803Z",
+            },
+          ],
+          "updatedAt": "2018-09-26T15:15:49.808Z",
+          "userId": "lorem-ipsum",
+        }
+      }
+      updateUserProfile={[Function]}
+      user={
+        Object {
+          "UserInfo": Object {
+            "name": "John Doe",
+          },
+        }
+      }
+      userData={
+        Object {
+          "createdAt": "2018-09-14T12:48:11.266Z",
+          "department": "Talent & Development",
+          "email": "collins.muru@andela.com",
+          "fullName": "Collins Muru",
+          "gender": "Male",
+          "id": "2",
+          "manager": "Collins",
+          "occupation": "Software Developer",
+          "passportName": "Collins Njau",
+          "roleId": 401938,
+          "updatedAt": "2018-09-16T07:53:48.835Z",
+          "userId": "-LJNw1BsT0LP_E4l2peP",
+        }
+      }
+    />
+  </Modal>
+  <div
+    className="rp-requests__header"
+  >
+    <RequestPanelHeader
+      activeStatus="all"
+      fetchRequests={[Function]}
+      getRequestsWithLimit={[Function]}
+      loading={false}
+      modalType={null}
+      openModal={[Function]}
+      openRequestsCount={1}
+      pastRequestsCount={1}
+      requestsLength={3}
+      shouldOpen={false}
+      url="?page=1"
+    />
+  </div>
+  <div
+    className="rp-table"
+  >
+    <WithLoading
+      closeModal={[Function]}
+      deleteRequest={[Function]}
+      editRequest={[Function]}
+      fetchRequestsError={null}
+      fetchSubmission={[Function]}
+      fetchUserRequests={[Function]}
+      fileUploads={Object {}}
+      handleCloseSubmissionModal={[Function]}
+      history={
+        Object {
+          "push": [Function],
+        }
+      }
+      isFetching={false}
+      isLoading={false}
+      location={
+        Object {
+          "pathname": "/requests",
+          "search": "?page=1",
+        }
+      }
+      modalType={null}
+      openModal={[Function]}
+      page="Requests"
+      requestId="sgjdgljgd"
+      requests={
+        Array [
+          Object {
+            "department": "TDD",
+            "gender": "Female",
+            "id": "xDh20btGz",
+            "manager": "Ezrqn Kiptanui",
+            "name": "Amarachukwo Agbo",
+            "role": "Learning Facilitator",
+            "status": "Open",
+            "tripType": "oneWay",
+            "trips": Array [
+              Object {
+                "bedId": 1,
+                "departureDate": "2018-09-20",
+                "destination": "Angola",
+                "origin": "Lagos",
+              },
+            ],
+          },
+          Object {
+            "department": "TDD",
+            "gender": "Female",
+            "id": "xDh20btGy",
+            "manager": "Ezrqn Kiptanui",
+            "name": "Amarachukwo Agbo",
+            "role": "Learning Facilitator",
+            "status": "Approved",
+            "tripType": "oneWay",
+            "trips": Array [
+              Object {
+                "bedId": 1,
+                "departureDate": "2018-09-20",
+                "destination": "Angola",
+                "origin": "Lagos",
+              },
+            ],
+          },
+          Object {
+            "department": "TDD",
+            "gender": "Female",
+            "id": "xDh20btGx",
+            "manager": "Ezrqn Kiptanui",
+            "name": "Amarachukwo Agbo",
+            "role": "Learning Facilitator",
+            "tripType": "oneWay",
+            "trips": Array [
+              Object {
+                "bedId": 1,
+                "departureDate": "2018-09-20",
+                "destination": "Angola",
+                "origin": "Lagos",
+              },
+            ],
+          },
+        ]
+      }
+      shouldOpen={false}
+      showTravelChecklist={[Function]}
+      submissionInfo={
+        Object {
+          "fetchFailureMessage": "",
+          "fetchSuccessMessage": "",
+          "isFetching": false,
+          "isLoading": false,
+          "isUploading": Array [],
+          "itemsToCheck": Array [
+            "NumC5-pK7G-9",
+            "NumC5-pK7G-8",
+            "NumC5-pK7G-3",
+          ],
+          "percentageCompleted": 0,
+          "postFail": false,
+          "postSuccess": Array [],
+          "requestId": "",
+          "submissions": Array [
+            Object {
+              "checklist": Array [
+                Object {
+                  "deleteReason": null,
+                  "destinationName": "Lagos, Nigeria",
+                  "id": "9",
+                  "name": "yellow card",
+                  "requiresFiles": false,
+                  "resources": Array [],
+                  "submissions": Array [
+                    Object {
+                      "checklistItemId": "9",
+                      "checklistSubmissions": Object {
+                        "id": "9",
+                      },
+                      "createdAt": "2018-11-18T22:03:26.442Z",
+                      "deletedAt": null,
+                      "id": "JGLqrmBEd",
+                      "tripId": "NumC5-pK7G",
+                      "updatedAt": "2018-11-18T23:53:59.297Z",
+                      "value": "I submitted yellow card",
+                    },
+                  ],
+                },
+                Object {
+                  "deleteReason": null,
+                  "destinationName": "Lagos, Nigeria",
+                  "id": "8",
+                  "name": "visa application",
+                  "requiresFiles": true,
+                  "resources": Array [],
+                  "submissions": Array [
+                    Object {
+                      "checklistItemId": "8",
+                      "checklistSubmissions": Object {
+                        "id": "8",
+                      },
+                      "createdAt": "2018-11-18T22:03:50.071Z",
+                      "deletedAt": null,
+                      "id": "wY4s9r-29",
+                      "tripId": "NumC5-pK7G",
+                      "updatedAt": "2018-11-18T22:26:25.322Z",
+                      "value": Object {
+                        "fileName": "test.pdf",
+                        "url": "image.com",
+                      },
+                    },
+                  ],
+                },
+                Object {
+                  "deleteReason": null,
+                  "destinationName": "Lagos, Nigeria",
+                  "id": "7",
+                  "name": "travel stipend",
+                  "requiresFiles": true,
+                  "resources": Array [],
+                  "submissions": Array [],
+                },
+                Object {
+                  "deleteReason": null,
+                  "destinationName": "Default",
+                  "id": "3",
+                  "name": "Travel Ticket Details",
+                  "requiresFiles": false,
+                  "resources": Array [],
+                  "submissions": Array [
+                    Object {
+                      "checklistItemId": "3",
+                      "checklistSubmissions": Object {
+                        "id": "3",
+                      },
+                      "createdAt": "2018-11-18T22:04:32.606Z",
+                      "deletedAt": null,
+                      "id": "yRCCSp0Oy",
+                      "tripId": "NumC5-pK7G",
+                      "updatedAt": "2018-11-18T22:04:32.606Z",
+                      "value": Object {
+                        "airline": "Arik Airways",
+                        "arrivalTime": "2018-11-20T01:00",
+                        "departureTime": "2018-11-20T01:00",
+                        "returnAirline": "",
+                        "returnDepartureTime": "2018-11-20T01:00",
+                        "returnTicketNumber": "LG 555",
+                        "returnTime": "2018-11-20T01:00",
+                        "ticketNumber": "LG 777",
+                      },
+                    },
+                  ],
+                },
+              ],
+              "destinationName": "Lagos, Nigeria",
+              "tripId": "NumC5-pK7G",
+            },
+          ],
+          "successMessage": "",
+          "successStatus": false,
+          "tripType": "",
+        }
+      }
+      type="requests"
+    />
+  </div>
+  <div
+    className="rp-pagination"
+  >
+    <Pagination
+      currentPage={1}
+      onPageChange={[Function]}
+      pageCount={4}
+    />
+  </div>
+</Fragment>
+`;

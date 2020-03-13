@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: isAuthenticated User Protected Routes test suite Redirects user to homepage if they are not authenticated 1`] = `""`;

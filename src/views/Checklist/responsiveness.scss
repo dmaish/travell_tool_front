@@ -1,0 +1,50 @@
+@media(max-width: 768px){
+  .checklist-page {
+    .checklist-item {
+      #restore-btn,
+      #delete-btn {
+        margin-right:30px
+      }
+    }
+  }
+}
+
+@media(max-width: 479px) {
+  form.new-request fieldset .input-group .form-input {
+    max-width: 420px;
+    width: 100% !important;
+    margin-left:0px !important;
+  }
+  .checklist-page {
+    .checklist-item {
+      #deleted-item,
+      #item-name {
+        height: auto;
+        padding: 4px 4px 4px 0;
+        margin-left: 25px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      #item-name,
+      #deleted-item,
+      #deleted-item:nth-child(2) {
+        max-width: 120px;
+      }
+
+      #delete-btn{
+        width: 65px;
+        margin: 0;
+        text-align: left;
+      }
+      #restore-btn{
+        width: 65px;
+        text-align: right;
+      }
+    }
+  }
+  .add-checklist-item {
+    fieldset {
+      float: right;
+    }
+  }
+}

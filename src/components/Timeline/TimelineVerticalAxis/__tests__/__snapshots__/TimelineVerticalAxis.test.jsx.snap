@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TimelineVerticalAxis /> renders properly without crashing 1`] = `
+<div
+  className="vertical-axis"
+>
+  <div
+    className="room-axis-wrapper"
+    key="room-id-1"
+  >
+    <RoomLabel
+      guestHouseId="guest-house-id-1"
+      id="room-id-1"
+      name="Ndovu"
+      status={false}
+      timelineDateRange={
+        Array [
+          "2018-01-01",
+          "2018-01-31",
+        ]
+      }
+      updateRoomState={[Function]}
+    />
+    <div
+      className="bed-name item-row"
+    >
+      <div>
+        Kitanda 1
+      </div>
+    </div>
+  </div>
+</div>
+`;

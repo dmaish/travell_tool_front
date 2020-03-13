@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accommodation /> should render correctly 1`] = `
+<div
+  className="guesthouse-details-wrapper"
+>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles=""
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Edit Bukoto heights"
+    visibility="invisible"
+    width="800px"
+  >
+    <NewAccommodation
+      closeModal={[Function]}
+      editAccommodation={[Function]}
+      fetchAccommodation={[Function]}
+      guestHouse={
+        Object {
+          "bathRooms": "4",
+          "beds": Array [
+            Array [
+              Object {
+                "bedName": "bed 1",
+                "booked": false,
+                "createdAt": "2018-10-07T03:17:09.969Z",
+                "id": 68,
+                "roomId": "dtnJtaRE7Y",
+                "updatedAt": "2018-10-07T03:17:09.969Z",
+              },
+            ],
+          ],
+          "createdAt": "2018-10-05T00:07:22.276Z",
+          "houseName": "Bukoto heights",
+          "id": "zNnGJAJH5",
+          "imageUrl": "https://www.lol.com",
+          "location": "Kampala",
+          "rooms": Array [
+            Object {
+              "bedCount": "1",
+              "createdAt": "2018-10-05T00:07:22.281Z",
+              "faulty": false,
+              "guestHouseId": "zNnGJAJH5",
+              "id": "dtnJtaRE7Y",
+              "roomName": "Rwenzori",
+              "roomType": "non-ensuite",
+              "updatedAt": "2018-10-07T03:17:09.938Z",
+            },
+          ],
+          "updatedAt": "2018-10-07T03:17:09.928Z",
+          "userId": "-LJNzPWupJiiToLowHq9",
+        }
+      }
+      initFetchTimelineData={[Function]}
+      modalType={null}
+    />
+  </Modal>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="delete-checklist-item restore-model-content"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Disable Bukoto heights"
+    visibility="invisible"
+    width=""
+  >
+    <span
+      className="delete-checklist-item__disclaimer restore-checklist-items_span"
+    >
+      Are you sure you want to disable
+      <strong>
+        Bukoto heights
+      </strong>
+    </span>
+    <div
+      className="delete-checklist-item__hr delete-checklist-item__left"
+    />
+    <div
+      className="delete-checklist-item__footer delete-checklist-item__right"
+    >
+      <button
+        className="delete-checklist-item__footer--cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="restore-checklist-items__footer--delete"
+        disabled={false}
+        id="disableGuestHouseId"
+        onClick={[Function]}
+        type="button"
+      >
+        <ButtonLoadingIcon
+          isLoading={false}
+        />
+        Disable
+      </button>
+    </div>
+  </Modal>
+  <div
+    className="set-details"
+  >
+    <div
+      className="guesthouse-details-wrapper--top"
+    >
+      <div
+        className="details-wrapper-top-right"
+      >
+        <div
+          className="back-button"
+          role="presentation"
+        >
+          <div
+            className="arrow"
+          >
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+        <div
+          className="guest-house-name"
+        >
+          Bukoto heights
+        </div>
+        <div
+          className="bed-count-label"
+        >
+          <div>
+            <img
+              alt="ic"
+              src="accomodation_inactive.svg"
+            />
+          </div>
+          <div>
+            01
+          </div>
+        </div>
+      </div>
+      <div
+        className="guest-house-action-div"
+      >
+        <div>
+          <img
+            alt="Edit Link"
+            className="edit-icon"
+            src="edit_icon.svg"
+          />
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Edit Guest House
+          </button>
+        </div>
+        <div>
+          <img
+            alt="Edit Link"
+            className="edit-icon"
+            src="disabled.svg"
+          />
+          <button
+            className="edit-btn"
+            id="handleOnDisableId"
+            onClick={[Function]}
+            type="button"
+          >
+            Disable Guest House
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="guesthouse-details-wrapper--key-details"
+    >
+      <GuestHouseDetailCard
+        label="Bed Capacity"
+        value="01"
+      />
+      <GuestHouseDetailCard
+        label="No. of rooms"
+        value={1}
+      />
+      <GuestHouseDetailCard
+        label="Vacant spaces"
+        period="month"
+        value={0}
+      />
+      <GuestHouseDetailCard
+        label="Unavailable"
+        period="month"
+        value={1}
+      />
+    </div>
+  </div>
+  <Timeline
+    closeModal={[Function]}
+    editMaintenance={Object {}}
+    fetchTimelineRoomsData={[Function]}
+    guestHouseId="zNnGJAJH5"
+    handlePeriod={[Function]}
+    maintenanceDetails={Object {}}
+    modal={
+      Object {
+        "modalType": null,
+        "shouldOpen": false,
+      }
+    }
+    modalType={null}
+    openModal={[Function]}
+    rooms={
+      Array [
+        Object {
+          "bedCount": "1",
+          "createdAt": "2018-10-05T00:07:22.281Z",
+          "faulty": false,
+          "guestHouseId": "zNnGJAJH5",
+          "id": "dtnJtaRE7Y",
+          "roomName": "Rwenzori",
+          "roomType": "non-ensuite",
+          "updatedAt": "2018-10-07T03:17:09.938Z",
+        },
+      ]
+    }
+    shouldOpen={false}
+    updateTripRoom={[Function]}
+  />
+</div>
+`;

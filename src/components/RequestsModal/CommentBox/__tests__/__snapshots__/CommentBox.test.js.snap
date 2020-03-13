@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CommentBox component should match snapshot 1`] = `
+<form
+  className="editor__editor-form"
+>
+  <Quill
+    className="quill-contents"
+    modules={
+      Object {
+        "toolbar": Array [
+          Array [
+            "bold",
+            "italic",
+            "underline",
+          ],
+          Array [
+            Object {
+              "list": "ordered",
+            },
+            Object {
+              "list": "bullet",
+            },
+            Object {
+              "indent": "-1",
+            },
+            Object {
+              "indent": "+1",
+            },
+          ],
+        ],
+      }
+    }
+    onChange={[Function]}
+    onKeyUp={[Function]}
+    placeholder="Write a comment"
+    theme="snow"
+    value=""
+  />
+  <div
+    className="editor__btn-size"
+  >
+    <span
+      className="editor__btn-wrap"
+    >
+      <button
+        className="editor__post-btn editor__post-btn post-btn-text"
+        disabled={true}
+        id="post-submit"
+        onClick={[Function]}
+        type="submit"
+      >
+        Post
+      </button>
+    </span>
+  </div>
+</form>
+`;

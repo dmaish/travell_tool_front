@@ -1,0 +1,21 @@
+.accommodation {
+  &-grid {
+    padding: 0;
+    margin-bottom: 100px;
+  }
+}
+
+.disabled-accommodation {
+  &-grid {
+    padding: 0;
+    margin-top: 50px;
+  }
+}
+
+.disabled-title {
+  padding-right: 100px;
+  font-family: 'DIN Pro';
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+}

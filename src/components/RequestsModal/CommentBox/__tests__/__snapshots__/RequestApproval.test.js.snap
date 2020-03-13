@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestApproval component should match snapshot 1`] = `
+<div
+  className="modal__modal1"
+>
+  <span
+    className="modal__mdl-icons"
+  >
+    <ImageLink
+      altText="avatar"
+      imageClass="modal__oval-copy"
+    />
+    <span
+      className="modal__user-name"
+    />
+    <span
+      className="modal__approval-status"
+    >
+      approved your travel request.
+    </span>
+    <span
+      className="modal__hours-status"
+    >
+      a few seconds ago
+    </span>
+  </span>
+</div>
+`;

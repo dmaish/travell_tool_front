@@ -1,0 +1,99 @@
+$primary-color: #3359DB;
+$background-color: #F8F8F8;
+$font-normal: 'DIN Pro';
+$font-medium: 'DIN Pro Medium';
+
+@mixin flexDisplay($flexDirection, $justifyContent, $alignItems) {
+  display: flex;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin fontStyle($fontWeight:500) {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: $fontWeight;
+}
+
+.pagination {
+  @include flexDisplay(row, flex-end, center);
+  margin: 13px 0 20px 0;
+  width: 96%;
+  height: 40px;
+  font-family: $font-normal;
+  background-color: $background-color;
+  @media (max-width: 839px) and (min-width: 480px){
+    width: 100%;
+  }
+  @media (max-width: 479px){
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  &__items {
+    @include flexDisplay(row, center, center);
+    color: #4F4F4F;
+  }
+
+  &__page {
+    @include fontStyle(400);
+    text-align: right;
+    margin: 0 10px 0 45px;
+  }
+
+  &__current-page {
+    @include flexDisplay(row, center, center);
+    @include fontStyle;
+    font-family: $font-medium;
+    height: 36px;
+    width: 40px;
+    border: 1px solid #D4D4D4;
+    border-radius: 1px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: $primary-color;
+    margin-right: 12px;
+
+    &:hover {
+      border-color: $primary-color;
+    }
+  }
+
+  &__all-pages {
+    @include fontStyle;
+    font-family: $font-medium;
+    margin: 0 45px 0 10px;
+    color: $primary-color;
+    @media (max-width: 320px){
+      margin: 0 9px 0 10px;
+    }
+  }
+
+  &__button {
+    @include fontStyle;
+    padding: 5px;
+    cursor: pointer;
+    color: $primary-color;
+    background-color: $background-color;
+    border: none;
+    font-family: $font-medium;
+    text-align: center;
+
+    &:disabled {
+      color: #BCBCBC;
+      cursor: auto;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+      text-decoration: underline solid $primary-color;
+     }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

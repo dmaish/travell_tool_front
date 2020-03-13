@@ -1,0 +1,80 @@
+$width-height : 36px;
+$margin-left :30px;
+$border-radius: 50%;
+$border-color: #E4E4E4;
+
+@mixin marginStyle($top, $bottom){
+  margin-top: $top !important;
+  margin-bottom: $bottom !important;
+}
+
+.table__image {
+  @include marginStyle(0px, 0px);
+  width: 20px;
+  padding: 0px !important;
+  border-left: 1px solid $border-color;
+  height: 46px !important;
+}
+
+.table__id{
+  color: #3359DB;
+  font-family: "DIN Pro";
+  font-size: 14px;
+}
+
+.approvals__table__image {
+  border-radius: $border-radius;
+  height:$width-height !important;
+  width: $width-height;
+  margin-left: $margin-left;
+}
+
+.approvals__table__first__cell {
+  @include marginStyle(1px, 5px);
+  height: $width-height;
+  width: $width-height;
+  background-color: #3359DB;
+  border-radius: $border-radius;
+  margin-left: $margin-left;
+  padding-right: 3px;
+}
+
+.approvals__table__second__cell {
+  @include marginStyle(7px, 7px);
+  height: $width-height;
+  width: $width-height;
+  background-color: #FFAF30;
+  border-radius: $border-radius;
+  margin-left: $margin-left;
+}
+
+.approvals__table__text {
+  @include marginStyle(9px, 12.74px);
+  color: white;
+  height: 10.26px;
+  width: 7.27px;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 10px;
+  margin-left: 10px;
+}
+
+.tool__tip {
+  visibility: hidden;
+  width: 120px;
+  border: 1px solid #E4E4E4;
+  background-color: #FFFFFF;
+  color: rgb(3, 0, 0);
+  text-align: center;
+  padding: 5px 0;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 94%;
+}
+
+.table__image:hover .tool__tip {
+  visibility: visible;
+}

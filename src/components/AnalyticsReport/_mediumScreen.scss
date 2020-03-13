@@ -1,0 +1,22 @@
+@media screen and (min-width: 481px) and (max-width: 767px){
+  .analyticsReport {
+    width: 100%;
+    margin-left: 4px;
+
+    &__card {
+      width: 41%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 839px){
+  .analyticsReport {
+    width: 99%;
+    margin-left: 4px;
+    margin-right: 24px;
+
+    &__card {
+      width: 50%;
+    }
+  }
+}

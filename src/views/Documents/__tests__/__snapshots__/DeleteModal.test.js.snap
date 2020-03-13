@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteModal /> should render correctly 1`] = `
+<Fragment>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="add-checklist-item delete-document"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title=""
+    visibility="invisible"
+    width="480px"
+  >
+    <span
+      className="delete-checklist-item__disclaimer restore-checklist-items_span"
+    >
+      Are you sure you want to delete
+      <strong />
+    </span>
+    <div
+      className="delete-checklist-item__hr delete-checklist-item__left"
+    />
+    <div
+      className="delete-checklist-item__footer delete-checklist-item__right"
+    >
+      <button
+        className="delete-checklist-item__footer--cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="bg-btn bg-btn--active delete-document-button"
+        type="button"
+      >
+        Delete
+      </button>
+    </div>
+  </Modal>
+</Fragment>
+`;

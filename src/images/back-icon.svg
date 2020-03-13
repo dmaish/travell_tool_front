@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>329C9C5D-E073-4017-8617-AAC97ED375FB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M18.9423437,12.1293687 L9.16859375,12.1293687 L13.4385937,7.8593687 C13.7798438,7.5181187 13.7798438,6.9581187 13.4385937,6.6168687 C13.2751162,6.45302261 13.0531717,6.3609438 12.8217188,6.3609438 C12.5902658,6.3609438 12.3683213,6.45302261 12.2048438,6.6168687 L6.43859375,12.3831187 C6.09734375,12.7243687 6.09734375,13.2756187 6.43859375,13.6168687 L12.2048438,19.3831187 C12.5460938,19.7243687 13.0973438,19.7243687 13.4385938,19.3831187 C13.7798438,19.0418687 13.7798438,18.4906187 13.4385938,18.1493687 L9.16859375,13.8793687 L18.9423437,13.8793687 C19.4235937,13.8793687 19.8173437,13.4856187 19.8173437,13.0043687 C19.8173437,12.5231187 19.4235937,12.1293687 18.9423437,12.1293687 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Roles-&gt;-Users" transform="translate(-300.000000, -137.000000)">
+            <g id="Group-18" transform="translate(300.000000, 137.000000)">
+                <circle id="Oval" fill="#3359DB" fill-rule="nonzero" cx="13" cy="13" r="13"></circle>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon/navigation/arrow_back_24px" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

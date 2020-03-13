@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownItem /> renders correctly 1`] = `
+<a
+  aria-current={null}
+  className="dropdown-item"
+  href="/test-link/test-endpoint"
+  onClick={[Function]}
+>
+  Test Link
+</a>
+`;

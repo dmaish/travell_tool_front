@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/file/folder_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.731,0.531 C7.389,0.189 6.93,0 6.453,0 L1.8,0 C0.81,0 0.009,0.81 0.009,1.8 L0,12.6 C0,13.59 0.81,14.4 1.8,14.4 L16.2,14.4 C17.19,14.4 18,13.59 18,12.6 L18,3.6 C18,2.61 17.19,1.8 16.2,1.8 L9,1.8 L7.731,0.531 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Documents-&gt;-Options" transform="translate(-53.000000, -287.000000)">
+            <g id="Group-2" transform="translate(53.000000, 285.000000)">
+                <g id="icon/action/settings_24px-copy" transform="translate(0.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="icon/file/folder_24px" fill="#999999" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

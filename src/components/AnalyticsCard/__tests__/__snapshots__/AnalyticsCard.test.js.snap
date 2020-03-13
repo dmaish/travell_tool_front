@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> renders correctly 1`] = `
+<div
+  className="analytics-card"
+>
+  <h3
+    className="analytics-card__title"
+  >
+    Test title
+  </h3>
+</div>
+`;

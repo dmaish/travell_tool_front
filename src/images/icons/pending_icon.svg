@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="24px" viewBox="0 0 15 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>ADBC1A84-4E01-436F-B46D-6390C1232AFF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M62.4,89 C61.08,89 60,90.08 60,91.4 L60,95.204 C60,95.84 60.252,96.452 60.708,96.908 L64.8,101 L60.696,105.104 C60.252,105.56 60,106.172 60,106.808 L60,110.6 C60,111.92 61.08,113 62.4,113 L72,113 C73.32,113 74.4,111.92 74.4,110.6 L74.4,106.808 C74.4,106.172 74.148,105.56 73.704,105.116 L69.6,101 L73.692,96.92 C74.148,96.464 74.4,95.852 74.4,95.216 L74.4,91.4 C74.4,90.08 73.32,89 72,89 L62.4,89 Z M72,106.4 L72,109.4 C72,110.06 71.46,110.6 70.8,110.6 L63.6,110.6 C62.94,110.6 62.4,110.06 62.4,109.4 L62.4,106.4 L67.2,101.6 L72,106.4 Z M67.2,100.4 L62.4,95.6 L62.4,92.6 C62.4,91.94 62.94,91.4 63.6,91.4 L70.8,91.4 C71.46,91.4 72,91.94 72,92.6 L72,95.6 L67.2,100.4 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Analytics" transform="translate(-730.000000, -285.000000)">
+            <g id="Group-2-Copy" transform="translate(670.000000, 196.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="icon/action/hourglass_empty_24px" fill="#FFAF30" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,132 @@
+.delete-comment-modal {
+  width: 243px;
+  min-height: 0px;
+  height: 120px;
+  font-size: 14px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+  text-align: right;
+  cursor: default;
+
+  .modal-title-bar {
+    font-size: 14px;
+    font-family: 'DIN Pro';
+    height: 30px;
+    border-radius: 2px 2px 0 0;
+    background-color: #F8F8F8;
+    line-height: 18px;
+    font-weight: 100;
+  }
+
+  img {
+    height: 8px;
+    width: 8px;
+  }
+
+  &__text{
+    text-align: left;
+    margin-left: 26px;
+    color: #999999;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 14px;
+  }
+
+  &__btn{
+    height: 26px;
+    width: 80px;
+    border-radius: 1px;
+    background-color: #FF5359;
+    border: none;
+    color: #ffffff;
+    margin-right: 28px;
+    margin-bottom: -10px;
+    cursor: pointer;
+  }
+}
+
+.delete-modal-overlay {
+  position: absolute !important;
+  height: 120px;
+  width: 243px !important;
+  top: -125px;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+
+  .modal {
+    top: 0;
+  }
+
+  .modal-close {
+    margin-right: 26px;
+  }
+
+  .modal-title-bar .modal-title-text {
+    margin-left: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: -60px !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 340px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: -20px !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 441px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: -209px !important;
+  }
+}
+
+@media screen and (min-width: 382px) and (max-width: 409px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 394px) and (max-width: 410px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: -209px !important;
+  }
+}
+
+@media screen and (min-width: 442px) and (max-width: 584px) {
+  .delete-modal-overlay {
+    top: -125px !important;
+    left: -209px !important;
+  }
+}
+
+.blue-text {
+  color: #3359db;
+  text-decoration: underline;
+}
+
+.modal__delete-btn {
+  position: relative;
+  &:hover{
+    color: #3359db;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

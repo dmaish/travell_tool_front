@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfile /> should render correctly 1`] = `
+Array [
+  <h1>
+    PROFILE
+</h1>,
+  <div
+    className="main"
+>
+    <div
+        className="main--user_profile"
+    >
+        <form
+            className="new-profile"
+            onSubmit={[Function]}
+        >
+            <fieldset
+                className="personal-details"
+            >
+                <div
+                    className="legend"
+                >
+                    <span
+                        className="personal-details-text"
+                    >
+                        Personal Details
+                    </span>
+                    <span
+                        className="required-field"
+                    >
+                        * Required Field
+                    </span>
+                </div>
+                <div
+                    className="input-group profile-input"
+                >
+                    <div
+                        className="form-input  "
+                    >
+                        <label
+                            htmlFor="name"
+                        >
+                            Name
+                            <span
+                                style={
+                                    Object {
+                                        "color": "red",
+                                      }
+                                }
+                            >
+                                *
+                            </span>
+                            <span>
+                                 
+                                (As it appears on your passport)
+                            </span>
+                        </label>
+                        <input
+                            autoComplete="off"
+                            className=" "
+                            label="Name"
+                            name="name"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            type="text"
+                            value="Collins Njau"
+                        />
+                        <span
+                            className="error"
+                        />
+                    </div>
+                    <div
+                        className="form-input  "
+                    >
+                        <label
+                            htmlFor="gender"
+                        >
+                            Gender
+                            <span
+                                style={
+                                    Object {
+                                        "color": "red",
+                                      }
+                                }
+                            >
+                                *
+                            </span>
+                        </label>
+                        <div
+                            className="input "
+                        >
+                            <button
+                                className="bg-btn bg-btn--inactive"
+                                data-value="Female"
+                                key="Female"
+                                name="gender"
+                                onClick={[Function]}
+                                type="button"
+                            >
+                                Female
+                            </button>
+                            <button
+                                className="bg-btn bg-btn--active"
+                                data-value="Male"
+                                key="Male"
+                                name="gender"
+                                onClick={[Function]}
+                                type="button"
+                            >
+                                Male
+                            </button>
+                        </div>
+                        <span
+                            className="error"
+                        />
+                    </div>
+                    <div
+                        className="form-input profile_role_dropdown "
+                    >
+                        <label
+                            htmlFor="role"
+                        >
+                            Role
+                            <span
+                                style={
+                                    Object {
+                                        "color": "red",
+                                      }
+                                }
+                            >
+                                *
+                            </span>
+                        </label>
+                        <div
+                            style={
+                                Object {
+                                    "position": "relative",
+                                  }
+                            }
+                        >
+                            <div
+                                className="value"
+                                style={
+                                    Object {
+                                        "width": undefined,
+                                      }
+                                }
+                            >
+                                <input
+                                    autoComplete="off"
+                                    choices={Array []}
+                                    className="occupationInput"
+                                    label="Role"
+                                    labelNote=""
+                                    name="role"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value="Software Developer"
+                                />
+                                <div
+                                    className="hide"
+                                >
+                                    <ul
+                                        className="select-menu select-menu--inactive"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <span
+                            className="error"
+                        />
+                    </div>
+                    <div
+                        className="form-input profile_dropdown "
+                    >
+                        <label
+                            htmlFor="department"
+                        >
+                            Department
+                            <span
+                                style={
+                                    Object {
+                                        "color": "red",
+                                      }
+                                }
+                            >
+                                *
+                            </span>
+                        </label>
+                        <div
+                            style={
+                                Object {
+                                    "position": "relative",
+                                  }
+                            }
+                        >
+                            <div
+                                autoComplete="off"
+                                choices={
+                                    Array [
+                                        "Talent & Development",
+                                        "Success",
+                                        "IT",
+                                        "Operations",
+                                      ]
+                                }
+                                className="input select  profile_dropdown"
+                                error=""
+                                label="Department"
+                                name="department"
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                role="button"
+                                tabIndex="0"
+                                type="dropdown-select"
+                                value="Talent & Development"
+                            >
+                                <div
+                                    className="value"
+                                    style={
+                                        Object {
+                                            "width": undefined,
+                                          }
+                                    }
+                                >
+                                    Talent & Development
+                                    <div
+                                        className="select-dropdown inactive"
+                                    >
+                                        <img
+                                            alt="icn"
+                                            src="form_select_dropdown.svg"
+                                        />
+                                    </div>
+                                </div>
+                                <ul
+                                    className="select-menu select-menu--inactive"
+                                >
+                                    <li
+                                        id="choice"
+                                        key="Talent & Development"
+                                    >
+                                        <div
+                                            id="choice"
+                                            onClick={[Function]}
+                                            onKeyPress={[Function]}
+                                            role="button"
+                                            tabIndex="0"
+                                        >
+                                            Talent & Development
+                                        </div>
+                                    </li>
+                                    <li
+                                        id="choice"
+                                        key="Success"
+                                    >
+                                        <div
+                                            id="choice"
+                                            onClick={[Function]}
+                                            onKeyPress={[Function]}
+                                            role="button"
+                                            tabIndex="0"
+                                        >
+                                            Success
+                                        </div>
+                                    </li>
+                                    <li
+                                        id="choice"
+                                        key="IT"
+                                    >
+                                        <div
+                                            id="choice"
+                                            onClick={[Function]}
+                                            onKeyPress={[Function]}
+                                            role="button"
+                                            tabIndex="0"
+                                        >
+                                            IT
+                                        </div>
+                                    </li>
+                                    <li
+                                        id="choice"
+                                        key="Operations"
+                                    >
+                                        <div
+                                            id="choice"
+                                            onClick={[Function]}
+                                            onKeyPress={[Function]}
+                                            role="button"
+                                            tabIndex="0"
+                                        >
+                                            Operations
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span
+                            className="error"
+                        />
+                    </div>
+                    <div
+                        className="form-input profile_dropdown "
+                    >
+                        <label
+                            htmlFor="manager"
+                        >
+                            Line Manager
+                            <span
+                                style={
+                                    Object {
+                                        "color": "red",
+                                      }
+                                }
+                            >
+                                *
+                            </span>
+                        </label>
+                        <div
+                            style={
+                                Object {
+                                    "position": "relative",
+                                  }
+                            }
+                        >
+                            <div
+                                autoComplete="off"
+                                choices={Array []}
+                                className="input select  profile_dropdown"
+                                error=""
+                                label="Line Manager"
+                                name="manager"
+                                onChange={[Function]}
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                role="button"
+                                tabIndex="0"
+                                type="dropdown-select"
+                                value="Collins"
+                            >
+                                <div
+                                    className="value"
+                                    style={
+                                        Object {
+                                            "width": undefined,
+                                          }
+                                    }
+                                >
+                                     
+                                    <div
+                                        className="select-dropdown inactive"
+                                    >
+                                        <img
+                                            alt="icn"
+                                            src="form_select_dropdown.svg"
+                                        />
+                                    </div>
+                                </div>
+                                <ul
+                                    className="select-menu select-menu--inactive"
+                                />
+                            </div>
+                        </div>
+                        <span
+                            className="error"
+                        />
+                    </div>
+                </div>
+            </fieldset>
+            <div
+                className="submit-area"
+            >
+                <button
+                    className="profile-bg-btn bg-btn bg-btn--inactive"
+                    disabled={true}
+                    type="submit"
+                >
+                    Save Changes
+                </button>
+            </div>
+        </form>
+    </div>
+</div>,
+]
+`;

@@ -1,0 +1,367 @@
+#travel-checkList-modal {
+    max-height: 90vh;
+    overflow-y: scroll
+  }
+.travelCheckList {
+    font-family: "DIN Pro";
+    &__not-found {
+      font-size: 18px;
+      padding: 20px;
+      text-align: center;
+      color: #999999;
+    }
+    &__destination:first-child {
+      margin: 20px 0;
+    }
+    &__destination {
+      margin: 50px 0;
+    }
+    &__destination:last-child {
+        margin-bottom: 25px;
+    }
+    &__destination-name {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
+    &__destination-flag {
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      margin: 3px;
+      background-position: center center;
+      margin-right: 12px;
+    }
+
+    &--input {
+    &__btn {
+        height: 18px;
+        width: 67px;
+        color: #999999;
+        font-family: "DIN Pro";
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        &:hover {
+            color: #c4c2c2;
+        }
+    }
+    &__check-image {
+        margin-top: 11.5px;
+        float: right;
+        &__ticket {
+            margin-left: 10px;
+            &__hidden {
+                visibility: hidden;
+            }
+        }
+        &__text {
+            &__hidden {
+              margin-left: 10px;
+              visibility: hidden;
+            }
+        }
+    }
+    }
+  }
+
+
+.travel-submission{
+    &-fields {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        width: 525px;
+        padding: 0 5px;
+    }
+    &-details {
+        border: 1px solid purple;
+        border-radius: 2px;
+        background-color: #F8F8F8;
+        display: inline-flex;
+        &__return {
+            border: 1px solid #E4E4E4;
+            height: auto;
+            width: auto;
+            padding: 5px 5px;
+            margin-top: 10px;
+            border-radius: 2px;
+            background-color: #F8F8F8;
+          border: 1px solid #E4E4E4;
+          display: inline-flex;
+            .airline-name {
+                width: 33%;
+                z-index: 1;
+                left: 56px;
+                border: 1px solid #D4D4D4;
+                border-radius: 2px;
+                background-color: #FFFFFF;
+                display: inline-block;
+                margin: 0 5px;
+                span {
+                    float: left;
+                    margin-bottom: 5px;
+                    white-space: nowrap; 
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    text-transform: capitalize;
+                }
+                input {
+                    width: 160px;
+                    height: 36px;
+                    margin: 5px 0;              
+                    border: 1px solid #D4D4D4;
+                    border-radius: 2px;
+                    background-color: #FFFFFF;
+                    display: block;
+                    cursor: text;
+                    font-weight: 300;
+                    font-size: 14px;
+                    font-family: "DIN Pro";
+                    color: #4f4f4f;
+                    text-transform: capitalize;
+                    text-align: left;
+                    text-indent: 5px;
+                    outline: none;
+                }
+                input[type=datetime-local] {
+                    width: 220px;
+                    text-transform: lowercase
+                }
+            }
+        }
+    }
+}
+
+.travelSubmission {
+    font-family: "DIN Pro";
+    &--item {
+        margin: 14px 0;
+        text-transform: capitalize;
+        .ticket-submission {
+            display: flex;
+        }
+        &__name {
+            color: #4F4F4F;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        &__resource-link {
+            color: #999999;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 0 10px;
+            text-decoration: underline;
+        }
+        &__textarea {
+            display: flex;
+            textarea {
+                border-radius: 2px;
+                margin: 10px 0;
+                padding: 5px;
+                border: 1px solid #d4d4d4;
+                line-height: normal;
+                font-size: 13px;
+                color: #4f4f4f;
+                height: 41px;
+                width: 100%;
+                margin-bottom: 10px;
+                outline: none
+            }
+        }
+    }
+    &--submit-area {
+        display: flex;
+        justify-content: flex-end;
+        border-top: 2px solid #4444441f;
+        padding: 5px 0;
+        margin: 0;
+        margin-bottom: 5px;
+        button {
+            outline: none;
+            border: 1px solid #3359DB;
+            border-radius: 2px;
+            background-color: #3359DB;
+            color: snow
+        }
+    }
+    &--input {
+        &__upload-field {
+            display: flex;
+            &__ {
+                margin-top: 10px;
+                height: auto;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+        &__input-field {
+            height: 41px;
+            width: 100%;
+            border-radius: 2px;
+            margin: 10px 0;
+            margin-bottom: 5px;
+            background-color: #F8F8F8;
+            border: 1px dashed #D4D4D4;
+            position: relative;    
+            &__ {
+                height: 41px;
+                width: 100%;
+                border-radius: 2px;
+                margin: 10px 0;
+                margin-bottom: 5px;
+                background-color: #F8F8F8;
+                position: relative;  
+                margin: 0px;
+                display: inline-flex;
+                align-items: center;
+                input[type=file] {
+                    height: 41px;
+                    width: 100%;
+                    opacity: 0;
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+                    outline: none;
+                    cursor: pointer;
+                }
+            } 
+            input[type=file] {
+                height: 41px;
+                width: 100%;
+                opacity: 0;
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                outline: none;       
+            }
+        }
+        &__download-field{
+            height: 40px;
+            width: 440px;
+            border-radius: 2px;
+            margin-top: 8px;
+            background-color: #F8F8F8;
+            overflow-x: visible;
+        }
+        &__upload {
+            #download-file__ {
+                float: right;
+                opacity:0;
+                &hidden {
+                    visibility: hidden
+                }
+            }
+            #file-name {
+                float: left;
+                padding-left: 15px;
+                padding-top: 5px;
+                height: 18px;
+                width: 98px;
+                color: #3359DB;
+                font-family: "DIN Pro";
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+        &__image {
+            height: 13.33px;
+            width: 20px;
+            margin: 0px 10px 0px 15.5px;
+        }
+        &__check-image {
+            margin-top: 11.5px;
+            float: right;
+            padding-top: 7px;
+            &__ticket {
+                margin-left: 10px;
+                &__hidden {
+                    visibility: hidden;
+                    margin-left: 10px;
+                }
+            }
+            &__text {
+                position: relative;
+                left: -34px;
+                bottom: 28px;
+                &__hidden {
+                    visibility: hidden;
+                }
+            }
+        }
+        &__btn {
+            height: auto;
+            width: auto;
+            color: #999999;
+            font-family: "DIN Pro";
+            font-size: 14px;
+            line-height: 18px;
+            margin-top: 10px;
+            top: 0px;
+            left: 0px;
+            z-index: 2;
+            &:hover {
+                color: #c4c2c2;
+            }
+        }
+        &__btn-- {
+            display: inline-flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            span {
+                color: #385BD3
+            }
+        }
+        &__image {
+            height: 13.33px;
+            width: 20px;
+            margin: 0px 10px 0px 15.5px;
+            top: 13px;
+            position: inherit;
+            right: 28px;
+        }
+    }
+}
+
+.submission-progress__ {
+    color: #3359DB;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    &success {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    &error {
+        margin-bottom: 5px;
+        color: #FF5359;
+        font-size: 11px;
+    }
+    &spinner {
+        border: 2px solid #f3f3f3;
+        border-top: 2px solid #385BD3;
+        border-radius: 50%;
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        animation: spin 2s linear infinite;
+    }
+}
+#checklist-submission-modal-content{
+    overflow-y: auto;
+    max-height: 600px;
+  }

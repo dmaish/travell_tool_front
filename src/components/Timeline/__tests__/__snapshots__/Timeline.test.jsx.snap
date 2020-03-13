@@ -1,0 +1,665 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timeline /> renders correctly 1`] = `
+<div
+  className="timeline"
+>
+  <TimelineVerticalAxis
+    closeModal={[Function]}
+    guestHouseId="guest-house-id-1"
+    modalType="change-room-modal"
+    openModal={[Function]}
+    rooms={
+      Array [
+        Object {
+          "faulty": false,
+        },
+      ]
+    }
+    shouldOpen={true}
+    timelineDateRange={
+      Array [
+        "2018-12-01",
+        "2018-12-31",
+      ]
+    }
+    updateRoomState={[Function]}
+  />
+  <TimelineHeader
+    changeTimelineViewType={[Function]}
+    currentTimelineViewType="month"
+    goToToday={[Function]}
+    onNavigateTime={[Function]}
+    selectedTimeDisplay="December 2018"
+    showChoices={false}
+    toggleChoices={[Function]}
+  />
+  <div
+    className="timeline__body"
+  >
+    <div
+      className="timeline__body-segments"
+    >
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="1"
+        key="0"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="2"
+        key="1"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="3"
+        key="2"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="4"
+        key="3"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="5"
+        key="4"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="6"
+        key="5"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="7"
+        key="6"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="8"
+        key="7"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="9"
+        key="8"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="10"
+        key="9"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="11"
+        key="10"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="12"
+        key="11"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="13"
+        key="12"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="14"
+        key="13"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="15"
+        key="14"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="16"
+        key="15"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="17"
+        key="16"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="18"
+        key="17"
+      />
+      <div
+        className="timeline__segment current month-view"
+        data-segment-label="19"
+        key="18"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="20"
+        key="19"
+      />
+      <div
+        className="timeline__segment current month-view"
+        data-segment-label="21"
+        key="20"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="22"
+        key="21"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="23"
+        key="22"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="24"
+        key="23"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="25"
+        key="24"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="26"
+        key="25"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="27"
+        key="26"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="28"
+        key="27"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="29"
+        key="28"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="30"
+        key="29"
+      />
+      <div
+        className="timeline__segment  month-view"
+        data-segment-label="31"
+        key="30"
+      />
+      <RoomsGeomWrapper
+        deletedMaintenance={Object {}}
+        editMaintenance={Object {}}
+        handleChangeRoomModal={[Function]}
+        handleDeleteMaintenanceModal={[Function]}
+        handleEditMaintenanceModal={[Function]}
+        rooms={
+          Array [
+            Object {
+              "faulty": false,
+            },
+          ]
+        }
+        timelineStartDate={"2018-12-01T00:00:00.000Z"}
+        timelineViewType="month"
+        tripDayWidth={0}
+      />
+    </div>
+  </div>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="change-room-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Re-assign Room"
+    visibility="visible"
+    width=""
+  >
+    <ChangeBedForm
+      bedChoices={Array []}
+      closeModal={[Function]}
+      handleRoomSubmit={[Function]}
+      loading={false}
+      loadingBeds={false}
+      requesterName=""
+      toggleChangeRoomModal={[Function]}
+    />
+  </Modal>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="change-room-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Edit Maintenance"
+    visibility="invisible"
+    width=""
+  >
+    <MaintainceForm
+      editMaintenance={Object {}}
+      guestHouseId=""
+      maintenance={Object {}}
+      modalType="change-room-modal"
+      timelineDateRange={Array []}
+    />
+  </Modal>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="delete-maintenance-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Delete Maintenance"
+    visibility="invisible"
+    width=""
+  >
+    <div>
+      <div
+        className="delete-maintenance-text"
+      >
+        Are you sure you want to delete this maintenance schedule
+      </div>
+      <hr />
+      <SubmitArea
+        handleDelete={[Function]}
+        onCancel={[Function]}
+      />
+    </div>
+  </Modal>
+</div>
+`;
+
+exports[`<Timeline /> renders the weekly view correctly 1`] = `
+<div
+  className="timeline"
+>
+  <TimelineVerticalAxis
+    closeModal={[Function]}
+    guestHouseId="guest-house-id-1"
+    modalType="change-room-modal"
+    openModal={[Function]}
+    rooms={
+      Array [
+        Object {
+          "faulty": false,
+        },
+      ]
+    }
+    shouldOpen={true}
+    timelineDateRange={
+      Array [
+        "2018-12-01",
+        "2018-12-01",
+      ]
+    }
+    updateRoomState={[Function]}
+  />
+  <TimelineHeader
+    changeTimelineViewType={[Function]}
+    currentTimelineViewType="week"
+    goToToday={[Function]}
+    onNavigateTime={[Function]}
+    selectedTimeDisplay="1 - 1 Dec 2018"
+    showChoices={false}
+    toggleChoices={[Function]}
+  />
+  <div
+    className="timeline__body"
+  >
+    <div
+      className="timeline__body-segments"
+    >
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Sat 12/1"
+        key="0"
+      />
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Sun 12/2"
+        key="1"
+      />
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Mon 12/3"
+        key="2"
+      />
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Tue 12/4"
+        key="3"
+      />
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Wed 12/5"
+        key="4"
+      />
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Thu 12/6"
+        key="5"
+      />
+      <div
+        className="timeline__segment  week-view"
+        data-segment-label="Fri 12/7"
+        key="6"
+      />
+      <RoomsGeomWrapper
+        deletedMaintenance={Object {}}
+        editMaintenance={Object {}}
+        handleChangeRoomModal={[Function]}
+        handleDeleteMaintenanceModal={[Function]}
+        handleEditMaintenanceModal={[Function]}
+        rooms={
+          Array [
+            Object {
+              "faulty": false,
+            },
+          ]
+        }
+        timelineStartDate={"2018-12-01T00:00:00.000Z"}
+        timelineViewType="week"
+        tripDayWidth={0}
+      />
+    </div>
+  </div>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="change-room-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Re-assign Room"
+    visibility="visible"
+    width=""
+  >
+    <ChangeBedForm
+      bedChoices={Array []}
+      closeModal={[Function]}
+      handleRoomSubmit={[Function]}
+      loading={false}
+      loadingBeds={false}
+      requesterName=""
+      toggleChangeRoomModal={[Function]}
+    />
+  </Modal>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="change-room-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Edit Maintenance"
+    visibility="invisible"
+    width=""
+  >
+    <MaintainceForm
+      editMaintenance={Object {}}
+      guestHouseId=""
+      maintenance={Object {}}
+      modalType="change-room-modal"
+      timelineDateRange={Array []}
+    />
+  </Modal>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="delete-maintenance-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Delete Maintenance"
+    visibility="invisible"
+    width=""
+  >
+    <div>
+      <div
+        className="delete-maintenance-text"
+      >
+        Are you sure you want to delete this maintenance schedule
+      </div>
+      <hr />
+      <SubmitArea
+        handleDelete={[Function]}
+        onCancel={[Function]}
+      />
+    </div>
+  </Modal>
+</div>
+`;
+
+exports[`<Timeline /> renders the year view correctly 1`] = `
+<div
+  className="timeline"
+>
+  <TimelineVerticalAxis
+    closeModal={[Function]}
+    guestHouseId="guest-house-id-1"
+    modalType="change-room-modal"
+    openModal={[Function]}
+    rooms={
+      Array [
+        Object {
+          "faulty": false,
+        },
+      ]
+    }
+    shouldOpen={true}
+    timelineDateRange={
+      Array [
+        "2018-12-01",
+        "2018-12-31",
+      ]
+    }
+    updateRoomState={[Function]}
+  />
+  <TimelineHeader
+    changeTimelineViewType={[Function]}
+    currentTimelineViewType="year"
+    goToToday={[Function]}
+    onNavigateTime={[Function]}
+    selectedTimeDisplay="2018"
+    showChoices={false}
+    toggleChoices={[Function]}
+  />
+  <div
+    className="timeline__body"
+  >
+    <div
+      className="timeline__body-segments"
+    >
+      <div
+        className="timeline__segment current year-view"
+        data-segment-label="Dec"
+        key="0"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Jan"
+        key="1"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Feb"
+        key="2"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Mar"
+        key="3"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Apr"
+        key="4"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="May"
+        key="5"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Jun"
+        key="6"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Jul"
+        key="7"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Aug"
+        key="8"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Sep"
+        key="9"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Oct"
+        key="10"
+      />
+      <div
+        className="timeline__segment  year-view"
+        data-segment-label="Nov"
+        key="11"
+      />
+      <RoomsGeomWrapper
+        deletedMaintenance={Object {}}
+        editMaintenance={Object {}}
+        handleChangeRoomModal={[Function]}
+        handleDeleteMaintenanceModal={[Function]}
+        handleEditMaintenanceModal={[Function]}
+        rooms={
+          Array [
+            Object {
+              "faulty": false,
+            },
+          ]
+        }
+        timelineStartDate={"2018-12-01T00:00:00.000Z"}
+        timelineViewType="year"
+        tripDayWidth={0}
+      />
+    </div>
+  </div>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="change-room-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Re-assign Room"
+    visibility="visible"
+    width=""
+  >
+    <ChangeBedForm
+      bedChoices={Array []}
+      closeModal={[Function]}
+      handleRoomSubmit={[Function]}
+      loading={false}
+      loadingBeds={false}
+      requesterName=""
+      toggleChangeRoomModal={[Function]}
+    />
+  </Modal>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="change-room-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Edit Maintenance"
+    visibility="invisible"
+    width=""
+  >
+    <MaintainceForm
+      editMaintenance={Object {}}
+      guestHouseId=""
+      maintenance={Object {}}
+      modalType="change-room-modal"
+      timelineDateRange={Array []}
+    />
+  </Modal>
+  <Modal
+    closeDeleteCommentModal={[Function]}
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="delete-maintenance-modal"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="Delete Maintenance"
+    visibility="invisible"
+    width=""
+  >
+    <div>
+      <div
+        className="delete-maintenance-text"
+      >
+        Are you sure you want to delete this maintenance schedule
+      </div>
+      <hr />
+      <SubmitArea
+        handleDelete={[Function]}
+        onCancel={[Function]}
+      />
+    </div>
+  </Modal>
+</div>
+`;

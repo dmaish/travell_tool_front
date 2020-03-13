@@ -1,0 +1,17 @@
+FROM node:carbon
+
+LABEL MAINTAINER="Harith Javed <harith.bakhrani@andela.com>"
+LABEL application="end2end tests for Travela"
+
+ENV TERM=xterm-256color
+
+WORKDIR /usr/app
+
+RUN apt-get update && apt-get -y upgrade && \
+    apt-get -y install xvfb libgtk2.0-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 && \
+    npm install -g yarn@1.12.x && rm -rf package-lock.json && \
+    echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf
+
+COPY package.json /usr/app
+COPY yarn.lock /usr/app
+RUN yarn install

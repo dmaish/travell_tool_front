@@ -1,0 +1,228 @@
+@media (min-width: 768px) and (max-width: 769px) {
+  .approval-modal-overlay {
+    left: 343px !important;
+    top: 145px !important;
+    height: 120px !important;
+  }
+
+  .rejection-modal-overlay {
+    left: 444px !important;
+    top: 145px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+
+  .verification-modal-overlay {
+    left: 343px !important;
+    top: 145px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+}
+@media (min-width: 638px) and (max-width: 767px) {
+  .approval-modal-overlay {
+    left: 265px !important;
+    top: 145px !important;
+    height: 120px !important;
+  }
+
+  .rejection-modal-overlay {
+    left: 366px !important;
+    top: 145px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+
+  .verification-modal-overlay {
+    left: 366px !important;
+    top: 145px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+}
+@media (max-width: 568px) {
+  .approval-modal-overlay {
+    left: 30px !important;
+    top: 190px !important;
+    height: 120px !important;
+  }
+
+  .rejection-modal-overlay {
+    left: 144px !important;
+    top: 190px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+
+  .verification-modal-overlay {
+    left: 30px !important;
+    top: 190px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+}
+@media (min-width: 561px) and (max-width: 620px) {
+  .approval-modal-overlay {
+    left: 220px !important;
+    top: 140px !important;
+    height: 120px !important;
+  }
+
+  .rejection-modal-overlay {
+    left: 260px !important;
+    top: 140px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+
+  .verification-modal-overlay {
+    left: 260px !important;
+    top: 140px !important;
+    outline: none !important;
+    height: 120px !important;
+  }
+}
+@media (min-width: 496px) and (max-width: 560px) {
+  .approval-modal-overlay {
+    left: 160px !important;
+    top: 140px !important;
+  }
+
+  .rejection-modal-overlay {
+    left: 260px !important;
+    top: 140px !important;
+    outline: none !important;
+  }
+
+  .verification-modal-overlay {
+    left: 260px !important;
+    top: 140px !important;
+    outline: none !important;
+  }
+}
+.approval-modal-overlay  {
+  position: absolute !important;
+  height: 120px;
+  width: 243px !important;
+  top: 140px;
+  left: 477px;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+
+  .modal {
+    top: 0;
+  }
+
+  .modal-close {
+    margin-right: 26px;
+  }
+
+  .modal-title-bar .modal-title-text {
+    margin-left: 26px;
+  }
+}
+
+.modal-title-bar {
+  color: #4F4F4F;
+  font-family: "DIN Pro";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 100;
+
+  .modal-title-text {
+    color: #4F4F4F;
+  }
+}
+
+.rejection-modal-overlay {
+  position: absolute !important;
+  height: 120px;
+  width: 243px !important;
+  top: 140px;
+  left: 577px;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+
+  .modal {
+    top: 0;
+  }
+
+  .modal-close {
+    margin-right: 26px;
+  }
+
+  .modal-title-bar .modal-title-text {
+    margin-left: 26px;
+  }
+}
+
+.verification-modal-overlay {
+  position: absolute !important;
+  height: 120px;
+  width: 270px !important;
+  top: 130px;
+  left: 440px;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+
+  .modal {
+    top: 0;
+  }
+
+  .modal-close {
+    margin-right: 26px;
+  }
+
+  .modal-title-bar .modal-title-text {
+    margin-left: 26px;
+  }
+}
+
+.approval-comment-modal{
+  &__text {
+    height: 18px;
+    width: 180px;
+    color: #999999;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 14px;
+    margin-left: 26px;
+    text-align: left;
+  }
+
+  &__btn {
+    height: 26px;
+    width: 80px;
+    border-radius: 1px;
+    background-color: rgb(73, 170, 175);
+    border: none;
+    color: #ffffff;
+    margin-right: 28px;
+    cursor: pointer;
+  }
+}
+
+.rejection-comment-modal__btn {
+  height: 26px;
+  width: 80px;
+  border-radius: 1px;
+  background-color: #FF5359;
+  border: none;
+  color: #ffffff;
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.verification-comment-modal__btn {
+  height: 26px;
+  width: 80px;
+  border-radius: 1px;
+  background-color: #08c75e;
+  border: none;
+  color: #ffffff;
+  margin-right: 28px;
+  cursor: pointer;
+}

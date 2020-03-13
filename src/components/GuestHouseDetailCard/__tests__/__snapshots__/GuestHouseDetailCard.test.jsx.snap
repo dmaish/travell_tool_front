@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GuestHouseDetailCard /> renders properly 1`] = `
+<div
+  className="guesthouse-detail-card"
+>
+  <div
+    className="guesthouse-detail-card__description"
+  >
+    <div
+      className="description-type"
+    >
+      Vacant Spaces
+    </div>
+    <div
+      className="time-font"
+    >
+      Today
+    </div>
+  </div>
+  <div
+    className="guesthouse-detail-card__value"
+  >
+    10
+  </div>
+</div>
+`;

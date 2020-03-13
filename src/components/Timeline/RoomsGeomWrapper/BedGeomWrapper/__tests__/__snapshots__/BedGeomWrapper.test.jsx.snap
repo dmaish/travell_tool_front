@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BedGeomWrapper /> renders properly 1`] = `
+<div
+  className="bed-geometry-wrapper item-row"
+>
+  <TripGeometry
+    key="trip-id-1"
+    timelineStartDate={"2018-12-01T00:00:00.000Z"}
+    timelineViewType="month"
+    trip={
+      Object {
+        "id": "trip-id-1",
+      }
+    }
+    tripDayWidth={31}
+  />
+</div>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Date /> renders as expected 1`] = `
+<div
+  className="date-wrapper "
+  id="_date"
+>
+  <DatePicker
+    allowSameDay={false}
+    calendarClassName="calendar-body"
+    className=""
+    dateFormat="L"
+    dateFormatCalendar="MMMM YYYY"
+    dayClassName={[Function]}
+    disabled={false}
+    disabledKeyboardNavigation={false}
+    dropdownMode="scroll"
+    error=""
+    fixedHeight={true}
+    monthsShown={1}
+    name=""
+    nextMonthButtonLabel="Next month"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onClickOutside={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onMonthChange={[Function]}
+    onSelect={[Function]}
+    onYearChange={[Function]}
+    preventOpenOnFocus={false}
+    previousMonthButtonLabel="Previous Month"
+    readOnly={false}
+    selected={null}
+    selectedDate=""
+    shouldCloseOnSelect={true}
+    showTimeSelect={false}
+    timeCaption="Time"
+    timeIntervals={30}
+    value={null}
+    withPortal={false}
+  />
+  <img
+    alt="cal"
+    className="calendar-icon"
+    src="calendar_icon.svg"
+  />
+</div>
+`;

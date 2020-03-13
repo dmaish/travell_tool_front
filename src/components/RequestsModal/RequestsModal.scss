@@ -1,0 +1,342 @@
+.modal .modal-content#request-details-modal-content {
+    padding-right: 30px !important;
+}
+.modal#request-details-modal {
+    max-width: 760px !important;
+}
+.modal {
+  &__user-info {
+    display: flex;
+    margin: 10px 0 0;
+    .user-role {
+      font-weight: 100;
+      color: #999999;
+    }
+  }
+  .request-details {
+    margin: 40px 0 45px 0;
+    .request-details--header {
+      margin-bottom: 15px;
+      .request-type {
+        margin-right: 62px;
+      }
+      .label {
+      	color: #999999;
+        font-family: "DIN Pro";
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 100;
+      }
+    }
+  }
+  &__modal1 {
+    margin: 0 10px 20px 0px;
+  }
+  &__modal-trip-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    padding-left: 22px;
+    padding-right: 40px;
+    border: 1px solid #E4E4E4;
+    border-radius: 3px;
+    background-color: #F8F8F8;
+    @media (max-width: 640px) {
+      padding-right: 50px;
+    }
+
+    &.multi {
+      border-left: 8px solid #FFAF30;;
+    }
+
+    #return-date {
+      display: flex;
+      justify-content: flex-end;
+      .modal__trip-detail {
+        flex-basis: auto;
+      }
+    }
+  }
+  &__trip-detail {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-basis: 26%;
+    min-height: 63px;
+    min-width: 100px;
+    padding-right: 1px;
+    @media(max-width: 440px) {
+      flex-basis: 50%;
+    }
+  }
+  &__dialog {
+    margin: 5px 0 10px 0;
+  }
+  &__dialog-btn {
+    button {
+      cursor: pointer;
+    }
+    #b1 {
+      margin-right: 20px;
+    }
+  }
+  &__dialog2 {
+    margin: 40px;
+  }
+  &__dialog3 {
+    margin-right: 82px;
+  }
+  &__modal2 {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-left: 35px;
+    border-bottom: none;
+    box-sizing: border-box;
+  }
+  &__oval {
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%
+  }
+  &__oval-copy {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px 0 0;
+    border-radius: 50%;
+  }
+  &__add-comment {
+    height: 20px;
+    width: 105px;
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 0 0 5px;
+  }
+  &__text-size {
+    height: 20px;
+    width: 85px;
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0 0 0 0;
+  }
+  &__modal3 {
+    height: 18px;
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+    margin: -20px 0 0 70px;
+  }
+  &__dialog1 {
+    height: 20px;
+    width: 194px;
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 5px 15px 10px 0;
+  }
+  &__dialog-from {
+    height: 20px;
+    width: 89px;
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 5px 50px 10px 0;
+  }
+  &__travel-place {
+    margin: 40px 5px 5px 5px;
+  }
+  &__trip-detail-label{
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 18px;
+  }
+  &__departure-date {
+    height: 18px;
+    width: 137px;
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 50px 10px 0;
+  }
+  &__city-name {
+    color: #3359db;
+    padding-left: 5px;
+    font-weight: 1000;
+  }
+
+  &__trip-detail-text {
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 7px;
+  }
+
+  &__button-submitted-text {
+    box-sizing: border-box;
+    height: 29px;
+    width: 94px;
+    border: 1px solid #d4d4d4;
+    border-radius: 1px;
+    background-color: #ffffff;
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 1px;
+  }
+
+  &__button-rejected-text {
+    box-sizing: border-box;
+    height: 29px;
+    width: 81px;
+    border: 1px solid #d4d4d4;
+    border-radius: 1px;
+    background-color: #ffffff;
+    color: #4f4f4f;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 1px;
+  }
+
+  button:focus {
+    outline: none;
+  }
+  &__button-below {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  &__target-return-date {
+    height: 18px;
+    width: 115px;
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    line-height: 18px;
+    margin: 5px 50px 10px 0;
+  }
+
+  &__approval-status {
+    color: rgb(102, 101, 101);
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 5px;
+  }
+  &__hours-status {
+    color: #bcbcbc;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+  }
+  &__user-name {
+    color: #3359db;
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 5px;
+  }
+  &__delete-btn {
+    height: 15px;
+    width: 35px;
+    color: #999999;
+    font-family: 'DIN Pro';
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    padding: 0;
+    border: none;
+    background: none;
+    margin-left: 20px;
+  }
+  &__status-update {
+    color: rgb(102, 101, 101);
+    font-family: 'DIN Pro';
+    font-size: 15px;
+    line-height: 20px;
+
+    > p {
+      display: inline;
+    }
+
+    > span {
+      color: #bcbcbc;
+      font-family: 'DIN Pro';
+      font-size: 14px;
+      line-height: 15px;
+      font-weight: normal;
+    }
+  }
+  hr {
+    position: absolute;
+    margin: -9px -9px -9px 0;
+    width: 100%;
+    height: 3px;
+    border: 1px solid #f8f8f8;
+    border-bottom: none;
+    box-sizing: border-box;
+  }
+  @media (max-width: 568px) {
+    &__travel-date {
+      margin: 10px 25px 20px 5px;
+    }
+  }
+}
+.comment-box {
+  margin: 20px 12px -70px 31px;
+}
+
+.edit-button {
+  color: #999999;
+  margin-left: 40px;
+  height: 15px;
+  font-family: 'DIN Pro';
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  padding: 0;
+  border: none;
+  background: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.edit-button:focus,
+.edit-button.active {
+  color: blue;
+  text-decoration: underline;
+}
+.edit-button:hover {
+  text-decoration: underline;
+  color: blue;
+}
+#cancel-button {
+  position: relative;
+  top: -88px;
+  right: -95px;
+}

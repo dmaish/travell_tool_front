@@ -1,0 +1,465 @@
+form .form-input {
+  display: flex;
+  flex-flow: column;
+  height: 64px;
+  margin: 0 0 20px 0;
+  transition: height 0.5s ease-out;
+    @media (max-width: 450px) {
+    width: 100%;
+    .arrival-date {
+      width: calc(100% - 0px) !important;
+      .calendar-icon {
+        right: 12px !important;
+      }
+    }
+  }
+  &.full-width {
+    width: 100%;
+    height: 64px;
+    transition: height 0.4s ease-out;
+    &.other-dest {
+      &--hidden,
+      &--hiddenerror {
+        height: 0px;
+        overflow: hidden;
+        margin: 0;
+      }
+      &--error {
+        height: 84px;
+      }
+    }
+  }
+  span.error {
+    color: red;
+    font-size: 12px;
+  }
+  &.error {
+    height: 84px;
+    .input,
+    input, textarea {
+      border: 1px solid #ff5359;
+    }
+    .input:hover,
+    input:hover, textarea:hover {
+      border: 1px solid #ff5359;
+    }
+    .input:focus,
+    input:focus, textarea:focus {
+      box-shadow: 0px 0px 3.5px rgba(255, 83, 89, 0.7);
+      border: 1px solid #ff5359;
+    }
+  }
+  input,
+  .input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4f4f4f;
+    margin-top: 8px;
+    font-family: "DIN Pro";
+    font-weight: 300;
+    cursor: pointer;
+    &[type="text"] {
+      cursor: text;
+    }
+    button {
+      width: 130px;
+      margin: 0;
+      &.bg-btn {
+        &--inactive {
+          background-color: #ffffff;
+          color: #4f4f4f;
+        }
+      }
+    }
+  }
+  input:hover, textarea:hover,
+  .input.select:hover {
+    border: 1px solid rgba(51, 89, 219, 0.7);
+  }
+  input:focus, textarea:focus,
+  .input.select:focus {
+    box-shadow: 0px 0px 3.5px rgba(51, 89, 219, 0.6);
+    border: 1px solid rgba(51, 89, 219, 0.7);
+  }
+  input, textarea,
+  .input.select {
+    border: 1px solid #d4d4d4;
+    box-sizing: border-box;
+    background: white;
+    padding-left: 15px;
+    position: relative;
+
+    &::placeholder {
+      color: #999999;
+      @media(max-width: 450px) {
+        font-size: 10.5px;
+      }
+    }
+    .value {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      .select-dropdown {
+        position: absolute;
+        right: 15px;
+        transition: transform 0.05s ease-out;
+        transform-origin: center;
+      }
+      @media(max-width: 450px) {
+        width: 100% !important;
+      }
+    }
+  }
+  .input.select.manager-select {
+    width: 260px !important;
+  }
+
+  .novisibility{
+    visibility: hidden;
+}
+
+  label {
+    span {
+      color: #999999;
+      font-family: "DIN Pro";
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .select-menu {
+    z-index: 150;
+    position: absolute;
+    left: -1.05px;
+    top: 26px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    width: calc(100% + 3px);
+    background-color: #ffffff;
+    list-style-type: none;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    transition: transform 0.4s ease-out;
+    transform-origin: top;
+    box-sizing: border-box;
+    li {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      height: 32px;
+      &:hover {
+        background-color: #f8f8f8;
+        color: #3359db;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        outline: none;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .date-wrapper, .date-wrapper > div {
+    @media (max-width: 450px) {
+      width: 100%;
+    }
+    display: flex;
+    position: relative;
+    input {
+      background: white;
+      color: transparent;
+      text-shadow: 0 0 0 #999999;
+      width: 190px;
+      cursor: context-menu;
+      @media (max-width: 450px) {
+        width: 100%;
+      }
+    }
+
+    .input.select .select-menu {
+        transition-delay: 0.25s;
+        /* Don't reduce this */
+    }
+
+    .input.select .select-menu {
+        transition-delay: 0.25s;
+        /* Don't reduce this */
+    }
+
+    .input.select .select-menu {
+        transition-delay: 0.25s;
+        /* Don't reduce this */
+    }
+    .calendar-icon {
+      position: absolute;
+      right: 15px;
+      top: 20px;
+    }
+    .react-datepicker-wrapper, .react-datepicker__input-container {
+      @media (max-width: 450px) {
+        width: 100%;
+      }
+    }
+  }
+  input:disabled {
+    cursor: not-allowed;
+    &:hover {
+      border: 1px solid #d4d4d4;
+    }
+  }
+  .input.select .select-menu {
+    transition-delay: 0.25s;
+    /* Don't reduce this */
+  }
+  .input.select .select-menu {
+    transform: scaleY(0);
+  }
+  .input.select:focus .select-menu {
+    transform: scaleY(1);
+  }
+  .react-datepicker-popper {
+    box-shadow: 0.5px 0px 1px 0px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  .react-datepicker-popper[data-placement^="top"] {
+    margin: 0;
+    top: 5px !important;
+  }
+  .react-datepicker-popper[data-placement^="bottom"] {
+    margin: 0;
+    bottom: 1px !important;
+  }
+  .calendar-body {
+    font-family: "DIN Pro";
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    background-color: #ffffff;
+    .calendar-day {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 36.5px;
+      width: 35.5px;
+      border-right: 1px solid #e4e4e4;
+      border-radius: 0;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      margin: 0;
+      font-size: 14px;
+      color: #4f4f4f;
+      &:first-child {
+        border-left: 1px solid #e4e4e4;
+      }
+    }
+    .react-datepicker__header {
+      background-color: #ffffff;
+      color: #3359db;
+      border: none;
+    }
+    .react-datepicker__month {
+      margin: 0;
+      padding: 5px;
+    }
+    .react-datepicker__triangle {
+      display: none;
+    }
+    .react-datepicker__week {
+      box-sizing: border-box;
+      display: flex;
+      width: 250px;
+      border-top: 1px solid #e4e4e4;
+      &:last-child {
+        border-bottom: 1px solid #e4e4e4;
+      }
+    }
+    .react-datepicker__day-names {
+      display: flex;
+      padding-left: 5px;
+      .react-datepicker__day-name {
+        display: flex;
+        justify-content: center;
+        width: 36.5px;
+        height: 16px;
+        margin: 0;
+        color: #4f4f4f;
+        font-family: "DIN Pro";
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 15px;
+      }
+    }
+    .react-datepicker__day--disabled {
+      cursor: default;
+      color: #ccc !important;
+    }
+    .react-datepicker__current-month {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 64px;
+      background-color: #ffffff;
+      color: #3359db;
+    }
+    .react-datepicker__navigation {
+      top: 32px;
+      outline: none;
+      &--next {
+        border-left-color: #3359db;
+      }
+      &--previous {
+        border-right-color: #3359db;
+      }
+    }
+    .react-datepicker__day {
+      box-sizing: border-box;
+      &--selected {
+        background-color: #f8f8f8;
+        color: #3359db;
+      }
+      &--outside-month {
+        background-color: #ffffff;
+        color: #e4e4e4;
+      }
+    }
+  }
+}
+
+.required-field {
+  margin-left: 61%;
+  font-size: 9px;
+  color: red;
+  font-family: DIN Pro;
+  @media (max-width: 479px) {
+    margin-left: 40%;
+  }
+  @media (max-width: 320px) {
+    margin-left: 34%;
+  }
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  background: #fff url() no-repeat center center;
+  width: 1.5em;
+  height: 50px;
+  border-left: 0px solid white;
+  opacity: 0.5; /* shows Spin Buttons per default (Chrome >= 39) */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.style-number {
+  display: grid;
+  float: right;
+  margin: -28px 8px 41px 10px;
+  margin-bottom: -33px;
+}
+
+.image1 {
+  transform: rotate(181deg);
+  margin: 0px 0px 5px 0px;
+  pointer-events: none;
+}
+
+.image2 {
+  transform: rotate(358deg);
+  pointer-events: none;
+}
+
+/* The checkbox container */
+.container {
+  display: block !important;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #3359DB;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.textarea-box {
+  resize: none;
+  outline: none;
+  overflow: auto;
+  min-height: 60px;
+}
+
+.error{
+  border: red;
+}

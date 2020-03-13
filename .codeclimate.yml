@@ -1,0 +1,25 @@
+version: "2"
+plugins:
+  eslint:
+    enabled: true
+    channel: "5"
+checks:
+  method-lines:
+    config:
+      threshold: 35
+  similar-code:
+    config:
+      threshold: 70
+  identical-code:
+    config:
+      threshold: 70
+exclude_patterns:
+  - "**/node_modules/"
+  - "**/test/"
+  - "**/__tests__/"
+  - "**/tests/"
+  - "/config/"
+  - "src/redux/store/__test__/"
+  - "src/**/__mocks__/"
+  - "scripts/"
+  - "cypress/integration/"

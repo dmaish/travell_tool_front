@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>69B40C69-64B2-431D-A9E4-25F5B9D33F2D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8,0.5 C3.86,0.5 0.5,3.86 0.5,8 C0.5,12.14 3.86,15.5 8,15.5 C12.14,15.5 15.5,12.14 15.5,8 C15.5,3.86 12.14,0.5 8,0.5 Z M8,8.75 C7.5875,8.75 7.25,8.4125 7.25,8 L7.25,5 C7.25,4.5875 7.5875,4.25 8,4.25 C8.4125,4.25 8.75,4.5875 8.75,5 L8.75,8 C8.75,8.4125 8.4125,8.75 8,8.75 Z M8.75,11.75 L7.25,11.75 L7.25,10.25 L8.75,10.25 L8.75,11.75 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accomodation-&gt;-Reassign-Room" transform="translate(-511.000000, -487.000000)">
+            <g id="Modal" transform="translate(480.000000, 200.000000)">
+                <g id="icon/action/info_outline_24px" transform="translate(31.000000, 287.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="icon/alert/error_24px" fill="#BCBCBC" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

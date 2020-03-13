@@ -1,0 +1,27 @@
+.left-side-nav-item {
+
+    &__dropdown-content {
+      display: flex;
+      flex-flow: column;
+      justify-content:flex-start;
+      transition: all .5s ease-out;
+      padding-left: 36%;
+      padding-top: 0px;
+      overflow-y: hidden;
+      transform-origin: top;
+    }
+
+    &__dropdown-content {
+      &.active {
+        height: auto;
+        transform: scaleY(1);
+        padding-top: 25px;
+      }
+
+      &.inactive {
+        height: 0px;
+        transform: scaleY(0);
+        overflow-y: hidden;
+      }
+    }
+}

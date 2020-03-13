@@ -1,0 +1,16 @@
+.request-panel-header {
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  height: 201.9px;
+  width: 96.3%;
+
+  .open-requests {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    height: 36px;
+  }
+}
+@import 'responsiveness'

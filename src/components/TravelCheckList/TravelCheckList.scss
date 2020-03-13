@@ -1,0 +1,55 @@
+#travel-checkList-modal {
+  max-height: 90vh;
+  overflow-y: scroll
+}
+
+.travelCheckList {
+  font-family: "DIN Pro";
+  &__not-found {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    color: #999999;
+  }
+  &__destination:first-child {
+    margin: 20px 0;
+  }
+  &__destination {
+    margin: 50px 0;
+  }
+  &__destination-name {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &--item {
+    border-bottom: 1px solid #D4D4D4;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border: 1px solid #D4D4D4;
+    border-radius: 2px;
+    margin-top: 10px;
+    &__name {
+      color: #4F4F4F;
+    }
+    &__resource-link {
+      color: #3359DB;
+      text-decoration: underline;
+    }
+  }
+  &__destination-flag {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin: 3px;
+    background-position: center center;
+    margin-right: 12px;
+  }
+}

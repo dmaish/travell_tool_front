@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioButton /> should render correctly 1`] = `
+<ul
+  style={
+    Object {
+      "padding": "0",
+    }
+  }
+>
+  <li>
+    <input
+      checked=""
+      id=""
+      name="selector"
+      onChange={[Function]}
+      type="radio"
+      value=""
+    />
+    <label
+      htmlFor=""
+    />
+    <div
+      className="check"
+    />
+  </li>
+</ul>
+`;

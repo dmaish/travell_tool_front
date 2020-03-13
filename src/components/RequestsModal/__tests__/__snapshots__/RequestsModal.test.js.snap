@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="request-details--header"
+>
+  <span
+    className="request-type"
+  >
+    <span
+      className="label"
+    >
+      Request type: 
+    </span>
+    <b>
+      Return Trip
+    </b>
+  </span>
+  <span
+    className="date-submitted"
+  >
+    <span
+      className="label"
+    >
+      Date submitted: 
+    </span>
+    <b>
+      21 Dec 2018
+    </b>
+  </span>
+</div>
+`;
+
+exports[`Render RequestsModal component Connected RequestDetailsModal component tests that the component successfully rendered 1`] = `
+<div
+  className="request-details--header"
+>
+  <span
+    className="request-type"
+  >
+    <span
+      className="label"
+    >
+      Request type: 
+    </span>
+    <b>
+      Return Trip
+    </b>
+  </span>
+  <span
+    className="date-submitted"
+  >
+    <span
+      className="label"
+    >
+      Date submitted: 
+    </span>
+    <b>
+      21 Dec 2018
+    </b>
+  </span>
+</div>
+`;
+
+exports[`Render RequestsModal component should match snapshot 1`] = `
+<Fragment>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <UserInfo
+      requestData={
+        Object {
+          "arrivalDate": "2018-11-12",
+          "comments": Array [
+            Object {
+              "comment": "This is a comment",
+              "createdAt": "2018-09-04T10:38:12.141Z",
+              "id": 1,
+              "picture": "http://my-image",
+              "userName": "Random User",
+            },
+            Object {
+              "comment": "This is another comment",
+              "createdAt": "2018-10-04T10:38:12.141Z",
+              "id": 2,
+              "picture": "http://my-image",
+              "userName": "Random User Two",
+            },
+          ],
+          "createdAt": "2018-09-04T10:38:12.141Z",
+          "department": "TDD",
+          "departureDate": "2018-09-12",
+          "destination": "Nairobi",
+          "id": "xDh20cuGx",
+          "manager": "Samuel Kubai",
+          "name": "Test user C",
+          "origin": "Lagos",
+          "role": "Software Developer",
+          "status": "Approved",
+          "tripType": "multi",
+          "trips": Array [
+            Object {
+              "arrivalDate": "2018-12-15",
+              "departureDate": "2018-12-09",
+              "destination": "Nairobi",
+              "origin": "Lagos",
+            },
+            Object {
+              "arrivalDate": "2019-01-10",
+              "departureDate": "2018-12-15",
+              "destination": "New York",
+              "origin": "Nairobi",
+            },
+            Object {
+              "arrivalDate": "2019-01-20",
+              "departureDate": "2019-01-10",
+              "destination": "Lagos",
+              "origin": "New York",
+            },
+            Object {
+              "arrivalDate": "2019-02-13",
+              "departureDate": "2019-01-30",
+              "destination": "Nairobi",
+              "origin": "Lagos",
+            },
+          ],
+          "userId": "-MUyHJmKrxA90lPNQ1FOLNm",
+        }
+      }
+      user={
+        Object {
+          "picture": "http://my-image",
+        }
+      }
+    />
+    <div
+      className="modal__button-below"
+    >
+      <span
+        key="Approve"
+      >
+        <span
+          className="modal__dialog-btn"
+        >
+          <button
+            className="modal__button-submitted-text bg"
+            disabled={false}
+            id="b1"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#49AAAF",
+                "color": "white",
+                "cursor": "Pointer",
+              }
+            }
+            type="button"
+          >
+            Approved
+          </button>
+        </span>
+      </span>
+      <span
+        key="Reject"
+      >
+        <span
+          className="modal__dialog-btn"
+        >
+          <button
+            className="modal__button-rejected-text"
+            disabled={false}
+            id="b2"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "color": "black",
+                "cursor": "Pointer",
+              }
+            }
+            type="button"
+          >
+            Reject
+          </button>
+        </span>
+      </span>
+    </div>
+    <ConfirmDialog
+      closeDeleteModal={[Function]}
+      handleApprove={[Function]}
+      handleReject={[Function]}
+      id="xDh20cuGx"
+      modalInvisible={true}
+      renderDialogText={[Function]}
+    />
+  </div>
+  <div
+    className="request-details"
+  >
+    <RequestDetailsHeader
+      requestData={
+        Object {
+          "arrivalDate": "2018-11-12",
+          "comments": Array [
+            Object {
+              "comment": "This is a comment",
+              "createdAt": "2018-09-04T10:38:12.141Z",
+              "id": 1,
+              "picture": "http://my-image",
+              "userName": "Random User",
+            },
+            Object {
+              "comment": "This is another comment",
+              "createdAt": "2018-10-04T10:38:12.141Z",
+              "id": 2,
+              "picture": "http://my-image",
+              "userName": "Random User Two",
+            },
+          ],
+          "createdAt": "2018-09-04T10:38:12.141Z",
+          "department": "TDD",
+          "departureDate": "2018-09-12",
+          "destination": "Nairobi",
+          "id": "xDh20cuGx",
+          "manager": "Samuel Kubai",
+          "name": "Test user C",
+          "origin": "Lagos",
+          "role": "Software Developer",
+          "status": "Approved",
+          "tripType": "multi",
+          "trips": Array [
+            Object {
+              "arrivalDate": "2018-12-15",
+              "departureDate": "2018-12-09",
+              "destination": "Nairobi",
+              "origin": "Lagos",
+            },
+            Object {
+              "arrivalDate": "2019-01-10",
+              "departureDate": "2018-12-15",
+              "destination": "New York",
+              "origin": "Nairobi",
+            },
+            Object {
+              "arrivalDate": "2019-01-20",
+              "departureDate": "2019-01-10",
+              "destination": "Lagos",
+              "origin": "New York",
+            },
+            Object {
+              "arrivalDate": "2019-02-13",
+              "departureDate": "2019-01-30",
+              "destination": "Nairobi",
+              "origin": "Lagos",
+            },
+          ],
+          "userId": "-MUyHJmKrxA90lPNQ1FOLNm",
+        }
+      }
+    />
+    <TripDetails
+      tripDetails={
+        Object {
+          "arrivalDate": "2018-12-15",
+          "createdAt": "2018-09-04T10:38:12.141Z",
+          "departureDate": "2018-12-09",
+          "destination": "Nairobi",
+          "origin": "Lagos",
+          "tripType": "multi",
+        }
+      }
+    />
+    <TripDetails
+      tripDetails={
+        Object {
+          "arrivalDate": "2019-01-10",
+          "createdAt": "2018-09-04T10:38:12.141Z",
+          "departureDate": "2018-12-15",
+          "destination": "New York",
+          "origin": "Nairobi",
+          "tripType": "multi",
+        }
+      }
+    />
+    <TripDetails
+      tripDetails={
+        Object {
+          "arrivalDate": "2019-01-20",
+          "createdAt": "2018-09-04T10:38:12.141Z",
+          "departureDate": "2019-01-10",
+          "destination": "Lagos",
+          "origin": "New York",
+          "tripType": "multi",
+        }
+      }
+    />
+    <TripDetails
+      tripDetails={
+        Object {
+          "arrivalDate": "2019-02-13",
+          "createdAt": "2018-09-04T10:38:12.141Z",
+          "departureDate": "2019-01-30",
+          "destination": "Nairobi",
+          "origin": "Lagos",
+          "tripType": "multi",
+        }
+      }
+    />
+  </div>
+  <Connect(FileAttachments)
+    requestId="xDh20cuGx"
+  />
+  <AddComment
+    image="http://my-image"
+  />
+  <Connect(CommentBox)
+    requestId="xDh20cuGx"
+  />
+  <RequestApproval
+    requestData={
+      Object {
+        "arrivalDate": "2018-11-12",
+        "comments": Array [
+          Object {
+            "comment": "This is a comment",
+            "createdAt": "2018-09-04T10:38:12.141Z",
+            "id": 1,
+            "picture": "http://my-image",
+            "userName": "Random User",
+          },
+          Object {
+            "comment": "This is another comment",
+            "createdAt": "2018-10-04T10:38:12.141Z",
+            "id": 2,
+            "picture": "http://my-image",
+            "userName": "Random User Two",
+          },
+        ],
+        "createdAt": "2018-09-04T10:38:12.141Z",
+        "department": "TDD",
+        "departureDate": "2018-09-12",
+        "destination": "Nairobi",
+        "id": "xDh20cuGx",
+        "manager": "Samuel Kubai",
+        "name": "Test user C",
+        "origin": "Lagos",
+        "role": "Software Developer",
+        "status": "Approved",
+        "tripType": "multi",
+        "trips": Array [
+          Object {
+            "arrivalDate": "2018-12-15",
+            "departureDate": "2018-12-09",
+            "destination": "Nairobi",
+            "origin": "Lagos",
+          },
+          Object {
+            "arrivalDate": "2019-01-10",
+            "departureDate": "2018-12-15",
+            "destination": "New York",
+            "origin": "Nairobi",
+          },
+          Object {
+            "arrivalDate": "2019-01-20",
+            "departureDate": "2019-01-10",
+            "destination": "Lagos",
+            "origin": "New York",
+          },
+          Object {
+            "arrivalDate": "2019-02-13",
+            "departureDate": "2019-01-30",
+            "destination": "Nairobi",
+            "origin": "Lagos",
+          },
+        ],
+        "userId": "-MUyHJmKrxA90lPNQ1FOLNm",
+      }
+    }
+  />
+  <div
+    id="comments"
+  >
+    <Connect(UserComments)
+      comments={
+        Array [
+          Object {
+            "comment": "This is another comment",
+            "createdAt": "2018-10-04T10:38:12.141Z",
+            "id": 2,
+            "picture": "http://my-image",
+            "userName": "Random User Two",
+          },
+          Object {
+            "comment": "This is a comment",
+            "createdAt": "2018-09-04T10:38:12.141Z",
+            "id": 1,
+            "picture": "http://my-image",
+            "userName": "Random User",
+          },
+        ]
+      }
+    />
+  </div>
+</Fragment>
+`;

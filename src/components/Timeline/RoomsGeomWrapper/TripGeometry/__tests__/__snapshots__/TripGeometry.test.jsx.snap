@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TripGeometry /> renders correctly 1`] = `
+<TimelineBarWrapper
+  setBookingDetailsAbsolutePos={[Function]}
+  toggleBookingDetails={[Function]}
+  tripStats={
+    Object {
+      "length": 7,
+      "stayPercentage": "100%",
+      "tripTimelineOffsetLeft": -10974,
+    }
+  }
+>
+  <TimelineBar
+    customStyle={
+      Object {
+<<<<<<< HEAD
+        "background": "hsl(266,52%,73%)",
+=======
+        "background": "hsl(141,68%,59%)",
+>>>>>>> fix(requests): remove accommodation for multicity
+      }
+    }
+    tripDayWidth={31}
+    tripStats={
+      Object {
+        "length": 7,
+        "stayPercentage": "100%",
+        "tripTimelineOffsetLeft": -10974,
+      }
+    }
+  >
+    <div
+      className="geom-trip geom-trip--inner"
+      style={
+        Object {
+          "background": "hsl(141,78%,39%)",
+          "width": "100%",
+        }
+      }
+    />
+    <span>
+      John Doe  (M)
+    </span>
+  </TimelineBar>
+  <TripDetails
+    bookingDetailsPos={0}
+    detailsVariantClass="hidden"
+    toggleBookingDetails={[Function]}
+    translateDetailsLeft={false}
+    trip={
+      Object {
+        "departureDate": "2018-01-01",
+        "request": Object {
+          "gender": "Male",
+          "name": "John Doe",
+        },
+        "returnDate": "2018-01-07",
+      }
+    }
+  />
+</TimelineBarWrapper>
+`;

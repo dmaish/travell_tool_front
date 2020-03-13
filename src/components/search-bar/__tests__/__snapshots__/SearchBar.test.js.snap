@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render SearchBar component should match snapshot 1`] = `
+<div
+  className="mdl-search searchbar__search"
+>
+  <img
+    alt="Search Icon"
+    className="searchbar__search-icon"
+    src="Loupe.svg"
+  />
+  <form
+    action="#"
+    id="searchForm"
+    onSubmit={[Function]}
+  >
+    <input
+      className="input-format"
+      id="search"
+      onChange={[Function]}
+      placeholder="Search requests, team members, etc"
+      size="1"
+      type="text"
+    />
+  </form>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Attachments /> renders correctly 1`] = `
+<div
+  className="attachments"
+>
+  <div
+    className="attachments-header"
+  >
+    <img
+      alt="File"
+      className="icon-content-save"
+      src="attach_file.svg"
+    />
+    <span
+      className="attachments-title"
+    >
+      Attachments
+    </span>
+  </div>
+  <div
+    className="all-attachments"
+  >
+    <Preloader
+      spinnerClass="loader"
+    />
+  </div>
+</div>
+`;

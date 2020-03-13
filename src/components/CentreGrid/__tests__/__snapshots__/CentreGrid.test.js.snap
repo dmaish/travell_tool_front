@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CentreGrid /> renders correctly 1`] = `
+<Fragment>
+  <div
+    className="mdl-grid accommodation-grid"
+  >
+    <CentreCard
+      bathrooms={5}
+      beds={4}
+      cardImage="http://images/guest-house.jpg"
+      countryFlagImage="https://www.countryflags.io/KE/flat/64.png"
+      guestHouse={
+        Object {
+          "bathRooms": 5,
+          "houseName": "Guest House 1",
+          "id": "wrtiuy56_u",
+          "imageUrl": "http://images/guest-house.jpg",
+          "location": "Nairobi, Kenya",
+          "rooms": Array [
+            Object {
+              "bedCount": 2,
+              "faulty": false,
+              "id": "tryuompl0",
+              "roomName": "Nyati",
+              "roomType": "Ensuite",
+            },
+            Object {
+              "bedCount": 2,
+              "faulty": false,
+              "id": "trytrimo",
+              "roomName": "Maputi",
+              "roomType": "Ensuite",
+            },
+          ],
+        }
+      }
+      guestHouseLocation="Nairobi, Kenya"
+      guestHouseName="Guest House 1"
+      guesthouseId="wrtiuy56_u"
+      imageAlt="Guest House 1 image"
+      key="wrtiuy56_u"
+    />
+    <CentreCard
+      bathrooms={3}
+      beds={5}
+      cardImage="http://images/guest-house.jpg"
+      countryFlagImage="https://www.countryflags.io/KE/flat/64.png"
+      guestHouse={
+        Object {
+          "bathRooms": 3,
+          "houseName": "Guest House 2",
+          "id": "wrtnytom_9",
+          "imageUrl": "http://images/guest-house.jpg",
+          "location": "Nairobi, Kenya",
+          "rooms": Array [
+            Object {
+              "bedCount": 1,
+              "faulty": false,
+              "id": "plmyt0pol",
+              "roomName": "Santana",
+              "roomType": "Single",
+            },
+            Object {
+              "bedCount": 4,
+              "faulty": false,
+              "id": "plmmnuyt",
+              "roomName": "Shiloh",
+              "roomType": "Single",
+            },
+          ],
+        }
+      }
+      guestHouseLocation="Nairobi, Kenya"
+      guestHouseName="Guest House 2"
+      guesthouseId="wrtnytom_9"
+      imageAlt="Guest House 2 image"
+      key="wrtnytom_9"
+    />
+    <CentreCard
+      bathrooms={4}
+      beds={4}
+      cardImage="http://images/guest-house.jpg"
+      countryFlagImage="https://www.countryflags.io/NG/flat/64.png"
+      guestHouse={
+        Object {
+          "bathRooms": 4,
+          "houseName": "Guest House 3",
+          "id": "bytrwqjk9",
+          "imageUrl": "http://images/guest-house.jpg",
+          "location": "Lagos, Nigeria",
+          "rooms": Array [
+            Object {
+              "bedCount": 2,
+              "faulty": false,
+              "id": "btrfdseq23",
+              "roomName": "Aben",
+              "roomType": "Ensuite",
+            },
+            Object {
+              "bedCount": 2,
+              "faulty": false,
+              "id": "btrfdsnytr3",
+              "roomName": "Aben",
+              "roomType": "Ensuite",
+            },
+          ],
+        }
+      }
+      guestHouseLocation="Lagos, Nigeria"
+      guestHouseName="Guest House 3"
+      guesthouseId="bytrwqjk9"
+      imageAlt="Guest House 3 image"
+      key="bytrwqjk9"
+    />
+    <CentreCard
+      bathrooms={1}
+      beds={2}
+      cardImage="http://images/guest-house.jpg"
+      countryFlagImage="https://www.countryflags.io/RW/flat/64.png"
+      guestHouse={
+        Object {
+          "bathRooms": 1,
+          "houseName": "Guest House 4",
+          "id": "requntm0",
+          "imageUrl": "http://images/guest-house.jpg",
+          "location": "Kigali, Rwanda",
+          "rooms": Array [
+            Object {
+              "bedCount": 2,
+              "faulty": false,
+              "id": "mnytbvfdc9",
+              "roomName": "Berger",
+              "roomType": "Suite",
+            },
+          ],
+        }
+      }
+      guestHouseLocation="Kigali, Rwanda"
+      guestHouseName="Guest House 4"
+      guesthouseId="requntm0"
+      imageAlt="Guest House 4 image"
+      key="requntm0"
+    />
+  </div>
+  <div>
+    <hr />
+    <div
+      className="disabled-title"
+    >
+      DISABLED GUESTHOUSES
+    </div>
+    <div
+      className="mdl-grid disabled-accommodation"
+    >
+      <CentreCard
+        bathrooms={5}
+        beds={4}
+        cardImage="http://images/guest-house.jpg"
+        countryFlagImage="https://www.countryflags.io/KE/flat/64.png"
+        disabledGuestHouse={
+          Object {
+            "bathRooms": 5,
+            "disabled": true,
+            "houseName": "Guest House A",
+            "id": "juhiuhoji0",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "bvuh9iei8bh",
+                "roomName": "ZAPTIU",
+                "roomType": "Ensuite",
+              },
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "NBiojnn98u",
+                "roomName": "AFEIK",
+                "roomType": "Ensuite",
+              },
+            ],
+          }
+        }
+        guestHouse={
+          Object {
+            "bathRooms": 5,
+            "disabled": true,
+            "houseName": "Guest House A",
+            "id": "juhiuhoji0",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "bvuh9iei8bh",
+                "roomName": "ZAPTIU",
+                "roomType": "Ensuite",
+              },
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "NBiojnn98u",
+                "roomName": "AFEIK",
+                "roomType": "Ensuite",
+              },
+            ],
+          }
+        }
+        guestHouseLocation="Nairobi, Kenya"
+        guestHouseName="Guest House A"
+        guesthouseId="juhiuhoji0"
+        handleOnRestore={[Function]}
+        imageAlt="Guest House A image"
+        key="juhiuhoji0"
+      />
+      <CentreCard
+        bathrooms={3}
+        beds={5}
+        cardImage="http://images/guest-house.jpg"
+        countryFlagImage="https://www.countryflags.io/KE/flat/64.png"
+        disabledGuestHouse={
+          Object {
+            "bathRooms": 3,
+            "disabled": true,
+            "houseName": "Guest House B",
+            "id": "jbg8oijjolp",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 1,
+                "faulty": false,
+                "id": "bnvjhijkpj",
+                "roomName": "APLI",
+                "roomType": "Single",
+              },
+              Object {
+                "bedCount": 4,
+                "faulty": false,
+                "id": "bnvuiohj",
+                "roomName": "Onij",
+                "roomType": "Single",
+              },
+            ],
+          }
+        }
+        guestHouse={
+          Object {
+            "bathRooms": 3,
+            "disabled": true,
+            "houseName": "Guest House B",
+            "id": "jbg8oijjolp",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 1,
+                "faulty": false,
+                "id": "bnvjhijkpj",
+                "roomName": "APLI",
+                "roomType": "Single",
+              },
+              Object {
+                "bedCount": 4,
+                "faulty": false,
+                "id": "bnvuiohj",
+                "roomName": "Onij",
+                "roomType": "Single",
+              },
+            ],
+          }
+        }
+        guestHouseLocation="Nairobi, Kenya"
+        guestHouseName="Guest House B"
+        guesthouseId="jbg8oijjolp"
+        handleOnRestore={[Function]}
+        imageAlt="Guest House B image"
+        key="jbg8oijjolp"
+      />
+      <CentreCard
+        bathrooms={4}
+        beds={2}
+        cardImage="http://images/guest-house.jpg"
+        countryFlagImage="https://www.countryflags.io/NG/flat/64.png"
+        disabledGuestHouse={
+          Object {
+            "bathRooms": 4,
+            "disabled": true,
+            "houseName": "Guest House C",
+            "id": "nbuiojkpl",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Lagos, Nigeria",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "bvuijkok",
+                "roomName": "Two",
+                "roomType": "Ensuite",
+              },
+            ],
+          }
+        }
+        guestHouse={
+          Object {
+            "bathRooms": 4,
+            "disabled": true,
+            "houseName": "Guest House C",
+            "id": "nbuiojkpl",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Lagos, Nigeria",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "bvuijkok",
+                "roomName": "Two",
+                "roomType": "Ensuite",
+              },
+            ],
+          }
+        }
+        guestHouseLocation="Lagos, Nigeria"
+        guestHouseName="Guest House C"
+        guesthouseId="nbuiojkpl"
+        handleOnRestore={[Function]}
+        imageAlt="Guest House C image"
+        key="nbuiojkpl"
+      />
+      <CentreCard
+        bathrooms={1}
+        beds={2}
+        cardImage="http://images/guest-house.jpg"
+        countryFlagImage="https://www.countryflags.io/RW/flat/64.png"
+        disabledGuestHouse={
+          Object {
+            "bathRooms": 1,
+            "disabled": true,
+            "houseName": "Guest House D",
+            "id": "nmbkihjokko",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Kigali, Rwanda",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "jbihjjkpk",
+                "roomName": "Roof",
+                "roomType": "Suite",
+              },
+            ],
+          }
+        }
+        guestHouse={
+          Object {
+            "bathRooms": 1,
+            "disabled": true,
+            "houseName": "Guest House D",
+            "id": "nmbkihjokko",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Kigali, Rwanda",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "jbihjjkpk",
+                "roomName": "Roof",
+                "roomType": "Suite",
+              },
+            ],
+          }
+        }
+        guestHouseLocation="Kigali, Rwanda"
+        guestHouseName="Guest House D"
+        guesthouseId="nmbkihjokko"
+        handleOnRestore={[Function]}
+        imageAlt="Guest House D image"
+        key="nmbkihjokko"
+      />
+    </div>
+  </div>
+</Fragment>
+`;

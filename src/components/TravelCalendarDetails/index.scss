@@ -1,0 +1,121 @@
+.demo-card-wide {
+	width: 100%;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+  padding: 0 20px;
+  margin-bottom: 8px;
+}
+
+.mdl-card{
+  min-height: 0;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin:  15px 0;
+  font-family: "DIN Pro";
+
+  .toggle-btn {
+    position: absolute;
+    color: #4F4F4F;
+    font-size: 14px;
+    line-height: 18px;
+    right: 40px;
+    align-self: center;
+    border: none;
+    background-color: inherit;
+    font-family: "DIN Pro";
+    cursor: pointer;
+
+    &:focus{
+      outline: none;
+    }
+
+    &__icon{
+      padding-left: 10px;
+    }
+  }
+
+  &__bio {
+    font-family: "DIN Pro";
+    margin-left: 10px;
+  }
+
+  &__role {
+    color: #999999;
+    font-size: 12px;
+  }
+
+  &__username {
+    color: #4F4F4F;
+    font-size: 15px;
+  }
+
+  p {
+    margin-bottom: 0;
+    line-height: 20px;
+    }
+}
+
+.flight-details {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+
+  .flight {
+    border: 1px solid #E4E4E4;
+    width: 50%;
+    height: 100%;
+    padding: 15px 0 0 15px;
+    margin-bottom: 15px;
+
+    &__header{
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    &__title {
+      color: #4F4F4F;
+      font-family: "DIN Pro";
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 20px;
+      margin-left: 10px;
+      margin-bottom: 0;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    th {
+      width: 50px;
+      color: #999999;
+      font-family: "DIN Pro";
+      font-size: 13px;
+      line-height: 17px;
+      text-align: left;
+    }
+
+    td {
+      color: #4F4F4F;
+      font-family: "DIN Pro";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+      padding: 10px 0;
+    }
+
+  }
+
+  > div:nth-child(1) {
+    border-right: none;
+  }
+}
+
+@import 'smallScreens';

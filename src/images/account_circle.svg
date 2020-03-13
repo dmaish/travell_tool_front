@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>E6B70A26-9ED8-4D63-B429-06BB3B11C088</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-11.3%" y="-16.7%" width="121.9%" height="138.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M7.5,4 C3.36,4 0,7.36 0,11.5 C0,15.64 3.36,19 7.5,19 C11.64,19 15,15.64 15,11.5 C15,7.36 11.64,4 7.5,4 Z M7.5,6.25 C8.745,6.25 9.75,7.255 9.75,8.5 C9.75,9.745 8.745,10.75 7.5,10.75 C6.255,10.75 5.25,9.745 5.25,8.5 C5.25,7.255 6.255,6.25 7.5,6.25 Z M7.5,16.9 C5.625,16.9 3.9675,15.94 3,14.485 C3.0225,12.9925 6,12.175 7.5,12.175 C8.9925,12.175 11.9775,12.9925 12,14.485 C11.0325,15.94 9.375,16.9 7.5,16.9 Z" id="path-2"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logout" transform="translate(-1222.000000, -69.000000)">
+            <g id="Group-8" filter="url(#filter-1)" transform="translate(1218.000000, 61.000000)">
+                <g id="Profile" transform="translate(14.000000, 12.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="icon/action/account_circle_24px" fill="#969696" fill-rule="nonzero" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

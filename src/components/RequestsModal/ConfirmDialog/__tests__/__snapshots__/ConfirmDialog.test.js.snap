@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmDialog component should match snapshot 1`] = `
+<Fragment>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={null}
+    customModalStyles="delete-comment-modal"
+    customOverlayStyle="undefined-modal-overlay"
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={false}
+    title="false Request?"
+    visibility="invisible"
+    width=""
+  >
+    <p
+      className="approval-comment-modal__text"
+    >
+      Confirm request undefined
+    </p>
+    <button
+      className="undefined-comment-modal__btn"
+      id={false}
+      type="button"
+    />
+  </Modal>
+</Fragment>
+`;

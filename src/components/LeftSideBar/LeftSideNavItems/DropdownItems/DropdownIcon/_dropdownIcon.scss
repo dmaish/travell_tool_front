@@ -1,0 +1,15 @@
+.dropdown-icon {
+  transition: transform .3s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  right: 12%;
+  top: 17px;
+
+  &.inactive {
+    transform: rotate(180deg);
+  }
+}

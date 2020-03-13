@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CentreCard /> renders correctly 1`] = `
+<div
+  className="mdl-cell mdl-cell--4 mdl-card centre-card"
+>
+  <Link
+    id="thisGuesthouseLink"
+    onClick=""
+    replace={false}
+    to="/residence/manage/guest-houses/undefined"
+  >
+    <div
+      className="mdl-card__media centre-card__image"
+    >
+      <img
+        alt="an image"
+        className="centre__image"
+        onError={[Function]}
+        src="https:someimage.png"
+      />
+    </div>
+    <div
+      className="mdl-card__supporting-text centre-info"
+    >
+      <div
+        className="centre-info__container"
+      >
+        <div
+          alt="Kigali, Rwanda flag"
+          className="centre__flag"
+          style={
+            Object {
+              "backgroundImage": "url(https://countryimage.png)",
+            }
+          }
+        />
+        <div>
+          <p
+            className="centre__name"
+          >
+            Guest House
+          </p>
+          <span
+            className="centre__location"
+          >
+            Kigali, Rwanda
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="mdl-card__actions centre__description"
+    >
+      <div
+        className="centre__horizontal-line"
+      />
+      <div
+        className="centre__facility"
+      >
+        <div
+          className="centre__icon-container"
+        >
+          <img
+            alt="Bed number"
+            className="centre__icon"
+            src="accomodation-grey.svg"
+          />
+          <span
+            className="centre__facility-number"
+          >
+            5
+          </span>
+          Beds
+        </div>
+        <div
+          className="centre__icon-container"
+        >
+          <img
+            alt="Bathroom number"
+            className="centre__icon"
+            src="hot_tub_24px.svg"
+          />
+          <span
+            className="centre__facility-number"
+          >
+            4
+          </span>
+          Bathrooms
+        </div>
+      </div>
+    </div>
+  </Link>
+</div>
+`;

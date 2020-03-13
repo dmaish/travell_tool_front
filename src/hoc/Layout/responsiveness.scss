@@ -1,0 +1,15 @@
+.side_overlay {
+  @media (max-width: 1024px) {
+    display: block;
+    z-index: 50;
+    height: 100%;
+    width: 68%;
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.mdl-layout {
+  min-width: 320px;
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderPagination /> should render successfully 1`] = `
+<div
+  className="cell-items-per-page"
+>
+  <div
+    className="cell-items-per-page-text"
+  >
+    <span
+      className="items-per-page-text"
+    >
+      Items per page
+    </span>
+  </div>
+  <div
+    className="items-per-page-paginator"
+  >
+    <SelectDropDown
+      defaultSelected=""
+      dropDownIcon="drop-down-icon.svg"
+      dropDownItems={
+        Array [
+          Object {
+            "name": "10",
+            "value": 10,
+          },
+          Object {
+            "name": "20",
+            "value": 20,
+          },
+          Object {
+            "name": "30",
+            "value": 30,
+          },
+        ]
+      }
+      onClickItem={[Function]}
+    />
+  </div>
+</div>
+`;

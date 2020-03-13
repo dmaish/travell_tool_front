@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoleDetailsTable /> renders correctly 1`] = `
+<Fragment>
+  <div
+    className="table__container"
+  >
+    <table
+      className="mdl-data-table mdl-js-data-table table__requests"
+    >
+      <thead>
+        <tr>
+          <th
+            className="mdl-data-table__cell--non-numeric bb-md-0 table__head freeze freeze-head "
+          >
+            Name
+          </th>
+          <th
+            className="mdl-data-table__cell--non-numeric table__head pl-sm-100d description-left"
+          >
+            Center
+          </th>
+          <th
+            className="mdl-data-table__cell--non-numeric table__head table__head--last"
+          >
+            Actions
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="table__body"
+      >
+        <tr
+          className="table__rows"
+          key="1"
+        >
+          <td
+            className="mdl-data-table__cell--non-numeric role-user__name table__data freeze-role-table"
+          >
+            A user
+          </td>
+          <td
+            className="mdl-data-table__cell--non-numeric table__data pl-sm-120"
+          >
+            Nairobi, Kenya
+          </td>
+          <td
+            className="mdl-data-table__cell--non-numeric table__requests__status table__data delete"
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            <span
+              id="editButton"
+              onClick={[Function]}
+              role="presentation"
+            >
+              Edit
+            </span>
+                       
+            <span
+              id="deleteButton"
+              onClick={[Function]}
+              role="presentation"
+            >
+              Delete
+              <Modal
+                closeDeleteModal={[Function]}
+                closeModal={null}
+                customModalStyles="delete-role-modal"
+                customOverlayStyle="delete-modal-overlay position-below"
+                modalBar={<div />}
+                modalContentId=""
+                modalId=""
+                requestId=""
+                showOverlay={false}
+                title="Remove Member ?"
+                visibility="visible"
+                width=""
+              >
+                <p
+                  className="delete-comment-modal__text"
+                >
+                  This action cannot be undone!
+                </p>
+                <button
+                  className="delete-comment-modal__btn"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Delete
+                </button>
+              </Modal>
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</Fragment>
+`;

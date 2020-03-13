@@ -1,0 +1,126 @@
+$white-color: #FFF;
+$text-highlight-color: #4F4F4F;
+$outline-color: #E4E4E4;
+$text-color: #999;
+$normal-font: "DIN Pro";
+$bold-font: "DIN Pro Medium";
+
+.centre {
+  &-card {
+    margin: 8px 15px 8px 0;
+    &__image {
+      height: 200px;
+      background-color: #DCDCDC;
+    }
+  }
+  &-card-disabled {
+    margin: 8px 15px 8px 0;
+    &__image {
+      height: 200px;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right,#e0e0e0);
+      opacity: .6; 
+    }
+  }
+  &-info {
+    background-color: $white-color;
+    border: 1px solid $outline-color;
+    padding: 16px 0 16px 16px;
+    width: auto;
+    border-bottom: none;
+    border-radius: 0 0 2px 2px;
+    &__container {
+      display: flex;
+    }
+  }
+  &__image {
+    height: 100%;
+    width: 100%;
+    background-color: #DCDCDC;
+  }
+  &__flag {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-position: center center;
+    margin-right: 12px;
+  }
+  &__name {
+    color: $text-highlight-color;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: $bold-font;
+    line-height: 21px;
+    margin-bottom: 5px;
+  }
+  &__location {
+    color: $text-color;
+    font-family: $normal-font;
+    font-size: 16px;
+  }
+  &__description {
+    padding: 0 16px 21px 16px;
+    background-color: $white-color;
+    border: 1px solid $outline-color;
+    border-top: none;
+    border-radius: 0 0 2px 2px;
+  }
+  &__facility {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    &-number {
+      font-family: $bold-font;
+      color: $text-highlight-color;
+      margin-right: 6px;
+    }
+  }
+  &__icon {
+    margin-right: 5px;
+    &-container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      color: $text-color;
+      font-family: $normal-font;
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+  &__horizontal-line {
+    width: inherit;
+    box-sizing: border-box;
+    height: 1px;
+    background: $outline-color;
+  }
+}
+
+.restore-acc-btn {
+  padding: 5px 20px;
+  cursor: pointer;
+  outline: none;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -30px;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  background-color: #3359DB;
+  position: absolute;
+}
+
+.restore-acc-btn:hover {
+  background-color: rgb(32, 64, 167);
+}

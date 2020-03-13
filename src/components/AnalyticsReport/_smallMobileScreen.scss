@@ -1,0 +1,17 @@
+$grey-color: #4F4F4F;
+$white: #FFFFFF;
+@media screen and (min-width: 320px) and (max-width: 480px){
+.analyticsReport {
+  flex-direction: column;
+  margin-right: 41px;
+
+  &__card {
+    margin-bottom: 12px;
+  }
+   &__export-button {
+     .mdl-cell--hide-desktop.mdl-cell--hide-tablet{
+       display: none;
+     }
+  }
+}
+}

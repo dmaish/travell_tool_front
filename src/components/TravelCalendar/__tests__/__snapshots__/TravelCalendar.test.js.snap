@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Travel Calendar should render Travel Calendar Correctly 1`] = `
+<Fragment>
+  <div
+    className="calendar-header"
+  >
+    <p
+      className="title"
+    >
+      Travel Calendar
+    </p>
+    <div
+      className="actions"
+    >
+      <button
+        className="action-btn--calender"
+        onClick={[Function]}
+        type="button"
+      >
+        <div>
+          17 Dec, 18 - 23 Dec, 18
+        </div>
+        <img
+          alt="Pick a date"
+          className="actions__btn--icon"
+          src="calendar_active.svg"
+        />
+      </button>
+      <div
+        className="calendar  "
+      >
+        <CalendarRange
+          handleChange={[Function]}
+        />
+      </div>
+      <button
+        className="actions__btn"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt="Export"
+          className="actions__btn--icon"
+          src="download.svg"
+        />
+      </button>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <TravelCalendarDetails
+      calendar={
+        Object {
+          "department": "Apprenticeship Department",
+          "flight": Object {
+            "arrival": Object {
+              "airline": "Kenya Airways",
+              "arrivalTime": "Invalid date",
+              "departureTime": "Invalid date",
+              "destination": "Lagos",
+              "flightNo": "KQ5752",
+            },
+            "departure": Object {
+              "airline": "Kenya Airways",
+              "arrivalTime": "Invalid date",
+              "departureTime": "Invalid date",
+              "destination": "Nairobi",
+              "flightNo": "KQ5752",
+            },
+          },
+          "name": "Barrison Waina",
+          "picture": "",
+          "role": "Product designer",
+        }
+      }
+      id="calendar"
+    />
+    <AnalyticsPagination
+      handlePagination={[Function]}
+      pagination={
+        Object {
+          "currentPage": 1,
+          "dataCount": 5,
+          "limit": 3,
+          "nextPage": 2,
+          "pageCount": 2,
+          "prevPage": 0,
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;

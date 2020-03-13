@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomGeomWrapper /> renders properly 1`] = `
+<div
+  className="room-geometry-wrapper"
+>
+  <div
+    className="room-status-bar item-row"
+  >
+    <TimelineBarWrapper
+      setBookingDetailsAbsolutePos={[Function]}
+      toggleBookingDetails={[Function]}
+      tripStats={
+        Object {
+          "length": 1,
+          "stayPercentage": "100%",
+          "tripTimelineOffsetLeft": -80569,
+        }
+      }
+    >
+      <TimelineBar
+        customStyle={
+          Object {
+            "background": "#FF5359",
+          }
+        }
+        tripDayWidth={31}
+        tripStats={
+          Object {
+            "length": 1,
+            "stayPercentage": "100%",
+            "tripTimelineOffsetLeft": -80569,
+          }
+        }
+      >
+        <div
+          className="maintainance-bar inner"
+        >
+          Unavailable
+        </div>
+      </TimelineBar>
+      <MaintenanceDetails
+        bookingDetailsPos={0}
+        detailsVariantClass="hidden"
+        maintenance={
+          Object {
+            "departureDate": "11-10-2018",
+            "end": "11-10-2018",
+            "reason": "Bad window",
+            "returnDate": "11-10-2018",
+            "start": "11-10-2018",
+          }
+        }
+        toggleBookingDetails={[Function]}
+        translateDetailsLeft={false}
+      />
+    </TimelineBarWrapper>
+  </div>
+  <BedGeomWrapper
+    timelineStartDate={"2018-12-01T00:00:00.000Z"}
+    timelineViewType="month"
+    tripDayWidth={31}
+  />
+</div>
+`;

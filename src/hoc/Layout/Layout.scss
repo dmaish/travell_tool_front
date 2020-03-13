@@ -1,0 +1,11 @@
+.side_overlay {
+    display: none;
+}
+
+.request-page {
+    &__left-side-bar {
+        margin: 0
+    }
+}
+
+@import 'responsiveness'

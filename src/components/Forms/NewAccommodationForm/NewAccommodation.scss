@@ -1,0 +1,184 @@
+form.new-request fieldset{
+    .add-rooms{
+      color: #4f4f4f;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 23px;
+      font-family: "DIN Pro";
+    }
+    .aline-box{
+      display: flex;
+      margin-bottom: 30px;
+        .upload-image {
+          display: flex;
+          flex-direction: column;
+        }
+          .imgPre{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-sizing: border-box;
+            height: 182px;
+            width: 302px;
+          }
+          .image-rectangle{
+            box-sizing: border-box;
+            height: 182px;
+            width: 302px;
+            border: 2px dotted #d4d4d4;
+            border-radius: 6px;
+            background-color: #f8f8f8;
+                .add-photo {
+                position: relative;
+                top: 75%;
+                left: 52%;
+                transform: translateY(-50%);
+              }
+          }
+          .image-space {
+            margin: 63px 35px 39px 40px;
+              .upload {
+                height: 20px;
+                color: #4f4f4f;
+                font-family: "DIN Pro";
+                font-size: 15px;
+                line-height: 20px;
+              }
+              .upload-btn-wrapper{
+                position: relative;
+                overflow: hidden;
+                display: inline-block;
+                .action-btn {
+                  height: 36px;
+                  width: 88px;
+                  border: 1px solid #3359db;
+                  border-radius: 1px;
+                  background-color: #ffffff;
+                  cursor: pointer;
+                  outline: none !important;
+                  color: #3359db;
+                  font-family: "DIN Pro";
+                  font-size: 14px;
+                  font-weight: 500;
+                  line-height: 18px;
+                  text-align: center;
+                  }
+
+                  input[type="file"] {
+                    font-size: 100px;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    opacity: 0;
+                    cursor: pointer;
+                  }
+              }
+          }
+
+    }
+  .input-group{
+    &.reduce-margin {
+      margin-bottom: -17px;
+      .guest-house-input{
+        .form-input{
+          display: flex;
+          flex-flow: column;
+          height: 64px;
+          margin: 0 20px 20px 0;
+          transition: height 0.5s ease-out;
+        }
+      }
+    }
+  }
+
+  .add-cancel{
+     display: flex;
+     margin-bottom: -12px;
+    .room-rectangle{
+        height: auto;
+        width: 93%;
+        border: 1px solid #e4e4e4;
+        border-radius: 2px;
+        background-color: #f8f8f8;
+        margin: 7px 0px 20px 0px;
+        color: gray;
+        .style-input-box{
+          display: flex;
+          padding: 10px;
+          .room {
+              margin-right: 20px;
+              position: relative;
+              width: 219px;
+            &.remove{
+                -webkit-appearance: none;
+            }
+          }
+        }
+     }
+     .cancel-button{
+         margin: 0px 0px 0px 10px;
+     }
+  }
+
+  .add-more-room-rectangle{
+      height: 50px;
+      width: 93%;
+      border: 1px solid #d4d4d4;
+      border-style: dashed;
+      border-radius: 2px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+    .set-width{
+        display: flex;
+        .add-sug-room{
+            margin: 18px 10px 10px 16px;
+        }
+        .add-another-room{
+            height: 21px;
+            width: 85px;
+            color: gray;
+            font-family: "DIN Pro";
+            font-size: 16px;
+            line-height: 21px;
+            margin: 18px 10px 10px 1px;
+        }
+    }
+  }
+}
+form fieldset:last-child .submit-area {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 71px;
+    width: 96.4%;
+    }
+.image-type {
+    font-family: 'Din Pro';
+    color: #999999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.progress-bar {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 7px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  &[value]::-webkit-progress-bar {
+    background-color: white;
+    border: 1px solid #d4d4d4;
+    border-radius: 2.5px;
+  }
+
+    &[value]::-webkit-progress-value {
+      background: rgb(14, 177, 139);
+      border-radius: 2px;
+    }
+}
+
+@import 'NewAccommodation-smallMobileScreen';
+@import 'NewAccommodation-mediumMobileScreen';
+@import 'NewAccommodation-largeMobileScreen';
+@import 'NewAccommodation-tablet';

@@ -1,0 +1,32 @@
+.room-geometry-wrapper {
+  div.timeline-trip-geometry {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+
+    .geom-trip {
+      height: 21px;
+      border-radius: 12px;
+      outline: none;
+
+      &--outer {
+        display: flex;
+        align-items: center;
+        position: relative;
+        transition: width .5s cubic-bezier(.17,.67,.35,.05);
+        overflow: hidden;
+        outline: none;
+      }
+      &--inner + span {
+        position: absolute;
+        left: 20px;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 500;
+        overflow-x: hidden;
+        width: 150%;
+      }
+    }
+  }
+}

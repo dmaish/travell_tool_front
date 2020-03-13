@@ -1,0 +1,112 @@
+.attachments {
+  width: fit-content;
+  margin-bottom: 15px;
+}
+.attachment-modals {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -19px;
+}
+.attachments-header {
+  display: inline-flex;
+  margin: -10px 0px 12px 0px;
+}
+.icon-editor-attach-file {
+  height: 15.67px;
+  width: 7.83px;
+}
+.mask {
+  display: flex;
+  flex-direction: row;
+  max-width: 162px;
+  margin: 0px 16px 19px 0px;
+  box-sizing: border-box;
+  height: 72px;
+  width: 22%;
+  min-width: 162px;
+  border: 1px solid #D4D4D4;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+  .rectangle {
+    height: 70px;
+    width: 50px;
+    background-color: #F8F8F8;
+  }
+  .rectangle-2{
+    width: 112px;
+    .section-1 {
+      height: 60%;
+      max-height: 60%;
+      display: flex;
+      align-items: center;
+      .document-name {
+        color: #533636;
+        font-family: "DIN Pro";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        margin: 0 0 0 10px;
+        max-height: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        max-width: 85%;
+        a {
+          color: #323232;
+        }
+      }
+    }
+    .section-2 {
+      height: 40%;
+      max-height: 40%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      .download-btn {
+        border: none;
+        padding: 0px;
+        margin: 0 11px 11px 0;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      .icon-content-save {
+        height: 12px;
+        width: 12px;
+      }
+    }
+  }
+}
+.rectangle-copy {
+  height: 47px;
+  width: 37px;
+  border-radius: 2px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.1);
+  margin: 12px 6px 11px 7px;
+}
+
+.attachment-icon {
+  margin-right: 10px;
+}
+.attachments-title {
+  height: 21px;
+  width: 92px;
+  color: #323232;
+  font-family: "DIN Pro";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-left: 10.17px;
+}
+.message {
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: "DIN Pro";
+    margin-left: 0px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    color: #999;
+    font-size: 18px;
+}

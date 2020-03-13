@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TravelCalendarPlaceholder /> should render without crashing 1`] = `
+<ContentLoader
+  height={205}
+  primaryColor="#dfdfdf"
+  secondaryColor="#ffffff"
+  speed={1.5}
+  width={1080}
+>
+  <circle
+    cx="29.93"
+    cy="44.04"
+    r="25.93"
+  />
+  <rect
+    height="10"
+    rx="0"
+    ry="0"
+    width="98.02"
+    x="70.02"
+    y="35.61"
+  />
+  <rect
+    height="7.91"
+    rx="0"
+    ry="0"
+    width="236.4"
+    x="70.02"
+    y="60.71"
+  />
+  <rect
+    height="10"
+    rx="0"
+    ry="0"
+    width="98.02"
+    x="970.02"
+    y="44.61"
+  />
+  <rect
+    height="85"
+    rx="0"
+    ry="0"
+    width="1058.5"
+    x="7.63"
+    y="96.61"
+  />
+</ContentLoader>
+`;

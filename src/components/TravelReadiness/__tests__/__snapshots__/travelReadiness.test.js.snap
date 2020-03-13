@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Travel Readiness Component should match the snapshot 1`] = `
+<div
+  className="analyticsReport__card"
+  id="travel-readiness"
+  style={
+    Object {
+      "marginRight": "30px",
+    }
+  }
+>
+  <p>
+    Travel Readiness
+  </p>
+  <div
+    className="analyticsReport__row analyticsReport__header"
+  >
+    <button
+      className="travel-readiness-toggle-button-0"
+      id="active-travel-flow-button"
+      onClick={[Function]}
+      type="button"
+    >
+      Inflow
+    </button>
+    <button
+      className="travel-readiness-toggle-button-1"
+      id={null}
+      onClick={[Function]}
+      type="button"
+    >
+      Ouflow
+    </button>
+    <Button
+      altText=""
+      badge={null}
+      badgeClass=""
+      buttonClass="analyticsReport__export-button"
+      buttonId="btnExportReadinessCSV"
+      disabled={false}
+      imageClass="mdl-Icon"
+      imageSrc="save_alt_24px.svg"
+      onClick={[Function]}
+      responsiveText=""
+      reverseText={true}
+      showBadge={false}
+      text="Export"
+      textClass=""
+    />
+  </div>
+  <div
+    className="analyticsReport__row analyticsReport__report-header"
+  >
+    <div>
+      <p>
+        Name
+      </p>
+    </div>
+    <div>
+      <p>
+        % Complete
+      </p>
+    </div>
+    <div>
+      <p>
+        Expected Arrival Date
+      </p>
+    </div>
+  </div>
+  <div
+    className="analyticsReport__row analyticsReport__report-details"
+    key="item0"
+  >
+    <div>
+      <p>
+        Lazuli Doe
+      </p>
+    </div>
+    <div>
+      <p>
+        0% complete
+      </p>
+    </div>
+    <div>
+      <p>
+        05 Oct 2018
+      </p>
+    </div>
+  </div>
+  <AnalyticsPagination
+    handlePagination={[Function]}
+    pagination={
+      Object {
+        "currentPage": 2,
+        "dataCount": 13,
+        "nextPage": 3,
+        "pageCount": 3,
+        "prevPage": 1,
+      }
+    }
+  />
+</div>
+`;

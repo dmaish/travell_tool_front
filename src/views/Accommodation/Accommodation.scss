@@ -1,0 +1,14 @@
+.add-user {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.restore-guestHouse-button{
+    &:disabled {
+    background-color: rgba(51, 89, 219, 0.3);
+    cursor: not-allowed;
+    border-color: #D4D4D4
+    }
+}

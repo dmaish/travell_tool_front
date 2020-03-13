@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> renders correctly 1`] = `
+<div
+  id="dashboard"
+>
+  <FilterContext>
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </FilterContext>
+  <AnalyticsReport
+    departmentTrips={
+      Object {
+        "loading": false,
+        "report": Array [],
+      }
+    }
+    exportReadiness={[Function]}
+    fetchDepartmentTrips={[Function]}
+    fetchReadiness={[Function]}
+    readiness={
+      Object {
+        "isLoading": false,
+      }
+    }
+  />
+  <TravelCalendar />
+</div>
+`;

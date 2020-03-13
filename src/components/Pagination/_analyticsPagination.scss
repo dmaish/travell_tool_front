@@ -1,0 +1,42 @@
+.pg{
+  &--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0;
+  }
+  &--text{
+    margin-bottom: 0px;
+    color: #BCBCBC;
+    font-family: "DIN Pro";
+    font-size: 14px;
+    line-height: 18px;
+  }
+  &--button{
+    color: #3359DB;
+    font-family: "DIN Pro";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    transition: font-size 0.5s;
+
+    &:focus{
+      outline: none;
+    }
+
+    &:hover{
+      font-size: 17px;
+    }
+  }
+}
+.disabled{
+  color: #BCBCBC;
+
+  &:hover{
+    font-size: 15px;
+  }
+}

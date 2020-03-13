@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Travel Calendar Details should render TravelCalendarDetails 1`] = `
+<Fragment>
+  <div>
+    <div
+      className="demo-card-wide mdl-card mdl-shadow--2dp"
+    >
+      <div
+        className="user"
+      >
+        <ImageLink
+          altText="Andela Logo"
+          imageClass="navbar__mdl-upic"
+          imageSrc=""
+        />
+        <span
+          className="user__bio"
+        >
+          <p
+            className="user__name"
+          >
+            Harrison Maina
+          </p>
+          <span
+            className="user__role"
+          >
+            Product designer
+          </span>
+          <span
+            className="user__role"
+          >
+            , 
+          </span>
+          <span
+            className="user__role"
+          >
+            Apprenticeship Department
+          </span>
+        </span>
+        <button
+          className="toggle-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Hide Details
+          <img
+            alt="show/hide details"
+            className="toggle-btn__icon"
+            src="upArrow.svg"
+          />
+        </button>
+      </div>
+      <div
+        className="flight-details"
+      >
+        <div
+          className="flight"
+        >
+          <div
+            className="flight__header"
+          >
+            <img
+              alt="Arrival"
+              src="flightLand.svg"
+            />
+            <p
+              className="flight__title"
+            >
+              Arrival
+            </p>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th
+                  key="Airline"
+                >
+                  Airline
+                </th>
+                <th
+                  key="Flight No."
+                >
+                  Flight No.
+                </th>
+                <th
+                  key="Arrival Time"
+                >
+                  Arrival Time
+                </th>
+                <th
+                  key="Destination"
+                >
+                  Destination
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  key="airline"
+                >
+                  Kenya Airways
+                </td>
+                <td
+                  key="flightNo"
+                >
+                  KQ5752
+                </td>
+                <td
+                  key="arrivalTime"
+                >
+                  Invalid date
+                </td>
+                <td
+                  key="destination"
+                >
+                  Lagos
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          className="flight"
+        >
+          <div
+            className="flight__header"
+          >
+            <img
+              alt="Arrival"
+              src="flightTakeoff.svg"
+            />
+            <p
+              className="flight__title"
+            >
+              Departure
+            </p>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th
+                  key="Airline"
+                >
+                  Airline
+                </th>
+                <th
+                  key="Flight No."
+                >
+                  Flight No.
+                </th>
+                <th
+                  key="Departure Time"
+                >
+                  Departure Time
+                </th>
+                <th
+                  key="Destination"
+                >
+                  Destination
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td
+                  key="airline"
+                >
+                  Kenya Airways
+                </td>
+                <td
+                  key="flightNo"
+                >
+                  KQ5752
+                </td>
+                <td
+                  key="departureTime"
+                >
+                  Invalid date
+                </td>
+                <td
+                  key="destination"
+                >
+                  Nairobi
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

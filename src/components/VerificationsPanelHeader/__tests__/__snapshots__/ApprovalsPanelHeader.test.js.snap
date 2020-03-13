@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render approvals header correctly 1`] = `
+<div
+  className="request-panel-header"
+>
+  <PageHeader
+    actionBtn=""
+    addLink={false}
+    icon="back-icon.svg"
+    iconLink=""
+    location=""
+    openModal={[Function]}
+    title="VERIFICATIONS"
+    titleClassName="title"
+  />
+</div>
+`;

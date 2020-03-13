@@ -1,0 +1,51 @@
+$primary-color: #3359db;
+$border-color: #d4d4d4;
+$white-color: #fff;
+$background-color: #f8f8f8;
+
+.cell-items-per-page {
+  box-sizing: border-box;
+  height: 36px;
+  width: 174px;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 479px) {
+    width: auto;
+  }
+
+  &-text {
+    box-sizing: border-box;
+    width: 116px;
+    height: 36px;
+    background-color: $background-color;
+    border: 1px solid $border-color;
+    border-right: none;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media (max-width: 479px){
+      display: none;
+  }
+  }
+}
+
+.items-per-page {
+  &-text {
+    height: 18px;
+    width: 96px;
+    color: #999;
+    font-family: 'DIN Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: right;
+  }
+  &-paginator {
+    box-sizing: border-box;
+    height: 36px;
+    width: 57px;
+  }
+}

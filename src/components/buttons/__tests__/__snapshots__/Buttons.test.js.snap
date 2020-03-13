@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render SearchBar component should match snapshot 1`] = `
+<button
+  className=""
+  disabled={false}
+  id=""
+  onClick={null}
+  type="button"
+>
+  <img
+    alt=""
+    className=""
+    src="image"
+  />
+  <span
+    className=""
+  />
+  <span
+    className=" mdl-cell--hide-desktop mdl-cell--hide-tablet"
+  />
+</button>
+`;

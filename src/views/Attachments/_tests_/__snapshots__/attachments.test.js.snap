@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suite for Attachments Component should render the connected component correctly 1`] = `
+<Connect(FileAttachments)
+  downloadAttachments={[Function]}
+  requestId=""
+  submissions={
+    Array [
+      Object {
+        "checklist": Array [
+          Object {
+            "requiresFiles": true,
+            "submissions": Array [
+              Object {
+                "value": Object {
+                  "fileName": "Visa.png",
+                  "url": "www.com",
+                },
+              },
+            ],
+          },
+        ],
+        "destinationName": "Lagos, Nigeria",
+        "tripId": "wiWm8Nu2i8",
+      },
+      Object {
+        "checklist": Array [
+          Object {
+            "requiresFiles": true,
+            "submissions": Array [
+              Object {
+                "value": Object {
+                  "fileName": "Visa.pdf",
+                  "url": "www.gmail",
+                },
+              },
+            ],
+          },
+        ],
+        "destinationName": "Nairobi, Kenya",
+        "fileName": "Visa.png",
+        "tripId": "rOHLTQ7HwL",
+        "url": "www.com",
+      },
+      Object {
+        "checklist": Array [
+          Object {
+            "requiresFiles": true,
+            "submissions": Array [
+              Object {
+                "value": Object {
+                  "fileName": "Visa.png",
+                  "url": "cloudinary",
+                },
+              },
+            ],
+          },
+        ],
+        "destinationName": "New York, United States",
+        "fileName": "Visa.png",
+        "tripId": "e5rUWSzpkE",
+        "url": "www.com",
+      },
+    ]
+  }
+/>
+`;

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaintenanceDetails /> renders properly 1`] = `
+<div
+  className="trip-booking-details details-hidden "
+  id="trip-booking-details"
+  onClick={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "left": "100pxpx",
+      "position": "absolute",
+    }
+  }
+>
+  <div
+    className="trip-booking-details__header"
+  >
+    <span>
+      Maintenance
+    </span>
+    <div
+      className="close-button"
+      onClick={[Function]}
+      onKeyUp={[Function]}
+      role="presentation"
+      tabIndex="-1"
+    >
+      <div>
+        ×
+      </div>
+    </div>
+  </div>
+  <div
+    className="trip-booking-details__body"
+  >
+    <div>
+      <span>
+        Start: 
+      </span>
+      <span>
+        n/a
+      </span>
+    </div>
+    <div>
+      <span>
+        End:
+      </span>
+      <span>
+        n/a
+      </span>
+    </div>
+    <div>
+      <span>
+        <button
+          className="trip-booking-details__button"
+          onClick={[Function]}
+          style={
+            Object {
+              "width": "60px",
+            }
+          }
+          type="button"
+        >
+          Edit
+        </button>
+      </span>
+      <span>
+        <button
+          className="trip-booking-details__button"
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 83, 89)",
+              "width": "60px",
+            }
+          }
+          type="button"
+        >
+          Delete
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+`;

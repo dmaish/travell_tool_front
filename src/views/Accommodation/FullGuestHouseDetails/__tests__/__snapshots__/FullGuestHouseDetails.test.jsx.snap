@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GuestHouseDetails /> renders properly 1`] = `
+<div
+  className="guesthouse-details-wrapper"
+>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles=""
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Edit Ndovu"
+    visibility="invisible"
+    width="800px"
+  >
+    <NewAccommodation
+      closeModal={[Function]}
+      editAccommodation={[Function]}
+      fetchAccommodation={[Function]}
+      guestHouse={
+        Object {
+          "houseName": "Ndovu",
+          "id": "guest-house-1",
+          "rooms": Array [
+            Object {
+              "beds": Array [
+                Object {
+                  "bedName": "bed1",
+                  "booked": false,
+                  "id": "bed-1",
+                  "trips": Array [
+                    Object {
+                      "arrivalDate": "2018-12-11",
+                      "checkInDate": "2018-01-01",
+                      "checkOutDate": "2018-01-10",
+                      "createdAt": "2018-08-15T11:11:52.181Z",
+                      "departureDate": "2018-12-09",
+                      "destination": "Nairobi",
+                      "id": "trip-id-1",
+                      "origin": "Lagos",
+                      "request": Object {
+                        "gender": "Female",
+                        "name": "Alice Doe",
+                      },
+                    },
+                  ],
+                },
+              ],
+              "faulty": true,
+              "maintainances": Array [
+                Object {
+                  "end": "2019-01-03",
+                  "start": "2018-12-21",
+                },
+              ],
+            },
+          ],
+        }
+      }
+      initFetchTimelineData={[Function]}
+      modalType={null}
+    />
+  </Modal>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="delete-checklist-item restore-model-content"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Disable Ndovu"
+    visibility="invisible"
+    width=""
+  >
+    <span
+      className="delete-checklist-item__disclaimer restore-checklist-items_span"
+    >
+      Are you sure you want to disable
+      <strong>
+        Ndovu
+      </strong>
+    </span>
+    <div
+      className="delete-checklist-item__hr delete-checklist-item__left"
+    />
+    <div
+      className="delete-checklist-item__footer delete-checklist-item__right"
+    >
+      <button
+        className="delete-checklist-item__footer--cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="restore-checklist-items__footer--delete"
+        disabled={false}
+        id="disableGuestHouseId"
+        onClick={[Function]}
+        type="button"
+      >
+        <ButtonLoadingIcon
+          isLoading={false}
+        />
+        Disable
+      </button>
+    </div>
+  </Modal>
+  <div
+    className="set-details"
+  >
+    <div
+      className="guesthouse-details-wrapper--top"
+    >
+      <div
+        className="details-wrapper-top-right"
+      >
+        <div
+          className="back-button"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <div
+            className="arrow"
+          >
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
+        <div
+          className="guest-house-name"
+        >
+          Ndovu
+        </div>
+        <div
+          className="bed-count-label"
+        >
+          <div>
+            <img
+              alt="ic"
+              src="accomodation_inactive.svg"
+            />
+          </div>
+          <div>
+            NaN
+          </div>
+        </div>
+      </div>
+      <div
+        className="guest-house-action-div"
+      >
+        <div>
+          <img
+            alt="Edit Link"
+            className="edit-icon"
+            src="edit_icon.svg"
+          />
+          <button
+            className="edit-btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Edit Guest House
+          </button>
+        </div>
+        <div>
+          <img
+            alt="Edit Link"
+            className="edit-icon"
+            src="disabled.svg"
+          />
+          <button
+            className="edit-btn"
+            id="handleOnDisableId"
+            onClick={[Function]}
+            type="button"
+          >
+            Disable Guest House
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="guesthouse-details-wrapper--key-details"
+    >
+      <GuestHouseDetailCard
+        label="Bed Capacity"
+        value={NaN}
+      />
+      <GuestHouseDetailCard
+        label="No. of rooms"
+        value={1}
+      />
+      <GuestHouseDetailCard
+        label="Vacant spaces"
+        period="month"
+        value={0}
+      />
+      <GuestHouseDetailCard
+        label="Unavailable"
+        period="month"
+        value={NaN}
+      />
+    </div>
+  </div>
+  <Timeline
+    availableBeds={
+      Array [
+        Object {
+          "id": "bed-1",
+        },
+      ]
+    }
+    closeModal={[Function]}
+    editMaintenance={Object {}}
+    fetchAvailableRooms={[Function]}
+    fetchTimelineRoomsData={[Function]}
+    guestHouseId="guest-house-1"
+    handlePeriod={[Function]}
+    loading={false}
+    loadingBeds={false}
+    maintenanceDetails={Object {}}
+    modal={
+      Object {
+        "modalType": null,
+        "shouldOpen": false,
+      }
+    }
+    modalType={null}
+    openModal={[Function]}
+    rooms={
+      Array [
+        Object {
+          "beds": Array [
+            Object {
+              "bedName": "bed1",
+              "booked": false,
+              "id": "bed-1",
+              "trips": Array [
+                Object {
+                  "arrivalDate": "2018-12-11",
+                  "checkInDate": "2018-01-01",
+                  "checkOutDate": "2018-01-10",
+                  "createdAt": "2018-08-15T11:11:52.181Z",
+                  "departureDate": "2018-12-09",
+                  "destination": "Nairobi",
+                  "id": "trip-id-1",
+                  "origin": "Lagos",
+                  "request": Object {
+                    "gender": "Female",
+                    "name": "Alice Doe",
+                  },
+                },
+              ],
+            },
+          ],
+          "faulty": true,
+          "maintainances": Array [
+            Object {
+              "end": "2019-01-03",
+              "start": "2018-12-21",
+            },
+          ],
+        },
+      ]
+    }
+    shouldOpen={false}
+    updateRoomState={[Function]}
+    updateTripRoom={[Function]}
+  />
+</div>
+`;

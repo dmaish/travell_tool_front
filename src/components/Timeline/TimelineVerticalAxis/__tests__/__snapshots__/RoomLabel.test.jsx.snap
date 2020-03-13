@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomLabel /> renders properly 1`] = `
+<div
+  className="room-name item-row"
+>
+  <div>
+    Ndovu
+  </div>
+  <div
+    className="ellipsis"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    …
+    <div
+      className="mark-unavailable is-hidden"
+    >
+      <div>
+        <div
+          className="container_room_fault"
+          role="button"
+          tabIndex="0"
+        />
+      </div>
+      <span>
+        Unavailable
+      </span>
+    </div>
+  </div>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={null}
+    customModalStyles=""
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Mark Ndovu Unavailable"
+    visibility="invisible"
+    width="480px"
+  >
+    <MaintainceForm
+      editMaintenance={Object {}}
+      guestHouseId="guest-house-id-1"
+      id="room-id-1"
+      maintenance={Object {}}
+      modalType=""
+      status={true}
+      timelineDateRange={
+        Array [
+          "2018-01-01",
+          "2018-01-31",
+        ]
+      }
+    />
+  </Modal>
+</div>
+`;

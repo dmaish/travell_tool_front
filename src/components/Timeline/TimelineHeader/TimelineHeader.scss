@@ -1,0 +1,121 @@
+.timeline__body__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  width: calc(100% - 125px);
+  border-bottom: 1px solid #E4E4E4;
+  padding: 0 36px 0 13px;
+  position: sticky;
+  left: 125px;
+  box-sizing: border-box;
+  z-index: 10;
+
+  .timeline-period-selector, .selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 225px;
+    outline: none;
+    cursor:auto;
+
+    span.value {
+        color: #4F4F4F;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-right: 10px;
+    }
+
+    .timeline-navigator {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+
+      &--previous, &--next {
+        cursor: pointer;
+        width: 40%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        &:hover {
+          background: #e9e9e9;
+        }
+        &:active:focus {
+          background: #b9b9b9
+        }
+      }
+      &--previous {
+        transform: rotate(-90deg);
+      }
+      &--next {
+        transform: rotate(90deg);
+        img {
+          transform: translateY(-30%);
+        }
+      }
+    }
+  }
+  .go-to-today:hover {
+    background-color: #e9e9e9;
+  }
+  .go-to-today:active:focus {
+    background-color: #dfdfdf;
+  }
+  .timeline-view-type-selector, .go-to-today {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 70px;
+    height: 22px;
+    background-color: #F8F8F8;
+    padding: 0 6px;
+    cursor: pointer;
+    outline: none;
+
+     > span {
+       display: inline-block;
+     }
+     .dropdown-icon {
+       top: 4px;
+     }
+     .timeline-view-choices {
+       position: absolute;
+       top: calc(100% + 5px);
+       right: 0;
+       min-width: 120px;
+       border-radius: 2px;
+       background-color: #FFFFFF;
+       box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+       padding: 8px 0;
+       transform-origin: top;
+       transition: all .3s ease-out;
+
+       &.choices-inactive {
+         transform: scaleY(0);
+       }
+
+       &.choices-active {
+         transform: scaleY(1);
+       }
+
+       > div.timeline-view-choice {
+         padding: 8px 0 8px 15px;
+         cursor: pointer;
+         color: #4F4F4F;
+         font-size: 15px;
+         &:hover {
+           color: #3359DB;
+         }
+       }
+     }
+  }
+  .view-type-selector.dropdown-icon > img {
+    transform: rotate(180deg);
+  }
+}

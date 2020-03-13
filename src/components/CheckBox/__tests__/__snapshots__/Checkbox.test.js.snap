@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> should render correctly 1`] = `
+<div
+  className="container flex-row"
+>
+  <div
+    className="checkbox default"
+    id="checkBox"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <img
+      alt="clicked"
+      className="ticksvg"
+      src="tick.svg"
+    />
+  </div>
+  <p
+    id="remember-my-details"
+  >
+    Remember my personal details
+  </p>
+</div>
+`;

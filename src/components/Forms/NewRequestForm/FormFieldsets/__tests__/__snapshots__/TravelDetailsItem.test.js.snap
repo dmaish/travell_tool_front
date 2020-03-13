@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Suite for <TravelDetailsItem /> should match snapshot 1`] = `
+<Fragment>
+  <div
+    className="travel-input-area"
+  >
+    <div
+      className="input-group"
+      id="trip0"
+    >
+      <div
+        className="rectangle multi"
+      >
+        <div
+          className="style-details"
+        >
+          <div
+            className="travel-to"
+            onChange={[Function]}
+          >
+            <img
+              alt="icn"
+              className="location-icon"
+              src="location.svg"
+            />
+          </div>
+          <div
+            className="travel-to"
+            onChange={[Function]}
+          >
+            <img
+              alt="icn"
+              className="location-icon"
+              src="location.svg"
+            />
+          </div>
+          <div
+            className="others-width"
+            role="presentation"
+          />
+          <div
+            className="others-width"
+            role="presentation"
+          />
+          <div
+            className="travel-to"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

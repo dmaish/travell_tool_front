@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddComment component should match snapshot 1`] = `
+<div
+  className="modal__modal1"
+>
+  <span
+    className="modal__oval-copy"
+  >
+    <ImageLink
+      altText="avatar"
+      imageClass="modal__oval-copy"
+      imageSrc=""
+    />
+  </span>
+  <span
+    className="modal__add-comment"
+  >
+    Add a comment
+  </span>
+</div>
+`;

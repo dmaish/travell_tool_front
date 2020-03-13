@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accommodation /> renders correctly 1`] = `
+<Fragment>
+  <div
+    className="rp-role__header"
+  >
+    <AccommodationPanelHeader
+      openModal={[Function]}
+    />
+  </div>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles=""
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Add Guest House"
+    visibility="invisible"
+    width="800px"
+  >
+    <NewAccommodation
+      closeModal={[Function]}
+      createAccommodation={[Function]}
+      editAccommodation={[Function]}
+      fetchAccommodation={[Function]}
+      modalType={null}
+    />
+  </Modal>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles="delete-checklist-item restore-model-content"
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Restore undefined"
+    visibility="invisible"
+    width=""
+  >
+    <span
+      className="delete-checklist-item__disclaimer restore-checklist-items_span"
+    >
+      Are you sure you want to restore
+      <strong />
+    </span>
+    <div
+      className="delete-checklist-item__hr delete-checklist-item__left"
+    />
+    <div
+      className="delete-checklist-item__footer delete-checklist-item__right"
+    >
+      <button
+        className="delete-checklist-item__footer--cancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="bg-btn bg-btn--active restore-guestHouse-button"
+        disabled={false}
+        id="restoreGuestHouseId"
+        onClick={[Function]}
+        type="button"
+      >
+        <ButtonLoadingIcon
+          isLoading={false}
+        />
+        Restore
+      </button>
+    </div>
+  </Modal>
+  <div
+    className="table__container"
+  >
+    <WithLoading
+      disabledGuestHouses={
+        Array [
+          Object {
+            "bathRooms": 5,
+            "disabled": true,
+            "houseName": "Guest House A",
+            "id": "juhiuhoji0",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "bvuh9iei8bh",
+                "roomName": "ZAPTIU",
+                "roomType": "Ensuite",
+              },
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "NBiojnn98u",
+                "roomName": "AFEIK",
+                "roomType": "Ensuite",
+              },
+            ],
+          },
+          Object {
+            "bathRooms": 3,
+            "disabled": true,
+            "houseName": "Guest House B",
+            "id": "jbg8oijjolp",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 1,
+                "faulty": false,
+                "id": "bnvjhijkpj",
+                "roomName": "APLI",
+                "roomType": "Single",
+              },
+              Object {
+                "bedCount": 4,
+                "faulty": false,
+                "id": "bnvuiohj",
+                "roomName": "Onij",
+                "roomType": "Single",
+              },
+            ],
+          },
+          Object {
+            "bathRooms": 4,
+            "disabled": true,
+            "houseName": "Guest House C",
+            "id": "nbuiojkpl",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Lagos, Nigeria",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "bvuijkok",
+                "roomName": "Two",
+                "roomType": "Ensuite",
+              },
+            ],
+          },
+          Object {
+            "bathRooms": 1,
+            "disabled": true,
+            "houseName": "Guest House D",
+            "id": "nmbkihjokko",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Kigali, Rwanda",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "jbihjjkpk",
+                "roomName": "Roof",
+                "roomType": "Suite",
+              },
+            ],
+          },
+        ]
+      }
+      error=""
+      guestHouses={
+        Array [
+          Object {
+            "bathRooms": 5,
+            "houseName": "Guest House 1",
+            "id": "wrtiuy56_u",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "tryuompl0",
+                "roomName": "Nyati",
+                "roomType": "Ensuite",
+              },
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "trytrimo",
+                "roomName": "Maputi",
+                "roomType": "Ensuite",
+              },
+            ],
+          },
+          Object {
+            "bathRooms": 3,
+            "houseName": "Guest House 2",
+            "id": "wrtnytom_9",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Nairobi, Kenya",
+            "rooms": Array [
+              Object {
+                "bedCount": 1,
+                "faulty": false,
+                "id": "plmyt0pol",
+                "roomName": "Santana",
+                "roomType": "Single",
+              },
+              Object {
+                "bedCount": 4,
+                "faulty": false,
+                "id": "plmmnuyt",
+                "roomName": "Shiloh",
+                "roomType": "Single",
+              },
+            ],
+          },
+          Object {
+            "bathRooms": 4,
+            "houseName": "Guest House 3",
+            "id": "bytrwqjk9",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Lagos, Nigeria",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "btrfdseq23",
+                "roomName": "Aben",
+                "roomType": "Ensuite",
+              },
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "btrfdsnytr3",
+                "roomName": "Aben",
+                "roomType": "Ensuite",
+              },
+            ],
+          },
+          Object {
+            "bathRooms": 1,
+            "houseName": "Guest House 4",
+            "id": "requntm0",
+            "imageUrl": "http://images/guest-house.jpg",
+            "location": "Kigali, Rwanda",
+            "rooms": Array [
+              Object {
+                "bedCount": 2,
+                "faulty": false,
+                "id": "mnytbvfdc9",
+                "roomName": "Berger",
+                "roomType": "Suite",
+              },
+            ],
+          },
+        ]
+      }
+      handleOnRestore={[Function]}
+      id="handleOnRestoreId"
+      isLoading={false}
+    />
+  </div>
+</Fragment>
+`;

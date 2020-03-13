@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>0EDFC1C1-1728-4485-B9F5-B86D6663A231</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M45.755814,23.5909091 L35.744186,23.5909091 L35.744186,27.6477273 L41.5069767,27.6477273 C40.9697674,30.225 38.7232558,31.7045455 35.744186,31.7045455 C32.227907,31.7045455 29.3953488,28.9363636 29.3953488,25.5 C29.3953488,22.0636364 32.227907,19.2954545 35.744186,19.2954545 C37.2581395,19.2954545 38.6255814,19.8204545 39.7,20.6795455 L42.8255814,17.625 C40.9209302,16.0022727 38.4790698,15 35.744186,15 C29.7860465,15 25,19.6772727 25,25.5 C25,31.3227273 29.7860465,36 35.744186,36 C41.1162791,36 46,32.1818182 46,25.5 C46,24.8795455 45.9023256,24.2113636 45.755814,23.5909091 Z" id="path-1"></path>
+    </defs>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-105.000000, -451.000000)">
+            <g id="Sign-in" transform="translate(80.000000, 436.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Google-white" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+@media (max-width: 839px) and (min-width: 480px) {
+  width: 100%;
+  padding-left: 0;
+}
+
+@media (max-width: 479px) {
+  padding: 0px;
+}
+
+.rp-requests__header {
+  @media (max-width: 479px) {
+    height: auto;
+    margin-bottom: 0;
+  }
+}

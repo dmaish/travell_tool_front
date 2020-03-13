@@ -1,0 +1,99 @@
+.vertical-axis {
+  width: 125px;
+  border-right: 1px solid #E4E4E4;
+  padding-top: 81px;
+  background-color: #FFFFFF;
+  position: sticky;
+  left: 0;
+  z-index: 20;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+
+  .room-axis-wrapper {
+    padding-left: 15px;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-sizing: border-box;
+
+    &:not(:first-child) {
+      border-top: 1px solid #E4E4E4;
+    }
+    &:last-child {
+      padding-bottom: 30px;
+    }
+
+    .room-name, .bed-name {
+      box-sizing: border-box;
+      width: 100px;
+    }
+
+    .room-name {
+      color: #4F4F4F;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      .modal.visible {
+        text-transform: none;
+      }
+      .ellipsis {
+        position: absolute;
+        right: 10px;
+        text-transform: none;
+        margin-left: 15px;
+        height: 20px;
+        line-height: 20px;
+        cursor: pointer;
+        transform: translateY(-25%);
+        outline: none;
+      }
+      .mark-unavailable {
+        position: absolute;
+        left: 60%;
+        top: 50%;
+        display: flex;
+        padding: 0 15px;
+        justify-content: space-between;
+        align-items: center;
+        height: 42px;
+        width: 130px;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+        transition: transform .2s ease-out;
+        transform-origin: top left;
+        &.is-visible {
+          transform: scale(1) translateX(0);
+          z-index: 200;
+        }
+        &.is-hidden {
+          transform: scale(0) translateX(-100%);
+        }
+      }
+    }
+    .bed-name {
+      color: #999999;
+      font-size: 15px;
+      position: relative;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.container_room_fault{
+  border-style: solid;
+  border-width: 1px;
+  height: 14px;
+  width: 14px;
+  outline:none !important;
+  background: cornflowerblue;
+}
+.container_room_fine{
+  border-style: solid;
+  border-width: 1px;
+  height: 14px;
+  width: 14px;
+  outline:none !important;
+}
+

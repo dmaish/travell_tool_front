@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonLoadingIcon /> renders 1`] = `
+<Fragment>
+   
+  Save
+</Fragment>
+`;

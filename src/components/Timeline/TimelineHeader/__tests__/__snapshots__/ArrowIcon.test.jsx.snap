@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowIcon /> renders properly 1`] = `
+<div
+  className="test-class"
+  onClick={[Function]}
+  onKeyUp={[Function]}
+  role="button"
+  style={
+    Object {
+      "cursor": "pointer",
+      "outline": "none",
+    }
+  }
+  tabIndex="0"
+>
+  <img
+    alt="dd"
+    src="testIconSrc"
+  />
+</div>
+`;

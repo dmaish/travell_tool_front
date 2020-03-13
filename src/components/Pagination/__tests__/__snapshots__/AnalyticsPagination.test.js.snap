@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Analytics Pagination should render travel calendar 1`] = `
+<div
+  className="pg--container"
+>
+  <button
+    className="pg--button false"
+    id="Previous"
+    onClick={[Function]}
+    type="button"
+  >
+    Previous
+  </button>
+  <span
+    className="pg--text"
+  >
+    Showing page 1 of 2 pages
+  </span>
+  <button
+    className="pg--button false"
+    id="Next"
+    onClick={[Function]}
+    type="button"
+  >
+    Next
+  </button>
+</div>
+`;

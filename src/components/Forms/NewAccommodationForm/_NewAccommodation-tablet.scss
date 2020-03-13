@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  form.new-request fieldset{
+    width: fit-content;
+  .input-group{
+    &.reduce-margin {
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      margin-bottom: 20px 0px  -17px 0px;
+    }
+    .guest-house-input{
+      max-width: 200px;
+      margin-right: 30px;
+     }
+  }
+
+  .add-cancel{
+        height: auto;
+        width: 100%;
+    .room-rectangle{
+          width: 100%;
+        .style-input-box{
+              flex-direction: row;
+              width: 100%;
+              .room{
+                width: 100%;
+              }
+        }
+     }
+     .cancel-button{
+           width: fit-content;
+           margin: 0px -24px 0px 10px;
+    }
+  }
+  .form-input{
+    margin: 0 0 20px 20px;
+  }
+  .add-more-room-rectangle{
+      width: 99.5%;
+  }
+}
+
+form fieldset:last-child .submit-area {
+  width: fit-content;
+  }
+}

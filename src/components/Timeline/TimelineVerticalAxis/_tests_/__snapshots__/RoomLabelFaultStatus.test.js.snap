@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoomLabel /> should match snapshot 1`] = `
+<div
+  className="room-name item-row"
+>
+  <div>
+    qwetu
+  </div>
+  <div
+    className="ellipsis"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    …
+    <div
+      className="mark-unavailable is-hidden"
+    >
+      <div>
+        <div
+          className="container_room_fine"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex="0"
+        />
+      </div>
+      <span>
+        Unavailable
+      </span>
+    </div>
+  </div>
+  <Modal
+    closeDeleteModal={null}
+    closeModal={[Function]}
+    customModalStyles=""
+    customOverlayStyle=""
+    modalBar={<div />}
+    modalContentId=""
+    modalId=""
+    requestId=""
+    showOverlay={true}
+    title="Mark qwetu Unavailable"
+    visibility="invisible"
+    width="480px"
+  >
+    <MaintainceForm
+      addmaintenanceRecord={[Function]}
+      closeModal={[Function]}
+      editMaintenance={Object {}}
+      guestHouseId="fhdj212"
+      id="thjfsndj12"
+      maintenance={Object {}}
+      modalType=""
+      status={false}
+      timelineDateRange={
+        Array [
+          "12/12/2018",
+          "17/12/2018",
+        ]
+      }
+    />
+  </Modal>
+</div>
+`;

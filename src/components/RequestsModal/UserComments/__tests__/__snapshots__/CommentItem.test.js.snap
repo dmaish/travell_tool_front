@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentItem component should match snapshot 1`] = `
+<div
+  className="modal__modal1"
+  key="1"
+>
+  <hr />
+  <div
+    className="modal__mdl-icons"
+  >
+    <ImageLink
+      altText="avatar"
+      imageClass="modal__oval-copy"
+      imageSrc="/path/to/image"
+    />
+    <span
+      className="modal__user-name"
+    >
+      Smith Allen
+    </span>
+    <span
+      className="modal__hours-status"
+    />
+    <span
+      className="modal__dialog"
+    >
+      <button
+        className="edit-button "
+        onClick={[Function]}
+        type="button"
+      >
+        Edit
+      </button>
+      <button
+        className="modal__delete-btn "
+        onClick={[Function]}
+        type="button"
+      >
+        Delete
+        <Modal
+          closeDeleteModal={[Function]}
+          closeModal={null}
+          customModalStyles="delete-comment-modal"
+          customOverlayStyle="delete-modal-overlay"
+          modalBar={<div />}
+          modalContentId=""
+          modalId=""
+          requestId=""
+          showOverlay={false}
+          title="Delete Comment ?"
+          visibility="invisible"
+          width=""
+        >
+          <p
+            className="delete-comment-modal__text"
+          >
+            This action cannot be undone
+          </p>
+          <button
+            className="delete-comment-modal__btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete
+          </button>
+        </Modal>
+      </button>
+    </span>
+    <div
+      className="modal__modal2"
+    >
+      <div
+        className="modal__status-update"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Can you clarify why ",
+          }
+        }
+      />
+       
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CommentItem component should match snapshot 2`] = `
+<div
+  className="modal__modal1"
+  key="1"
+>
+  <hr />
+  <div
+    className="modal__mdl-icons"
+  >
+    <ImageLink
+      altText="avatar"
+      imageClass="modal__oval-copy"
+      imageSrc="/path/to/image"
+    />
+    <span
+      className="modal__user-name"
+    >
+      Smith Allen
+    </span>
+    <span
+      className="modal__hours-status"
+    />
+    <span
+      className="modal__dialog"
+    >
+      <button
+        className="edit-button "
+        onClick={[Function]}
+        type="button"
+      >
+        Edit
+      </button>
+      <button
+        className="modal__delete-btn "
+        onClick={[Function]}
+        type="button"
+      >
+        Delete
+        <Modal
+          closeDeleteModal={[Function]}
+          closeModal={null}
+          customModalStyles="delete-comment-modal"
+          customOverlayStyle="delete-modal-overlay"
+          modalBar={<div />}
+          modalContentId=""
+          modalId=""
+          requestId=""
+          showOverlay={false}
+          title="Delete Comment ?"
+          visibility="invisible"
+          width=""
+        >
+          <p
+            className="delete-comment-modal__text"
+          >
+            This action cannot be undone
+          </p>
+          <button
+            className="delete-comment-modal__btn"
+            onClick={[Function]}
+            type="button"
+          >
+            Delete
+          </button>
+        </Modal>
+      </button>
+    </span>
+    <div
+      className="comment-box"
+    >
+      <Connect(CommentBox)
+        afterSubmit={[Function]}
+        comment="Can you clarify why"
+        editComment={[Function]}
+        editReady={false}
+        handleNoEdit={[Function]}
+        id={1}
+        startSubmitReady={true}
+      />
+        
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CommentItem component should match snapshot 3`] = `
+<div
+  className="modal__modal1"
+  key="1"
+>
+  <hr />
+  <div
+    className="modal__mdl-icons"
+  >
+    <ImageLink
+      altText="avatar"
+      imageClass="modal__oval-copy"
+      imageSrc="/path/to/image"
+    />
+    <span
+      className="modal__user-name"
+    >
+      Smith Allen
+    </span>
+    <span
+      className="modal__hours-status"
+    />
+    <div
+      className="comment-box"
+    >
+      <Connect(CommentBox)
+        afterSubmit={[Function]}
+        comment="Can you clarify why"
+        editComment={[Function]}
+        editReady={false}
+        handleNoEdit={[Function]}
+        id="1"
+        startSubmitReady={true}
+      />
+        
+    </div>
+  </div>
+</div>
+`;

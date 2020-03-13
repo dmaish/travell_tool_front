@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterContext /> should render without crashing 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "handleFilter": [Function],
+      "state": Object {
+        "city": "Nairobi",
+        "range": Object {
+          "end": "2018-12-23",
+          "start": "2018-12-17",
+        },
+      },
+    }
+  }
+/>
+`;
